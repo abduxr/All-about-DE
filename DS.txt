@@ -1,0 +1,121 @@
+Python Data Structures – Functions & Methods
+
+( List | Tuple | Set | Dictionary )
+
+============================================================
+
+1. LIST (Ordered, Mutable, Allows Duplicates)
+
+Description:
+A list is a mutable, ordered collection used to store multiple items in a single variable.
+
+| Method / Function | Description |
+| append(x) | Adds element at the end |
+| extend(iterable) | Adds multiple elements |
+| insert(i, x) | Inserts element at index i |
+| remove(x) | Removes first occurrence of x |
+| pop() | Removes last element |
+| pop(i) | Removes element at index i |
+| clear() | Removes all elements |
+| index(x) | Returns index of first occurrence |
+| count(x) | Counts occurrences of x |
+| sort() | Sorts the list |
+| reverse() | Reverses the list |
+| copy() | Returns a shallow copy |
+| len(list) | Returns number of elements |
+| max(list) | Returns maximum element |
+| min(list) | Returns minimum element |
+| sum(list) | Returns sum of elements |
+| sorted(list) | Returns a sorted list |
+
+Example:
+list1 = [1, 2, 3]
+list1.append(4)
+
+============================================================
+
+2. TUPLE (Ordered, Immutable, Allows Duplicates)
+
+Description:
+A tuple is an immutable, ordered collection used to store fixed data.
+
+| Method / Function | Description |
+| count(x) | Counts occurrences of x |
+| index(x) | Returns index of x |
+| len(tuple) | Returns number of elements |
+| max(tuple) | Returns maximum element |
+| min(tuple) | Returns minimum element |
+| sum(tuple) | Returns sum of elements |
+| sorted(tuple) | Returns sorted list |
+
+Note:
+Tuples cannot be modified (no add/remove/update operations).
+
+Example:
+t = (1, 2, 3)
+
+============================================================
+
+3. SET (Unordered, Mutable, No Duplicates)
+
+Description:
+A set is an unordered collection of unique elements.
+
+| Method / Function | Description |
+| add(x) | Adds an element |
+| update(iterable) | Adds multiple elements |
+| remove(x) | Removes element (error if absent)|
+| discard(x) | Removes element (no error) |
+| pop() | Removes random element |
+| clear() | Removes all elements |
+| copy() | Returns a copy |
+| union(set2) | Returns union of sets |
+| intersection(set2) | Returns common elements |
+| difference(set2) | Returns difference |
+| symmetric_difference() | Returns non-common elements |
+| issubset(set2) | Checks subset |
+| issuperset(set2) | Checks superset |
+| isdisjoint(set2) | Checks no common elements |
+| len(set) | Number of elements |
+| max(set) | Maximum element |
+| min(set) | Minimum element |
+
+Example:
+s = set()
+s.add(10)
+
+============================================================
+
+4. DICTIONARY (Key-Value Pair, Mutable)
+
+Description:
+A dictionary stores data as key-value pairs. Keys must be unique.
+
+| Method / Function | Description |
+| keys() | Returns all keys |
+| values() | Returns all values |
+| items() | Returns key-value pairs |
+| get(key) | Returns value safely |
+| update(dict2) | Adds or updates items |
+| pop(key) | Removes specified key |
+| popitem() | Removes last inserted item |
+| clear() | Removes all items |
+| copy() | Returns a copy |
+| setdefault(k,v) | Gets or inserts key with value |
+| fromkeys(keys,v) | Creates dictionary from keys |
+| len(dict) | Number of keys |
+| max(dict) | Maximum key |
+| min(dict) | Minimum key |
+
+Example:
+d = {"a": 1, "b": 2}
+d.get("a")
+
+============================================================
+
+Summary Comparison
+| Type | Ordered | Mutable | Duplicates |
+| List | Yes | Yes | Yes |
+| Tuple | Yes | No | Yes |
+| Set | No | Yes | No |
+| Dict | Yes* | Yes | No (keys) |
