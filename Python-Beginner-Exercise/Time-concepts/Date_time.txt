@@ -1,0 +1,826 @@
+================================================================================
+                PYTHON TIME & DATETIME MODULE - ESSENTIAL NOTES
+                    Only Important & Necessary Concepts
+================================================================================
+
+TABLE OF CONTENTS
+=================
+1. TIME MODULE - Core Essentials
+2. DATETIME MODULE - Core Essentials
+3. Key Differences: time vs datetime
+4. Common Use Cases
+5. Quick Reference & Cheat Sheet
+
+
+================================================================================
+SECTION 1: TIME MODULE - CORE ESSENTIALS
+================================================================================
+
+1.1 IMPORT
+----------
+import time
+
+
+1.2 ESSENTIAL FUNCTIONS (Must Know)
+------------------------------------
+
+Function: time.time()
+---------------------
+Purpose: Get current timestamp (seconds since epoch)
+Returns: Float
+
+Example:
+    import time
+    timestamp = time.time()
+    print(timestamp)  # 1708963200.123456
+
+Use: Timestamps, performance measurement, unique IDs
+
+
+Function: time.sleep(seconds)
+-----------------------------
+Purpose: Pause program execution
+Parameter: seconds (can be float for milliseconds)
+
+Example:
+    import time
+    print("Start")
+    time.sleep(2)      # Wait 2 seconds
+    print("End")
+    
+    time.sleep(0.5)    # Wait 500 milliseconds
+
+Use: Delays, rate limiting, polling, countdown timers
+
+
+Function: time.perf_counter()
+-----------------------------
+Purpose: High-precision performance measurement
+Returns: Float (fractional seconds)
+
+Example:
+    import time
+    
+    start = time.perf_counter()
+    # ... code to measure ...
+    end = time.perf_counter()
+    
+    duration = end - start
+    print(f"Took {duration:.6f} seconds")
+
+Use: Measure code execution time accurately
+
+
+Function: time.strftime(format)
+-------------------------------
+Purpose: Format current time to string
+Parameter: format string with directives
+
+Example:
+    import time
+    
+    # Common formats
+    print(time.strftime("%Y-%m-%d"))              # 2026-02-26
+    print(time.strftime("%H:%M:%S"))              # 14:30:45
+    print(time.strftime("%Y-%m-%d %H:%M:%S"))     # 2026-02-26 14:30:45
+    print(time.strftime("%d/%m/%Y %I:%M %p"))     # 26/02/2026 02:30 PM
+
+Use: Display formatted timestamps
+
+
+1.3 IMPORTANT FORMAT CODES
+---------------------------
+%Y - Year (2026)
+%m - Month (01-12)
+%d - Day (01-31)
+%H - Hour 24-hour (00-23)
+%I - Hour 12-hour (01-12)
+%M - Minute (00-59)
+%S - Second (00-59)
+%p - AM/PM
+%A - Weekday full (Monday)
+%a - Weekday short (Mon)
+%B - Month full (February)
+%b - Month short (Feb)
+
+
+1.4 WHEN TO USE TIME MODULE
+----------------------------
+✓ Simple timestamps
+✓ Sleep/delays
+✓ Performance measurement
+✓ Basic time operations
+✗ Date arithmetic (use datetime instead)
+✗ Timezone conversions (use datetime instead)
+
+
+================================================================================
+SECTION 2: DATETIME MODULE - CORE ESSENTIALS
+================================================================================
+
+2.1 IMPORT
+----------
+from datetime import datetime, date, time, timedelta
+
+
+2.2 DATETIME OBJECT (Most Important)
+-------------------------------------
+
+Get Current DateTime:
+    from datetime import datetime
+    
+    now = datetime.now()
+    print(now)  # 2026-02-26 14:30:45.123456
+
+Create Specific DateTime:
+    from datetime import datetime
+    
+    dt = datetime(2026, 2, 26, 14, 30, 45)
+    print(dt)  # 2026-02-26 14:30:45
+
+Access Components:
+    from datetime import datetime
+    
+    now = datetime.now()
+    print(now.year)     # 2026
+    print(now.month)    # 2
+    print(now.day)      # 26
+    print(now.hour)     # 14
+    print(now.minute)   # 30
+    print(now.second)   # 45
+
+
+2.3 DATE OBJECT
+---------------
+
+Get Current Date:
+    from datetime import date
+    
+    today = date.today()
+    print(today)  # 2026-02-26
+
+Create Specific Date:
+    from datetime import date
+    
+    d = date(2026, 2, 26)
+    print(d)  # 2026-02-26
+
+Access Components:
+    from datetime import date
+    
+    today = date.today()
+    print(today.year)   # 2026
+    print(today.month)  # 2
+    print(today.day)    # 26
+
+
+2.4 TIME OBJECT
+---------------
+
+Create Time:
+    from datetime import time
+    
+    t = time(14, 30, 45)
+    print(t)  # 14:30:45
+
+Access Components:
+    from datetime import time
+    
+    t = time(14, 30, 45)
+    print(t.hour)    # 14
+    print(t.minute)  # 30
+    print(t.second)  # 45
+
+
+2.5 TIMEDELTA (Date/Time Arithmetic)
+-------------------------------------
+
+Purpose: Represent duration/difference between dates or times
+
+Create Timedelta:
+    from datetime import timedelta
+    
+    delta = timedelta(days=7)
+    delta = timedelta(hours=5)
+    delta = timedelta(minutes=30)
+    delta = timedelta(days=7, hours=5, minutes=30)
+
+Add/Subtract from DateTime:
+    from datetime import datetime, timedelta
+    
+    now = datetime.now()
+    
+    # Add time
+    tomorrow = now + timedelta(days=1)
+    next_week = now + timedelta(weeks=1)
+    next_hour = now + timedelta(hours=1)
+    
+    # Subtract time
+    yesterday = now - timedelta(days=1)
+    last_week = now - timedelta(weeks=7)
+
+Calculate Difference:
+    from datetime import datetime
+    
+    start = datetime(2026, 2, 26)
+    end = datetime(2026, 3, 5)
+    
+    difference = end - start
+    print(difference.days)        # 7
+    print(difference.total_seconds())  # 604800.0
+
+
+2.6 STRING FORMATTING (strftime)
+---------------------------------
+
+Format DateTime to String:
+    from datetime import datetime
+    
+    now = datetime.now()
+    
+    # Common formats
+    print(now.strftime("%Y-%m-%d"))              # 2026-02-26
+    print(now.strftime("%d/%m/%Y"))              # 26/02/2026
+    print(now.strftime("%Y-%m-%d %H:%M:%S"))     # 2026-02-26 14:30:45
+    print(now.strftime("%B %d, %Y"))             # February 26, 2026
+    print(now.strftime("%A, %d %B %Y"))          # Thursday, 26 February 2026
+    print(now.strftime("%I:%M %p"))              # 02:30 PM
+
+
+2.7 STRING PARSING (strptime)
+------------------------------
+
+Parse String to DateTime:
+    from datetime import datetime
+    
+    # Parse different formats
+    dt1 = datetime.strptime("2026-02-26", "%Y-%m-%d")
+    dt2 = datetime.strptime("26/02/2026", "%d/%m/%Y")
+    dt3 = datetime.strptime("2026-02-26 14:30:45", "%Y-%m-%d %H:%M:%S")
+    dt4 = datetime.strptime("Feb 26, 2026", "%b %d, %Y")
+
+Error Handling:
+    from datetime import datetime
+    
+    try:
+        dt = datetime.strptime("invalid", "%Y-%m-%d")
+    except ValueError as e:
+        print(f"Invalid date format: {e}")
+
+
+2.8 TIMESTAMP CONVERSION
+------------------------
+
+DateTime to Timestamp:
+    from datetime import datetime
+    
+    dt = datetime.now()
+    timestamp = dt.timestamp()
+    print(timestamp)  # 1708963200.123456
+
+Timestamp to DateTime:
+    from datetime import datetime
+    
+    timestamp = 1708963200
+    dt = datetime.fromtimestamp(timestamp)
+    print(dt)  # 2026-02-26 14:30:00
+
+
+2.9 COMPARISON & SORTING
+------------------------
+
+Compare DateTimes:
+    from datetime import datetime
+    
+    dt1 = datetime(2026, 2, 26)
+    dt2 = datetime(2026, 3, 5)
+    
+    print(dt1 < dt2)   # True
+    print(dt1 > dt2)   # False
+    print(dt1 == dt2)  # False
+
+Sort DateTimes:
+    from datetime import datetime
+    
+    dates = [
+        datetime(2026, 3, 5),
+        datetime(2026, 1, 15),
+        datetime(2026, 2, 26)
+    ]
+    
+    dates.sort()
+    print(dates)  # Sorted chronologically
+
+
+================================================================================
+SECTION 3: KEY DIFFERENCES - TIME VS DATETIME
+================================================================================
+
+3.1 FEATURE COMPARISON
+----------------------
+
+Feature              time Module          datetime Module
+--------------------------------------------------------------
+Get current time     time.time()          datetime.now()
+Format output        time.strftime()      dt.strftime()
+Parse string         time.strptime()      datetime.strptime()
+Sleep/delay          time.sleep()         ❌ Not available
+Performance          time.perf_counter()  ❌ Not available
+Date arithmetic      ❌ Not easy          timedelta (easy)
+Timezone support     Basic                Better (with pytz)
+Object-oriented      ❌ No                ✓ Yes
+Type                 Functions            Objects
+
+
+3.2 WHEN TO USE WHICH
+---------------------
+
+USE TIME MODULE:
+    ✓ Need timestamps
+    ✓ Performance measurement
+    ✓ Sleep/delays
+    ✓ Simple operations
+    ✓ Low-level timing
+
+USE DATETIME MODULE:
+    ✓ Date arithmetic (add/subtract days)
+    ✓ Working with dates
+    ✓ Object-oriented approach
+    ✓ Complex date operations
+    ✓ Better readability
+    ✓ Timezone handling
+
+
+================================================================================
+SECTION 4: COMMON USE CASES
+================================================================================
+
+4.1 GET CURRENT DATE & TIME
+---------------------------
+
+# Simple timestamp
+import time
+print(time.time())
+
+# Current datetime object
+from datetime import datetime
+now = datetime.now()
+print(now)
+
+# Current date only
+from datetime import date
+today = date.today()
+print(today)
+
+
+4.2 FORMAT DATE/TIME FOR DISPLAY
+---------------------------------
+
+# Using time module
+import time
+print(time.strftime("%Y-%m-%d %H:%M:%S"))
+
+# Using datetime module (preferred)
+from datetime import datetime
+now = datetime.now()
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
+
+
+4.3 PARSE DATE STRING
+---------------------
+
+from datetime import datetime
+
+date_string = "2026-02-26"
+dt = datetime.strptime(date_string, "%Y-%m-%d")
+print(dt)
+
+
+4.4 ADD/SUBTRACT DAYS
+---------------------
+
+from datetime import datetime, timedelta
+
+# Add 7 days
+today = datetime.now()
+next_week = today + timedelta(days=7)
+print(next_week)
+
+# Subtract 30 days
+last_month = today - timedelta(days=30)
+print(last_month)
+
+
+4.5 CALCULATE DATE DIFFERENCE
+------------------------------
+
+from datetime import datetime
+
+start = datetime(2026, 2, 26)
+end = datetime(2026, 3, 5)
+
+difference = end - start
+print(f"Days: {difference.days}")
+print(f"Total seconds: {difference.total_seconds()}")
+
+
+4.6 MEASURE CODE PERFORMANCE
+-----------------------------
+
+import time
+
+start = time.perf_counter()
+
+# Code to measure
+result = sum(range(1000000))
+
+end = time.perf_counter()
+print(f"Execution time: {end - start:.6f} seconds")
+
+
+4.7 CREATE COUNTDOWN TIMER
+---------------------------
+
+import time
+
+def countdown(seconds):
+    for i in range(seconds, 0, -1):
+        print(f"Time remaining: {i}s", end='\r')
+        time.sleep(1)
+    print("Done!           ")
+
+countdown(5)
+
+
+4.8 CHECK IF DATE IS WEEKEND
+-----------------------------
+
+from datetime import datetime
+
+def is_weekend(dt):
+    return dt.weekday() >= 5  # 5=Saturday, 6=Sunday
+
+today = datetime.now()
+if is_weekend(today):
+    print("It's weekend!")
+else:
+    print("It's a weekday")
+
+
+4.9 CALCULATE AGE
+-----------------
+
+from datetime import datetime
+
+def calculate_age(birthdate):
+    today = datetime.now()
+    birth = datetime.strptime(birthdate, "%Y-%m-%d")
+    
+    age = today.year - birth.year
+    
+    # Adjust if birthday hasn't occurred this year
+    if (today.month, today.day) < (birth.month, birth.day):
+        age -= 1
+    
+    return age
+
+age = calculate_age("2000-01-15")
+print(f"Age: {age} years")
+
+
+4.10 GET FIRST/LAST DAY OF MONTH
+---------------------------------
+
+from datetime import datetime, timedelta
+
+def get_first_day_of_month(dt):
+    return dt.replace(day=1)
+
+def get_last_day_of_month(dt):
+    next_month = dt.replace(day=28) + timedelta(days=4)
+    return next_month.replace(day=1) - timedelta(days=1)
+
+today = datetime.now()
+first_day = get_first_day_of_month(today)
+last_day = get_last_day_of_month(today)
+
+print(f"First day: {first_day}")
+print(f"Last day: {last_day}")
+
+
+4.11 SCHEDULE TASK AT SPECIFIC TIME
+------------------------------------
+
+from datetime import datetime, time as dt_time
+import time
+
+def schedule_at(target_time):
+    """
+    Wait until specific time of day
+    target_time: datetime.time object
+    """
+    while True:
+        now = datetime.now().time()
+        if now.hour == target_time.hour and now.minute == target_time.minute:
+            break
+        time.sleep(30)  # Check every 30 seconds
+    
+    print("Executing scheduled task!")
+
+# Schedule for 9:00 AM
+target = dt_time(9, 0)
+# schedule_at(target)
+
+
+4.12 RATE LIMITING
+------------------
+
+import time
+
+class RateLimiter:
+    def __init__(self, calls_per_second):
+        self.min_interval = 1.0 / calls_per_second
+        self.last_call = 0
+    
+    def wait(self):
+        elapsed = time.time() - self.last_call
+        if elapsed < self.min_interval:
+            time.sleep(self.min_interval - elapsed)
+        self.last_call = time.time()
+
+# Allow 5 calls per second
+limiter = RateLimiter(5)
+
+for i in range(10):
+    limiter.wait()
+    print(f"API call {i}")
+
+
+================================================================================
+SECTION 5: QUICK REFERENCE & CHEAT SHEET
+================================================================================
+
+5.1 TIME MODULE - QUICK REFERENCE
+----------------------------------
+
+# Get timestamp
+timestamp = time.time()
+
+# Sleep
+time.sleep(2)
+
+# Performance measurement
+start = time.perf_counter()
+# code
+duration = time.perf_counter() - start
+
+# Format current time
+formatted = time.strftime("%Y-%m-%d %H:%M:%S")
+
+
+5.2 DATETIME MODULE - QUICK REFERENCE
+--------------------------------------
+
+from datetime import datetime, date, timedelta
+
+# Current date and time
+now = datetime.now()
+today = date.today()
+
+# Create specific datetime
+dt = datetime(2026, 2, 26, 14, 30, 45)
+
+# Format to string
+formatted = now.strftime("%Y-%m-%d %H:%M:%S")
+
+# Parse from string
+parsed = datetime.strptime("2026-02-26", "%Y-%m-%d")
+
+# Date arithmetic
+tomorrow = now + timedelta(days=1)
+yesterday = now - timedelta(days=1)
+
+# Calculate difference
+diff = end_date - start_date
+days = diff.days
+
+# Convert to timestamp
+timestamp = now.timestamp()
+
+# Convert from timestamp
+dt = datetime.fromtimestamp(timestamp)
+
+# Access components
+year = now.year
+month = now.month
+day = now.day
+hour = now.hour
+minute = now.minute
+second = now.second
+
+
+5.3 COMMON FORMAT CODES
+------------------------
+
+Date Formats:
+    %Y-%m-%d           → 2026-02-26
+    %d/%m/%Y           → 26/02/2026
+    %B %d, %Y          → February 26, 2026
+    %b %d, %Y          → Feb 26, 2026
+
+Time Formats:
+    %H:%M:%S           → 14:30:45
+    %I:%M %p           → 02:30 PM
+    %H:%M              → 14:30
+
+Combined:
+    %Y-%m-%d %H:%M:%S  → 2026-02-26 14:30:45
+    %d/%m/%Y %I:%M %p  → 26/02/2026 02:30 PM
+
+
+5.4 TIMEDELTA PARAMETERS
+------------------------
+
+timedelta(
+    days=0,
+    seconds=0,
+    microseconds=0,
+    milliseconds=0,
+    minutes=0,
+    hours=0,
+    weeks=0
+)
+
+Examples:
+    timedelta(days=7)              # 7 days
+    timedelta(hours=5)             # 5 hours
+    timedelta(weeks=2)             # 14 days
+    timedelta(days=1, hours=5)     # 1 day and 5 hours
+
+
+5.5 ESSENTIAL IMPORTS
+---------------------
+
+# Time module
+import time
+
+# Datetime module - full
+from datetime import datetime, date, time, timedelta
+
+# Datetime module - minimal
+from datetime import datetime, timedelta
+
+
+5.6 COMMON PATTERNS
+-------------------
+
+# Pattern 1: Current timestamp for logging
+import time
+log_time = time.strftime("[%Y-%m-%d %H:%M:%S]")
+
+# Pattern 2: Filename with timestamp
+from datetime import datetime
+filename = f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+
+# Pattern 3: Date range
+from datetime import datetime, timedelta
+start = datetime.now()
+end = start + timedelta(days=7)
+
+# Pattern 4: Performance timing
+import time
+start = time.perf_counter()
+# operation
+duration = time.perf_counter() - start
+
+# Pattern 5: Wait and retry
+import time
+max_retries = 3
+for attempt in range(max_retries):
+    try:
+        # operation
+        break
+    except Exception:
+        if attempt < max_retries - 1:
+            time.sleep(2)
+
+
+5.7 BEST PRACTICES
+------------------
+
+1. Use datetime for date operations (not time module)
+2. Use time.perf_counter() for performance measurement
+3. Use ISO format for storing dates: YYYY-MM-DD
+4. Always handle ValueError when parsing dates
+5. Use timedelta for date arithmetic
+6. Store timestamps in UTC, convert for display
+7. Use meaningful variable names (dt, now, today)
+
+
+5.8 COMMON MISTAKES TO AVOID
+-----------------------------
+
+❌ Using time.time() for intervals (can go backwards)
+✓ Use time.perf_counter() or time.monotonic()
+
+❌ String concatenation for dates
+✓ Use strftime()
+
+❌ Manual date arithmetic
+✓ Use timedelta
+
+❌ Comparing strings directly
+✓ Convert to datetime objects first
+
+❌ Not handling parsing errors
+✓ Use try-except with ValueError
+
+
+================================================================================
+KEY TAKEAWAYS
+================================================================================
+
+1. TIME MODULE:
+   - Use for: timestamps, sleep, performance measurement
+   - Key functions: time(), sleep(), perf_counter(), strftime()
+
+2. DATETIME MODULE:
+   - Use for: date operations, arithmetic, formatting
+   - Key classes: datetime, date, timedelta
+   - Key methods: now(), strftime(), strptime(), timestamp()
+
+3. DATE ARITHMETIC:
+   - Always use timedelta
+   - Add: dt + timedelta(days=7)
+   - Subtract: dt - timedelta(days=7)
+   - Difference: dt2 - dt1
+
+4. FORMATTING:
+   - To string: strftime()
+   - From string: strptime()
+   - Common format: "%Y-%m-%d %H:%M:%S"
+
+5. PERFORMANCE:
+   - Use time.perf_counter()
+   - Measure start and end
+   - Calculate difference
+
+================================================================================
+PRACTICE EXERCISES (with Solutions)
+================================================================================
+
+Exercise 1: Print current date in format "26-Feb-2026"
+Solution:
+    from datetime import datetime
+    print(datetime.now().strftime("%d-%b-%Y"))
+
+Exercise 2: Calculate days until New Year
+Solution:
+    from datetime import datetime
+    today = datetime.now()
+    new_year = datetime(today.year + 1, 1, 1)
+    days = (new_year - today).days
+    print(f"Days until New Year: {days}")
+
+Exercise 3: Measure function execution time
+Solution:
+    import time
+    
+    start = time.perf_counter()
+    sum(range(1000000))
+    duration = time.perf_counter() - start
+    print(f"Time: {duration:.6f}s")
+
+Exercise 4: Check if date is valid
+Solution:
+    from datetime import datetime
+    
+    def is_valid_date(date_string):
+        try:
+            datetime.strptime(date_string, "%Y-%m-%d")
+            return True
+        except ValueError:
+            return False
+    
+    print(is_valid_date("2026-02-26"))  # True
+    print(is_valid_date("2026-02-30"))  # False
+
+Exercise 5: Get date 90 days ago
+Solution:
+    from datetime import datetime, timedelta
+    today = datetime.now()
+    ninety_days_ago = today - timedelta(days=90)
+    print(ninety_days_ago.strftime("%Y-%m-%d"))
+
+================================================================================
+END OF ESSENTIAL NOTES
+================================================================================
+
+Remember:
+- time module → timestamps, sleep, performance
+- datetime module → dates, arithmetic, objects
+- timedelta → add/subtract time
+- strftime() → format to string
+- strptime() → parse from string
+
+Practice these concepts regularly to master date and time handling in Python!
