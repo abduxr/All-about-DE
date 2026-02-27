@@ -1,0 +1,1883 @@
+================================================================================
+          PYTHON FILE HANDLING FOR DATA ENGINEERING - COMPLETE GUIDE
+                        Beginner to Advanced Level
+================================================================================
+
+TABLE OF CONTENTS
+=================
+1. Introduction to File Handling
+2. Basic File Operations
+3. Reading Files
+4. Writing Files
+5. File Modes Explained
+6. Working with CSV Files
+7. Working with JSON Files
+8. Working with Excel Files
+9. Working with Parquet Files
+10. Large File Processing
+11. Error Handling & Best Practices
+12. Context Managers (with statement)
+13. Real-World Data Engineering Scenarios
+14. Practice Exercises (20+ exercises with solutions)
+
+
+================================================================================
+SECTION 1: INTRODUCTION TO FILE HANDLING
+================================================================================
+
+What is File Handling?
+----------------------
+File handling is the ability to read from and write to files on your system.
+In Data Engineering, you'll constantly work with files containing data in 
+various formats.
+
+Why Important for Data Engineering?
+------------------------------------
+- Data pipelines often start with file ingestion
+- ETL processes read/transform/write files
+- Batch processing involves file manipulation
+- Data lakes store data in file formats
+- Reports and outputs are saved as files
+
+Common File Types in DE:
+------------------------
+✓ CSV (Comma Separated Values)
+✓ JSON (JavaScript Object Notation)
+✓ Excel (XLSX, XLS)
+✓ Parquet (Columnar format)
+✓ Text files (TXT, LOG)
+✓ XML files
+✓ Avro files
+
+
+================================================================================
+SECTION 2: BASIC FILE OPERATIONS
+================================================================================
+
+2.1 Opening a File
+------------------
+
+Syntax:
+    file = open(filename, mode)
+
+Example:
+    file = open("data.txt", "r")  # Open for reading
+    # Do something with file
+    file.close()  # Always close the file
+
+Important: Always close files after use to free up system resources!
+
+
+2.2 Reading File Content
+-------------------------
+
+Method 1: read() - Read entire file
+    file = open("data.txt", "r")
+    content = file.read()
+    print(content)
+    file.close()
+
+Method 2: readline() - Read one line
+    file = open("data.txt", "r")
+    line = file.readline()
+    print(line)
+    file.close()
+
+Method 3: readlines() - Read all lines as list
+    file = open("data.txt", "r")
+    lines = file.readlines()
+    print(lines)
+    file.close()
+
+
+2.3 Writing to a File
+---------------------
+
+Method 1: write() - Write string
+    file = open("output.txt", "w")
+    file.write("Hello, World!")
+    file.close()
+
+Method 2: writelines() - Write list of strings
+    file = open("output.txt", "w")
+    lines = ["Line 1\n", "Line 2\n", "Line 3\n"]
+    file.writelines(lines)
+    file.close()
+
+
+2.4 Checking if File Exists
+----------------------------
+
+import os
+
+if os.path.exists("data.txt"):
+    print("File exists")
+else:
+    print("File does not exist")
+
+
+================================================================================
+SECTION 3: READING FILES (Detailed)
+================================================================================
+
+3.1 Reading Entire File
+-----------------------
+
+Example:
+    # Read complete file
+    file = open("sales_data.txt", "r")
+    content = file.read()
+    print(content)
+    file.close()
+
+Output:
+    Product,Quantity,Price
+    Laptop,5,50000
+    Mouse,10,500
+
+
+3.2 Reading Line by Line
+------------------------
+
+Example:
+    file = open("sales_data.txt", "r")
+    
+    for line in file:
+        print(line.strip())  # strip() removes newline characters
+    
+    file.close()
+
+Output:
+    Product,Quantity,Price
+    Laptop,5,50000
+    Mouse,10,500
+
+
+3.3 Reading Specific Number of Lines
+-------------------------------------
+
+Example:
+    file = open("sales_data.txt", "r")
+    
+    # Read first 2 lines
+    for i in range(2):
+        line = file.readline()
+        print(line.strip())
+    
+    file.close()
+
+
+3.4 Reading with List Comprehension
+------------------------------------
+
+Example:
+    file = open("sales_data.txt", "r")
+    lines = [line.strip() for line in file]
+    file.close()
+    
+    print(lines)
+
+
+3.5 Reading Large Files Efficiently
+------------------------------------
+
+# Don't load entire file into memory
+file = open("large_file.txt", "r")
+
+for line in file:
+    # Process line by line
+    process(line)
+
+file.close()
+
+
+================================================================================
+SECTION 4: WRITING FILES (Detailed)
+================================================================================
+
+4.1 Writing String Data
+-----------------------
+
+Example:
+    file = open("output.txt", "w")
+    file.write("Product: Laptop\n")
+    file.write("Price: 50000\n")
+    file.close()
+
+
+4.2 Writing Multiple Lines
+---------------------------
+
+Example:
+    lines = [
+        "Name,Age,City\n",
+        "John,25,Mumbai\n",
+        "Sarah,30,Delhi\n"
+    ]
+    
+    file = open("employees.txt", "w")
+    file.writelines(lines)
+    file.close()
+
+
+4.3 Appending to File
+---------------------
+
+Example:
+    # Append mode - adds to end of file
+    file = open("log.txt", "a")
+    file.write("New log entry\n")
+    file.close()
+
+
+4.4 Writing Formatted Data
+---------------------------
+
+Example:
+    products = [
+        {"name": "Laptop", "price": 50000},
+        {"name": "Mouse", "price": 500}
+    ]
+    
+    file = open("products.txt", "w")
+    
+    for product in products:
+        line = f"{product['name']},{product['price']}\n"
+        file.write(line)
+    
+    file.close()
+
+
+================================================================================
+SECTION 5: FILE MODES EXPLAINED
+================================================================================
+
+5.1 Complete Mode Reference
+----------------------------
+
+Mode    Description                      Creates New    Overwrites
+----    -----------                      -----------    ----------
+'r'     Read only (default)              No             No
+'w'     Write only                       Yes            Yes
+'a'     Append only                      Yes            No
+'r+'    Read and write                   No             No
+'w+'    Write and read                   Yes            Yes
+'a+'    Append and read                  Yes            No
+'rb'    Read binary                      No             No
+'wb'    Write binary                     Yes            Yes
+'ab'    Append binary                    Yes            No
+
+
+5.2 Text vs Binary Mode
+-----------------------
+
+Text Mode (default):
+    - Works with strings
+    - Automatically handles line endings
+    - Used for: TXT, CSV, JSON
+
+Binary Mode (add 'b'):
+    - Works with bytes
+    - No automatic conversion
+    - Used for: Images, Excel, Parquet, Videos
+
+
+5.3 Mode Examples
+-----------------
+
+# Read mode
+file = open("data.txt", "r")
+
+# Write mode (overwrites existing)
+file = open("data.txt", "w")
+
+# Append mode (adds to end)
+file = open("log.txt", "a")
+
+# Read and write
+file = open("data.txt", "r+")
+
+# Binary read
+file = open("image.png", "rb")
+
+
+================================================================================
+SECTION 6: WORKING WITH CSV FILES
+================================================================================
+
+CSV is the most common format in Data Engineering!
+
+6.1 Reading CSV Files
+---------------------
+
+Method 1: Using csv module
+    import csv
+    
+    with open("sales.csv", "r") as file:
+        reader = csv.reader(file)
+        
+        for row in reader:
+            print(row)
+
+Output:
+    ['Product', 'Quantity', 'Price']
+    ['Laptop', '5', '50000']
+    ['Mouse', '10', '500']
+
+
+Method 2: Using DictReader (Better for DE)
+    import csv
+    
+    with open("sales.csv", "r") as file:
+        reader = csv.DictReader(file)
+        
+        for row in reader:
+            print(row)
+
+Output:
+    {'Product': 'Laptop', 'Quantity': '5', 'Price': '50000'}
+    {'Product': 'Mouse', 'Quantity': '10', 'Price': '500'}
+
+
+Method 3: Using pandas (Most Common in DE)
+    import pandas as pd
+    
+    df = pd.read_csv("sales.csv")
+    print(df)
+
+
+6.2 Writing CSV Files
+---------------------
+
+Method 1: Using csv module
+    import csv
+    
+    data = [
+        ['Product', 'Quantity', 'Price'],
+        ['Laptop', 5, 50000],
+        ['Mouse', 10, 500]
+    ]
+    
+    with open("output.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(data)
+
+
+Method 2: Using DictWriter
+    import csv
+    
+    data = [
+        {'Product': 'Laptop', 'Quantity': 5, 'Price': 50000},
+        {'Product': 'Mouse', 'Quantity': 10, 'Price': 500}
+    ]
+    
+    with open("output.csv", "w", newline='') as file:
+        fieldnames = ['Product', 'Quantity', 'Price']
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        
+        writer.writeheader()
+        writer.writerows(data)
+
+
+Method 3: Using pandas
+    import pandas as pd
+    
+    data = {
+        'Product': ['Laptop', 'Mouse'],
+        'Quantity': [5, 10],
+        'Price': [50000, 500]
+    }
+    
+    df = pd.DataFrame(data)
+    df.to_csv("output.csv", index=False)
+
+
+6.3 CSV with Different Delimiters
+----------------------------------
+
+# Tab-separated values
+import csv
+
+with open("data.tsv", "r") as file:
+    reader = csv.reader(file, delimiter='\t')
+    for row in reader:
+        print(row)
+
+# Pipe-separated values
+with open("data.psv", "r") as file:
+    reader = csv.reader(file, delimiter='|')
+    for row in reader:
+        print(row)
+
+
+================================================================================
+SECTION 7: WORKING WITH JSON FILES
+================================================================================
+
+JSON is crucial for APIs and NoSQL databases!
+
+7.1 Reading JSON Files
+----------------------
+
+import json
+
+# Read JSON file
+with open("data.json", "r") as file:
+    data = json.load(file)
+
+print(data)
+print(type(data))  # dict or list
+
+Example JSON file (data.json):
+{
+    "name": "John",
+    "age": 30,
+    "city": "Mumbai"
+}
+
+
+7.2 Writing JSON Files
+----------------------
+
+import json
+
+data = {
+    "name": "John",
+    "age": 30,
+    "city": "Mumbai",
+    "hobbies": ["reading", "coding"]
+}
+
+with open("output.json", "w") as file:
+    json.dump(data, file, indent=4)
+
+Result (output.json):
+{
+    "name": "John",
+    "age": 30,
+    "city": "Mumbai",
+    "hobbies": [
+        "reading",
+        "coding"
+    ]
+}
+
+
+7.3 Working with JSON Arrays
+-----------------------------
+
+Example JSON array (users.json):
+[
+    {"name": "John", "age": 30},
+    {"name": "Sarah", "age": 25},
+    {"name": "Mike", "age": 35}
+]
+
+Reading:
+    import json
+    
+    with open("users.json", "r") as file:
+        users = json.load(file)
+    
+    for user in users:
+        print(f"{user['name']} is {user['age']} years old")
+
+
+7.4 Pretty Printing JSON
+-------------------------
+
+import json
+
+data = {"name": "John", "age": 30, "city": "Mumbai"}
+
+# Pretty print
+print(json.dumps(data, indent=4))
+
+# Compact
+print(json.dumps(data, separators=(',', ':')))
+
+
+7.5 Handling JSON Lines (JSONL)
+--------------------------------
+
+JSON Lines format: One JSON object per line (common in data engineering)
+
+Example file (data.jsonl):
+{"name": "John", "age": 30}
+{"name": "Sarah", "age": 25}
+{"name": "Mike", "age": 35}
+
+Reading JSONL:
+    import json
+    
+    data = []
+    with open("data.jsonl", "r") as file:
+        for line in file:
+            obj = json.loads(line)
+            data.append(obj)
+    
+    print(data)
+
+Writing JSONL:
+    import json
+    
+    data = [
+        {"name": "John", "age": 30},
+        {"name": "Sarah", "age": 25}
+    ]
+    
+    with open("output.jsonl", "w") as file:
+        for item in data:
+            file.write(json.dumps(item) + "\n")
+
+
+================================================================================
+SECTION 8: WORKING WITH EXCEL FILES
+================================================================================
+
+8.1 Reading Excel Files
+-----------------------
+
+Install required library:
+    pip install openpyxl pandas
+
+Method 1: Using pandas
+    import pandas as pd
+    
+    # Read Excel file
+    df = pd.read_excel("sales.xlsx")
+    print(df)
+    
+    # Read specific sheet
+    df = pd.read_excel("sales.xlsx", sheet_name="Sheet1")
+    
+    # Read all sheets
+    all_sheets = pd.read_excel("sales.xlsx", sheet_name=None)
+
+
+Method 2: Using openpyxl
+    from openpyxl import load_workbook
+    
+    # Load workbook
+    wb = load_workbook("sales.xlsx")
+    
+    # Get sheet
+    sheet = wb.active
+    
+    # Read cell value
+    value = sheet["A1"].value
+    
+    # Iterate through rows
+    for row in sheet.iter_rows(values_only=True):
+        print(row)
+
+
+8.2 Writing Excel Files
+-----------------------
+
+Method 1: Using pandas
+    import pandas as pd
+    
+    data = {
+        'Product': ['Laptop', 'Mouse', 'Keyboard'],
+        'Quantity': [5, 10, 8],
+        'Price': [50000, 500, 1500]
+    }
+    
+    df = pd.DataFrame(data)
+    df.to_excel("output.xlsx", index=False)
+
+
+Method 2: Multiple sheets
+    import pandas as pd
+    
+    sales_data = pd.DataFrame({'Product': ['Laptop'], 'Price': [50000]})
+    inventory_data = pd.DataFrame({'Product': ['Mouse'], 'Stock': [100]})
+    
+    with pd.ExcelWriter("report.xlsx") as writer:
+        sales_data.to_excel(writer, sheet_name="Sales", index=False)
+        inventory_data.to_excel(writer, sheet_name="Inventory", index=False)
+
+
+8.3 Excel with Formatting
+--------------------------
+
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill
+
+wb = Workbook()
+ws = wb.active
+
+# Write header
+ws['A1'] = 'Product'
+ws['B1'] = 'Price'
+
+# Format header
+header_font = Font(bold=True, color="FFFFFF")
+header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
+
+ws['A1'].font = header_font
+ws['A1'].fill = header_fill
+ws['B1'].font = header_font
+ws['B1'].fill = header_fill
+
+# Write data
+ws['A2'] = 'Laptop'
+ws['B2'] = 50000
+
+wb.save("formatted.xlsx")
+
+
+================================================================================
+SECTION 9: WORKING WITH PARQUET FILES
+================================================================================
+
+Parquet is a columnar storage format optimized for data engineering!
+
+9.1 Why Parquet?
+----------------
+✓ Columnar storage (faster queries)
+✓ Compression (smaller file size)
+✓ Schema preservation
+✓ Efficient for big data
+✓ Supported by Spark, Pandas, BigQuery
+
+Install:
+    pip install pyarrow pandas
+
+
+9.2 Reading Parquet Files
+--------------------------
+
+import pandas as pd
+
+# Read parquet file
+df = pd.read_parquet("data.parquet")
+print(df)
+
+# Read with specific columns
+df = pd.read_parquet("data.parquet", columns=['name', 'age'])
+
+
+9.3 Writing Parquet Files
+--------------------------
+
+import pandas as pd
+
+data = {
+    'Product': ['Laptop', 'Mouse', 'Keyboard'],
+    'Quantity': [5, 10, 8],
+    'Price': [50000, 500, 1500]
+}
+
+df = pd.DataFrame(data)
+df.to_parquet("output.parquet", index=False)
+
+
+9.4 Parquet with Compression
+-----------------------------
+
+import pandas as pd
+
+df = pd.DataFrame(data)
+
+# Different compression algorithms
+df.to_parquet("output.parquet", compression='gzip')
+df.to_parquet("output.parquet", compression='snappy')
+df.to_parquet("output.parquet", compression='brotli')
+
+
+================================================================================
+SECTION 10: LARGE FILE PROCESSING
+================================================================================
+
+10.1 Reading Large Files in Chunks
+-----------------------------------
+
+Problem: File too large to fit in memory
+Solution: Process in chunks
+
+Example with pandas:
+    import pandas as pd
+    
+    # Read in chunks of 10000 rows
+    chunk_size = 10000
+    
+    for chunk in pd.read_csv("large_file.csv", chunksize=chunk_size):
+        # Process each chunk
+        print(f"Processing {len(chunk)} rows")
+        # Do your transformations
+        result = chunk[chunk['price'] > 1000]
+
+
+10.2 Processing Large Text Files
+---------------------------------
+
+# Don't do this (loads entire file):
+with open("large_log.txt", "r") as file:
+    content = file.read()  # ❌ Bad for large files
+
+# Do this instead (line by line):
+with open("large_log.txt", "r") as file:
+    for line in file:  # ✓ Good - reads one line at a time
+        process(line)
+
+
+10.3 Streaming JSON Files
+--------------------------
+
+import json
+
+def process_large_json(filename):
+    """Process large JSON file line by line"""
+    with open(filename, "r") as file:
+        for line in file:
+            try:
+                obj = json.loads(line)
+                # Process each JSON object
+                yield obj
+            except json.JSONDecodeError:
+                continue
+
+# Usage
+for record in process_large_json("large_data.jsonl"):
+    print(record)
+
+
+10.4 Memory-Efficient CSV Processing
+-------------------------------------
+
+import csv
+
+def process_csv_efficiently(filename):
+    """Process CSV without loading entire file"""
+    with open(filename, "r") as file:
+        reader = csv.DictReader(file)
+        
+        for row in reader:
+            # Process one row at a time
+            if float(row['price']) > 1000:
+                print(row)
+
+
+================================================================================
+SECTION 11: ERROR HANDLING & BEST PRACTICES
+================================================================================
+
+11.1 Basic Error Handling
+--------------------------
+
+try:
+    file = open("data.txt", "r")
+    content = file.read()
+    print(content)
+except FileNotFoundError:
+    print("Error: File not found")
+except PermissionError:
+    print("Error: Permission denied")
+except Exception as e:
+    print(f"Error: {e}")
+finally:
+    if 'file' in locals():
+        file.close()
+
+
+11.2 Common File Errors
+-----------------------
+
+# FileNotFoundError
+try:
+    file = open("nonexistent.txt", "r")
+except FileNotFoundError:
+    print("File does not exist")
+
+# PermissionError
+try:
+    file = open("/root/protected.txt", "r")
+except PermissionError:
+    print("No permission to access file")
+
+# IsADirectoryError
+try:
+    file = open("/home/user", "r")
+except IsADirectoryError:
+    print("This is a directory, not a file")
+
+
+11.3 Checking File Properties
+------------------------------
+
+import os
+
+filename = "data.txt"
+
+# Check if file exists
+if os.path.exists(filename):
+    print("File exists")
+
+# Check if it's a file
+if os.path.isfile(filename):
+    print("It's a file")
+
+# Check if it's a directory
+if os.path.isdir(filename):
+    print("It's a directory")
+
+# Get file size
+size = os.path.getsize(filename)
+print(f"File size: {size} bytes")
+
+# Get file path
+path = os.path.abspath(filename)
+print(f"Absolute path: {path}")
+
+
+11.4 Safe File Operations
+--------------------------
+
+import os
+
+# Check before reading
+if os.path.exists("data.txt"):
+    with open("data.txt", "r") as file:
+        content = file.read()
+else:
+    print("File not found, creating new file")
+    with open("data.txt", "w") as file:
+        file.write("Default content")
+
+
+================================================================================
+SECTION 12: CONTEXT MANAGERS (with statement)
+================================================================================
+
+12.1 Why Use Context Managers?
+-------------------------------
+
+Without context manager (Bad):
+    file = open("data.txt", "r")
+    content = file.read()
+    file.close()  # Easy to forget!
+
+With context manager (Good):
+    with open("data.txt", "r") as file:
+        content = file.read()
+    # File automatically closed!
+
+
+12.2 Benefits of 'with' Statement
+----------------------------------
+
+✓ Automatic file closing
+✓ Handles exceptions properly
+✓ Cleaner code
+✓ Prevents resource leaks
+✓ Best practice in Python
+
+
+12.3 Context Manager Examples
+------------------------------
+
+# Reading file
+with open("data.txt", "r") as file:
+    content = file.read()
+
+# Writing file
+with open("output.txt", "w") as file:
+    file.write("Hello")
+
+# Multiple files
+with open("input.txt", "r") as infile, open("output.txt", "w") as outfile:
+    content = infile.read()
+    outfile.write(content.upper())
+
+
+12.4 Context Manager with Exception Handling
+---------------------------------------------
+
+try:
+    with open("data.txt", "r") as file:
+        content = file.read()
+        # Process content
+except FileNotFoundError:
+    print("File not found")
+except Exception as e:
+    print(f"Error: {e}")
+
+
+================================================================================
+SECTION 13: REAL-WORLD DATA ENGINEERING SCENARIOS
+================================================================================
+
+13.1 ETL Pipeline - Extract from CSV, Transform, Load to JSON
+--------------------------------------------------------------
+
+import csv
+import json
+
+# Extract
+def extract_csv(filename):
+    """Extract data from CSV"""
+    data = []
+    with open(filename, "r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            data.append(row)
+    return data
+
+# Transform
+def transform_data(data):
+    """Transform data - convert price to integer, filter"""
+    transformed = []
+    for row in data:
+        if float(row['Price']) > 1000:
+            row['Price'] = int(float(row['Price']))
+            transformed.append(row)
+    return transformed
+
+# Load
+def load_json(data, filename):
+    """Load data to JSON"""
+    with open(filename, "w") as file:
+        json.dump(data, file, indent=4)
+
+# Execute pipeline
+raw_data = extract_csv("sales.csv")
+cleaned_data = transform_data(raw_data)
+load_json(cleaned_data, "output.json")
+
+
+13.2 Log File Processing
+-------------------------
+
+import re
+from datetime import datetime
+
+def parse_log_file(filename):
+    """Parse log file and extract errors"""
+    errors = []
+    
+    with open(filename, "r") as file:
+        for line in file:
+            if "ERROR" in line:
+                # Extract timestamp and message
+                match = re.search(r'\[(.*?)\] ERROR: (.*)', line)
+                if match:
+                    timestamp = match.group(1)
+                    message = match.group(2)
+                    errors.append({
+                        'timestamp': timestamp,
+                        'message': message
+                    })
+    
+    return errors
+
+# Generate error report
+def generate_error_report(errors, output_file):
+    """Generate error report"""
+    with open(output_file, "w") as file:
+        file.write("ERROR REPORT\n")
+        file.write("=" * 50 + "\n\n")
+        
+        for error in errors:
+            file.write(f"Time: {error['timestamp']}\n")
+            file.write(f"Error: {error['message']}\n")
+            file.write("-" * 50 + "\n")
+
+# Usage
+errors = parse_log_file("application.log")
+generate_error_report(errors, "error_report.txt")
+
+
+13.3 Data Validation Pipeline
+------------------------------
+
+import pandas as pd
+
+def validate_and_clean_data(input_file, output_file):
+    """Validate and clean data from CSV"""
+    
+    # Read data
+    df = pd.read_csv(input_file)
+    
+    # Validation rules
+    original_count = len(df)
+    
+    # Remove duplicates
+    df = df.drop_duplicates()
+    
+    # Remove null values in critical columns
+    df = df.dropna(subset=['Product', 'Price'])
+    
+    # Data type conversion
+    df['Price'] = pd.to_numeric(df['Price'], errors='coerce')
+    df['Quantity'] = pd.to_numeric(df['Quantity'], errors='coerce')
+    
+    # Filter invalid data
+    df = df[df['Price'] > 0]
+    df = df[df['Quantity'] > 0]
+    
+    # Add validation report
+    final_count = len(df)
+    removed_count = original_count - final_count
+    
+    print(f"Original records: {original_count}")
+    print(f"Valid records: {final_count}")
+    print(f"Removed records: {removed_count}")
+    
+    # Save cleaned data
+    df.to_csv(output_file, index=False)
+    
+    return df
+
+# Usage
+clean_df = validate_and_clean_data("raw_sales.csv", "clean_sales.csv")
+
+
+13.4 File Format Conversion
+----------------------------
+
+def convert_csv_to_parquet(csv_file, parquet_file):
+    """Convert CSV to Parquet format"""
+    import pandas as pd
+    
+    # Read CSV
+    df = pd.read_csv(csv_file)
+    
+    # Write Parquet
+    df.to_parquet(parquet_file, compression='snappy', index=False)
+    
+    print(f"Converted {csv_file} to {parquet_file}")
+
+def convert_json_to_csv(json_file, csv_file):
+    """Convert JSON to CSV format"""
+    import json
+    import csv
+    
+    # Read JSON
+    with open(json_file, "r") as file:
+        data = json.load(file)
+    
+    # Write CSV
+    if data:
+        with open(csv_file, "w", newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=data[0].keys())
+            writer.writeheader()
+            writer.writerows(data)
+    
+    print(f"Converted {json_file} to {csv_file}")
+
+
+13.5 Batch File Processing
+---------------------------
+
+import os
+import pandas as pd
+
+def process_multiple_files(input_folder, output_file):
+    """Process multiple CSV files and combine"""
+    
+    all_data = []
+    
+    # Process each CSV file in folder
+    for filename in os.listdir(input_folder):
+        if filename.endswith(".csv"):
+            filepath = os.path.join(input_folder, filename)
+            
+            # Read file
+            df = pd.read_csv(filepath)
+            
+            # Add source filename
+            df['source_file'] = filename
+            
+            all_data.append(df)
+    
+    # Combine all dataframes
+    if all_data:
+        combined_df = pd.concat(all_data, ignore_index=True)
+        
+        # Save combined data
+        combined_df.to_csv(output_file, index=False)
+        
+        print(f"Processed {len(all_data)} files")
+        print(f"Total records: {len(combined_df)}")
+    
+    return combined_df
+
+# Usage
+result = process_multiple_files("data_folder", "combined_output.csv")
+
+
+================================================================================
+SECTION 14: PRACTICE EXERCISES
+================================================================================
+
+BEGINNER LEVEL EXERCISES
+=========================
+
+Exercise 1: Basic File Write
+-----------------------------
+Task: Create a file "hello.txt" and write "Hello, Data Engineering!" to it.
+
+Solution:
+    with open("hello.txt", "w") as file:
+        file.write("Hello, Data Engineering!")
+
+
+Exercise 2: Read and Print File
+--------------------------------
+Task: Read "hello.txt" and print its content.
+
+Solution:
+    with open("hello.txt", "r") as file:
+        content = file.read()
+        print(content)
+
+
+Exercise 3: Count Lines
+------------------------
+Task: Count the number of lines in a file "data.txt".
+
+Solution:
+    with open("data.txt", "r") as file:
+        lines = file.readlines()
+        print(f"Number of lines: {len(lines)}")
+
+
+Exercise 4: Copy File
+---------------------
+Task: Copy content from "input.txt" to "output.txt".
+
+Solution:
+    with open("input.txt", "r") as infile:
+        content = infile.read()
+    
+    with open("output.txt", "w") as outfile:
+        outfile.write(content)
+
+
+Exercise 5: Append to File
+---------------------------
+Task: Append "New line" to existing file "log.txt".
+
+Solution:
+    with open("log.txt", "a") as file:
+        file.write("New line\n")
+
+
+INTERMEDIATE LEVEL EXERCISES
+=============================
+
+Exercise 6: CSV to Dictionary
+------------------------------
+Task: Read "products.csv" and convert to list of dictionaries.
+
+products.csv:
+    Product,Price,Quantity
+    Laptop,50000,5
+    Mouse,500,10
+
+Solution:
+    import csv
+    
+    products = []
+    with open("products.csv", "r") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            products.append(row)
+    
+    print(products)
+
+
+Exercise 7: Filter CSV Data
+----------------------------
+Task: Read "sales.csv" and write only products with price > 1000 to "expensive.csv".
+
+Solution:
+    import csv
+    
+    with open("sales.csv", "r") as infile:
+        reader = csv.DictReader(infile)
+        
+        with open("expensive.csv", "w", newline='') as outfile:
+            fieldnames = ['Product', 'Price', 'Quantity']
+            writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for row in reader:
+                if float(row['Price']) > 1000:
+                    writer.writerow(row)
+
+
+Exercise 8: JSON to CSV
+------------------------
+Task: Convert "users.json" to "users.csv".
+
+users.json:
+    [
+        {"name": "John", "age": 30, "city": "Mumbai"},
+        {"name": "Sarah", "age": 25, "city": "Delhi"}
+    ]
+
+Solution:
+    import json
+    import csv
+    
+    # Read JSON
+    with open("users.json", "r") as file:
+        data = json.load(file)
+    
+    # Write CSV
+    with open("users.csv", "w", newline='') as file:
+        writer = csv.DictWriter(file, fieldnames=data[0].keys())
+        writer.writeheader()
+        writer.writerows(data)
+
+
+Exercise 9: Count Word Frequency
+---------------------------------
+Task: Count frequency of each word in "text.txt".
+
+Solution:
+    word_count = {}
+    
+    with open("text.txt", "r") as file:
+        for line in file:
+            words = line.strip().split()
+            for word in words:
+                word = word.lower()
+                word_count[word] = word_count.get(word, 0) + 1
+    
+    # Print top 5
+    sorted_words = sorted(word_count.items(), key=lambda x: x[1], reverse=True)
+    for word, count in sorted_words[:5]:
+        print(f"{word}: {count}")
+
+
+Exercise 10: Merge CSV Files
+-----------------------------
+Task: Merge "sales_jan.csv" and "sales_feb.csv" into "sales_q1.csv".
+
+Solution:
+    import pandas as pd
+    
+    df1 = pd.read_csv("sales_jan.csv")
+    df2 = pd.read_csv("sales_feb.csv")
+    
+    merged = pd.concat([df1, df2], ignore_index=True)
+    merged.to_csv("sales_q1.csv", index=False)
+
+
+ADVANCED LEVEL EXERCISES
+=========================
+
+Exercise 11: Data Quality Report
+---------------------------------
+Task: Generate data quality report for "raw_data.csv" showing:
+      - Total records
+      - Null values per column
+      - Duplicate records
+      - Data type issues
+
+Solution:
+    import pandas as pd
+    
+    def generate_quality_report(filename):
+        df = pd.read_csv(filename)
+        
+        report = []
+        report.append("DATA QUALITY REPORT")
+        report.append("=" * 50)
+        report.append(f"Total Records: {len(df)}")
+        report.append(f"Total Columns: {len(df.columns)}")
+        report.append("")
+        
+        report.append("Null Values:")
+        for col in df.columns:
+            null_count = df[col].isnull().sum()
+            report.append(f"  {col}: {null_count}")
+        
+        report.append("")
+        report.append(f"Duplicate Records: {df.duplicated().sum()}")
+        
+        # Save report
+        with open("quality_report.txt", "w") as file:
+            file.write("\n".join(report))
+        
+        print("\n".join(report))
+    
+    generate_quality_report("raw_data.csv")
+
+
+Exercise 12: Log Parser
+------------------------
+Task: Parse Apache access log and generate summary report.
+
+Log format:
+    127.0.0.1 - - [26/Feb/2026:10:30:00] "GET /api/users HTTP/1.1" 200 1234
+
+Solution:
+    import re
+    from collections import Counter
+    
+    def parse_access_log(filename):
+        status_codes = Counter()
+        methods = Counter()
+        endpoints = []
+        
+        pattern = r'(\S+) .* \[(.*?)\] "(\w+) (.*?) HTTP.*?" (\d+)'
+        
+        with open(filename, "r") as file:
+            for line in file:
+                match = re.search(pattern, line)
+                if match:
+                    ip, timestamp, method, endpoint, status = match.groups()
+                    status_codes[status] += 1
+                    methods[method] += 1
+                    endpoints.append(endpoint)
+        
+        # Generate report
+        report = []
+        report.append("ACCESS LOG SUMMARY")
+        report.append("=" * 50)
+        report.append("\nStatus Codes:")
+        for status, count in status_codes.most_common():
+            report.append(f"  {status}: {count}")
+        
+        report.append("\nHTTP Methods:")
+        for method, count in methods.most_common():
+            report.append(f"  {method}: {count}")
+        
+        with open("log_summary.txt", "w") as file:
+            file.write("\n".join(report))
+    
+    parse_access_log("access.log")
+
+
+Exercise 13: ETL Pipeline
+--------------------------
+Task: Build complete ETL pipeline:
+      - Extract from multiple CSV files
+      - Transform (clean, validate, enrich)
+      - Load to Parquet format
+
+Solution:
+    import pandas as pd
+    import os
+    from datetime import datetime
+    
+    def etl_pipeline(input_folder, output_file):
+        # Extract
+        print("Extracting data...")
+        all_data = []
+        for file in os.listdir(input_folder):
+            if file.endswith(".csv"):
+                df = pd.read_csv(os.path.join(input_folder, file))
+                df['source_file'] = file
+                all_data.append(df)
+        
+        combined = pd.concat(all_data, ignore_index=True)
+        print(f"Extracted {len(combined)} records")
+        
+        # Transform
+        print("Transforming data...")
+        # Remove duplicates
+        combined = combined.drop_duplicates()
+        
+        # Remove nulls
+        combined = combined.dropna()
+        
+        # Add timestamp
+        combined['processed_at'] = datetime.now()
+        
+        # Validate data types
+        combined['price'] = pd.to_numeric(combined['price'], errors='coerce')
+        combined = combined.dropna(subset=['price'])
+        
+        print(f"After cleaning: {len(combined)} records")
+        
+        # Load
+        print("Loading data...")
+        combined.to_parquet(output_file, compression='snappy', index=False)
+        print(f"Data saved to {output_file}")
+    
+    etl_pipeline("raw_data", "processed_data.parquet")
+
+
+Exercise 14: Large File Processor
+----------------------------------
+Task: Process a large CSV file (>1GB) in chunks and calculate statistics.
+
+Solution:
+    import pandas as pd
+    
+    def process_large_file(filename, chunk_size=10000):
+        total_rows = 0
+        total_sales = 0
+        
+        for chunk in pd.read_csv(filename, chunksize=chunk_size):
+            total_rows += len(chunk)
+            total_sales += chunk['sales'].sum()
+            
+            # Process each chunk
+            print(f"Processed {total_rows} rows so far...")
+        
+        print(f"\nFinal Statistics:")
+        print(f"Total Rows: {total_rows}")
+        print(f"Total Sales: {total_sales}")
+        print(f"Average Sales: {total_sales / total_rows}")
+    
+    process_large_file("large_sales.csv")
+
+
+Exercise 15: File Format Converter
+-----------------------------------
+Task: Create a universal file converter that converts between CSV, JSON, Excel, Parquet.
+
+Solution:
+    import pandas as pd
+    
+    class FileConverter:
+        def __init__(self, input_file):
+            self.input_file = input_file
+            self.df = None
+            self.load_file()
+        
+        def load_file(self):
+            """Auto-detect and load file"""
+            if self.input_file.endswith('.csv'):
+                self.df = pd.read_csv(self.input_file)
+            elif self.input_file.endswith('.json'):
+                self.df = pd.read_json(self.input_file)
+            elif self.input_file.endswith('.xlsx'):
+                self.df = pd.read_excel(self.input_file)
+            elif self.input_file.endswith('.parquet'):
+                self.df = pd.read_parquet(self.input_file)
+            else:
+                raise ValueError("Unsupported file format")
+        
+        def to_csv(self, output_file):
+            self.df.to_csv(output_file, index=False)
+            print(f"Converted to CSV: {output_file}")
+        
+        def to_json(self, output_file):
+            self.df.to_json(output_file, orient='records', indent=4)
+            print(f"Converted to JSON: {output_file}")
+        
+        def to_excel(self, output_file):
+            self.df.to_excel(output_file, index=False)
+            print(f"Converted to Excel: {output_file}")
+        
+        def to_parquet(self, output_file):
+            self.df.to_parquet(output_file, index=False)
+            print(f"Converted to Parquet: {output_file}")
+    
+    # Usage
+    converter = FileConverter("sales.csv")
+    converter.to_json("sales.json")
+    converter.to_parquet("sales.parquet")
+    converter.to_excel("sales.xlsx")
+
+
+REAL-WORLD PROJECT EXERCISES
+=============================
+
+Exercise 16: Sales Analytics Pipeline
+--------------------------------------
+Task: Build pipeline that:
+      1. Reads daily sales CSV files
+      2. Aggregates by product
+      3. Generates daily report
+      4. Sends alert for low-stock products
+
+Solution:
+    import pandas as pd
+    import json
+    from datetime import datetime
+    
+    def sales_analytics_pipeline(sales_file, inventory_file):
+        # Read data
+        sales = pd.read_csv(sales_file)
+        inventory = pd.read_csv(inventory_file)
+        
+        # Aggregate sales
+        daily_sales = sales.groupby('product').agg({
+            'quantity': 'sum',
+            'revenue': 'sum'
+        }).reset_index()
+        
+        # Check inventory
+        merged = daily_sales.merge(inventory, on='product')
+        low_stock = merged[merged['stock'] < merged['quantity'] * 7]
+        
+        # Generate report
+        report = {
+            'date': datetime.now().strftime('%Y-%m-%d'),
+            'total_revenue': float(daily_sales['revenue'].sum()),
+            'total_quantity': int(daily_sales['quantity'].sum()),
+            'low_stock_alerts': low_stock[['product', 'stock']].to_dict('records')
+        }
+        
+        # Save report
+        with open(f"report_{datetime.now().strftime('%Y%m%d')}.json", "w") as file:
+            json.dump(report, file, indent=4)
+        
+        # Print alerts
+        if not low_stock.empty:
+            print("⚠️  LOW STOCK ALERT!")
+            print(low_stock[['product', 'stock', 'quantity']])
+        
+        return report
+    
+    report = sales_analytics_pipeline("daily_sales.csv", "inventory.csv")
+
+
+Exercise 17: Data Migration Script
+-----------------------------------
+Task: Migrate data from legacy CSV format to new JSON format with schema validation.
+
+Solution:
+    import csv
+    import json
+    from datetime import datetime
+    
+    def validate_record(record):
+        """Validate record against schema"""
+        required_fields = ['id', 'name', 'email', 'created_at']
+        
+        for field in required_fields:
+            if field not in record or not record[field]:
+                return False, f"Missing required field: {field}"
+        
+        # Email validation
+        if '@' not in record['email']:
+            return False, "Invalid email format"
+        
+        return True, "Valid"
+    
+    def migrate_data(csv_file, json_file):
+        """Migrate CSV to JSON with validation"""
+        valid_records = []
+        invalid_records = []
+        
+        with open(csv_file, "r") as file:
+            reader = csv.DictReader(file)
+            
+            for row in reader:
+                is_valid, message = validate_record(row)
+                
+                if is_valid:
+                    # Transform data
+                    transformed = {
+                        'id': int(row['id']),
+                        'name': row['name'].strip(),
+                        'email': row['email'].lower(),
+                        'created_at': row['created_at'],
+                        'migrated_at': datetime.now().isoformat()
+                    }
+                    valid_records.append(transformed)
+                else:
+                    invalid_records.append({
+                        'record': row,
+                        'error': message
+                    })
+        
+        # Save valid records
+        with open(json_file, "w") as file:
+            json.dump(valid_records, file, indent=4)
+        
+        # Save error report
+        if invalid_records:
+            with open("migration_errors.json", "w") as file:
+                json.dump(invalid_records, file, indent=4)
+        
+        print(f"Migration complete:")
+        print(f"  Valid records: {len(valid_records)}")
+        print(f"  Invalid records: {len(invalid_records)}")
+    
+    migrate_data("legacy_users.csv", "users.json")
+
+
+Exercise 18: Log Aggregator
+----------------------------
+Task: Aggregate logs from multiple sources, deduplicate, and generate hourly summaries.
+
+Solution:
+    import os
+    import json
+    from datetime import datetime
+    from collections import defaultdict
+    
+    def aggregate_logs(log_folder, output_file):
+        """Aggregate logs from multiple files"""
+        all_logs = []
+        seen_ids = set()
+        
+        # Read all log files
+        for filename in os.listdir(log_folder):
+            if filename.endswith(".log"):
+                with open(os.path.join(log_folder, filename), "r") as file:
+                    for line in file:
+                        try:
+                            log = json.loads(line)
+                            
+                            # Deduplicate by log ID
+                            if log['id'] not in seen_ids:
+                                all_logs.append(log)
+                                seen_ids.add(log['id'])
+                        except json.JSONDecodeError:
+                            continue
+        
+        # Aggregate by hour
+        hourly_stats = defaultdict(lambda: {
+            'count': 0,
+            'errors': 0,
+            'warnings': 0
+        })
+        
+        for log in all_logs:
+            timestamp = datetime.fromisoformat(log['timestamp'])
+            hour_key = timestamp.strftime('%Y-%m-%d %H:00')
+            
+            hourly_stats[hour_key]['count'] += 1
+            
+            if log['level'] == 'ERROR':
+                hourly_stats[hour_key]['errors'] += 1
+            elif log['level'] == 'WARNING':
+                hourly_stats[hour_key]['warnings'] += 1
+        
+        # Save aggregated data
+        result = {
+            'aggregation_time': datetime.now().isoformat(),
+            'total_logs': len(all_logs),
+            'hourly_breakdown': dict(hourly_stats)
+        }
+        
+        with open(output_file, "w") as file:
+            json.dump(result, file, indent=4)
+        
+        print(f"Aggregated {len(all_logs)} unique logs")
+        print(f"Report saved to {output_file}")
+    
+    aggregate_logs("logs", "aggregated_logs.json")
+
+
+Exercise 19: Data Backup System
+--------------------------------
+Task: Create automated backup system that compresses and timestamps files.
+
+Solution:
+    import os
+    import shutil
+    import gzip
+    from datetime import datetime
+    
+    class BackupSystem:
+        def __init__(self, source_folder, backup_folder):
+            self.source_folder = source_folder
+            self.backup_folder = backup_folder
+            
+            if not os.path.exists(backup_folder):
+                os.makedirs(backup_folder)
+        
+        def compress_file(self, filepath):
+            """Compress file using gzip"""
+            with open(filepath, 'rb') as f_in:
+                with gzip.open(f"{filepath}.gz", 'wb') as f_out:
+                    shutil.copyfileobj(f_in, f_out)
+            return f"{filepath}.gz"
+        
+        def backup_files(self, file_pattern="*.csv"):
+            """Backup all matching files"""
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            backup_subfolder = os.path.join(self.backup_folder, timestamp)
+            os.makedirs(backup_subfolder)
+            
+            backed_up = []
+            
+            for filename in os.listdir(self.source_folder):
+                if filename.endswith(file_pattern.replace('*', '')):
+                    source_path = os.path.join(self.source_folder, filename)
+                    backup_path = os.path.join(backup_subfolder, filename)
+                    
+                    # Copy file
+                    shutil.copy2(source_path, backup_path)
+                    
+                    # Compress
+                    compressed = self.compress_file(backup_path)
+                    
+                    # Remove uncompressed
+                    os.remove(backup_path)
+                    
+                    backed_up.append(compressed)
+            
+            print(f"Backup complete:")
+            print(f"  Files backed up: {len(backed_up)}")
+            print(f"  Location: {backup_subfolder}")
+            
+            return backed_up
+        
+        def restore_backup(self, backup_timestamp):
+            """Restore files from a specific backup"""
+            backup_path = os.path.join(self.backup_folder, backup_timestamp)
+            
+            if not os.path.exists(backup_path):
+                print(f"Backup not found: {backup_timestamp}")
+                return
+            
+            for filename in os.listdir(backup_path):
+                if filename.endswith('.gz'):
+                    compressed_path = os.path.join(backup_path, filename)
+                    original_name = filename[:-3]  # Remove .gz
+                    restore_path = os.path.join(self.source_folder, original_name)
+                    
+                    # Decompress
+                    with gzip.open(compressed_path, 'rb') as f_in:
+                        with open(restore_path, 'wb') as f_out:
+                            shutil.copyfileobj(f_in, f_out)
+            
+            print(f"Restore complete from {backup_timestamp}")
+    
+    # Usage
+    backup = BackupSystem("data", "backups")
+    backup.backup_files("*.csv")
+
+
+Exercise 20: Data Quality Monitor
+----------------------------------
+Task: Monitor data quality metrics over time and generate alerts.
+
+Solution:
+    import pandas as pd
+    import json
+    from datetime import datetime
+    
+    class DataQualityMonitor:
+        def __init__(self, config_file="quality_config.json"):
+            with open(config_file, "r") as file:
+                self.config = json.load(file)
+        
+        def check_quality(self, data_file):
+            """Check data quality against defined rules"""
+            df = pd.read_csv(data_file)
+            
+            results = {
+                'timestamp': datetime.now().isoformat(),
+                'file': data_file,
+                'metrics': {},
+                'alerts': []
+            }
+            
+            # Check completeness
+            null_percentage = (df.isnull().sum() / len(df) * 100).to_dict()
+            results['metrics']['null_percentage'] = null_percentage
+            
+            for col, percentage in null_percentage.items():
+                threshold = self.config.get('null_threshold', 5)
+                if percentage > threshold:
+                    results['alerts'].append({
+                        'type': 'HIGH_NULL_RATE',
+                        'column': col,
+                        'value': percentage,
+                        'threshold': threshold
+                    })
+            
+            # Check duplicates
+            dup_count = df.duplicated().sum()
+            dup_percentage = (dup_count / len(df)) * 100
+            results['metrics']['duplicate_percentage'] = dup_percentage
+            
+            if dup_percentage > self.config.get('duplicate_threshold', 1):
+                results['alerts'].append({
+                    'type': 'HIGH_DUPLICATE_RATE',
+                    'value': dup_percentage,
+                    'threshold': self.config['duplicate_threshold']
+                })
+            
+            # Check data freshness
+            if 'date' in df.columns:
+                latest_date = pd.to_datetime(df['date']).max()
+                days_old = (datetime.now() - latest_date).days
+                
+                if days_old > self.config.get('freshness_days', 1):
+                    results['alerts'].append({
+                        'type': 'STALE_DATA',
+                        'latest_date': str(latest_date),
+                        'days_old': days_old
+                    })
+            
+            # Save results
+            report_file = f"quality_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            with open(report_file, "w") as file:
+                json.dump(results, file, indent=4)
+            
+            # Print summary
+            print(f"Quality Check Complete:")
+            print(f"  Alerts: {len(results['alerts'])}")
+            
+            if results['alerts']:
+                print("\n⚠️  ALERTS:")
+                for alert in results['alerts']:
+                    print(f"  - {alert['type']}: {alert}")
+            
+            return results
+    
+    # Usage
+    monitor = DataQualityMonitor()
+    results = monitor.check_quality("daily_data.csv")
+
+
+================================================================================
+SUMMARY & BEST PRACTICES
+================================================================================
+
+KEY TAKEAWAYS:
+--------------
+1. Always use 'with' statement for file handling
+2. Handle exceptions (FileNotFoundError, PermissionError)
+3. Process large files in chunks
+4. Choose right format (CSV for tabular, JSON for hierarchical, Parquet for big data)
+5. Validate data before processing
+6. Add logging and error reporting
+7. Use pandas for data manipulation
+8. Compress files when storing
+
+COMMON PATTERNS:
+----------------
+# Read-Process-Write
+with open("input.txt", "r") as infile:
+    data = infile.read()
+    processed = process(data)
+    
+with open("output.txt", "w") as outfile:
+    outfile.write(processed)
+
+# Chunk Processing
+for chunk in pd.read_csv("large.csv", chunksize=10000):
+    process(chunk)
+
+# Error Handling
+try:
+    with open("file.txt", "r") as file:
+        data = file.read()
+except FileNotFoundError:
+    print("File not found")
+
+PERFORMANCE TIPS:
+-----------------
+✓ Use appropriate file formats (Parquet > CSV for large data)
+✓ Process files in chunks for large datasets
+✓ Use generators for memory efficiency
+✓ Compress files when storing
+✓ Use context managers (with statement)
+✓ Batch operations instead of individual writes
+
+================================================================================
+END OF FILE HANDLING GUIDE
+================================================================================
+
+Practice these exercises to master file handling for Data Engineering!
+Remember: Real-world projects combine multiple concepts - reading, transforming,
+validating, and writing data in production-ready pipelines.
+
+Good luck with your Data Engineering journey! 🚀
