@@ -1,0 +1,2659 @@
+================================================================================
+           PYTHON OBJECT-ORIENTED PROGRAMMING (OOP) - COMPLETE GUIDE
+                        Beginner to Advanced Level
+================================================================================
+
+TABLE OF CONTENTS
+=================
+1. Introduction to OOP
+2. Classes and Objects
+3. Attributes and Methods
+4. The __init__ Constructor
+5. Instance vs Class Attributes
+6. Encapsulation (Private/Public)
+7. Inheritance
+8. Polymorphism
+9. Abstraction
+10. Special/Magic Methods
+11. Property Decorators
+12. Class Methods and Static Methods
+13. Multiple Inheritance
+14. Method Resolution Order (MRO)
+15. Composition vs Inheritance
+16. Data Classes
+17. OOP Best Practices
+18. Real-World Examples for Data Engineering
+19. Practice Exercises (25+ with solutions)
+
+
+================================================================================
+SECTION 1: INTRODUCTION TO OOP
+================================================================================
+
+What is OOP?
+------------
+Object-Oriented Programming is a programming paradigm that organizes code
+around objects and classes rather than functions and logic.
+
+Why OOP?
+--------
+✓ Code reusability
+✓ Better organization
+✓ Easier maintenance
+✓ Real-world modeling
+✓ Encapsulation of data and behavior
+✓ Scalability
+
+Core OOP Concepts:
+------------------
+1. Class - Blueprint/template for objects
+2. Object - Instance of a class
+3. Encapsulation - Bundling data and methods
+4. Inheritance - Creating new classes from existing ones
+5. Polymorphism - Same interface, different implementations
+6. Abstraction - Hiding complex implementation details
+
+
+================================================================================
+SECTION 2: CLASSES AND OBJECTS
+================================================================================
+
+2.1 Creating a Simple Class
+----------------------------
+
+Syntax:
+    class ClassName:
+        # class body
+        pass
+
+Example:
+    class Dog:
+        pass
+
+This creates an empty class.
+
+
+2.2 Creating Objects (Instances)
+---------------------------------
+
+# Create class
+class Dog:
+    pass
+
+# Create objects (instances)
+dog1 = Dog()
+dog2 = Dog()
+
+print(type(dog1))  # <class '__main__.Dog'>
+print(dog1 == dog2)  # False (different objects)
+
+
+2.3 Adding Attributes to Class
+-------------------------------
+
+class Dog:
+    # Class attribute (shared by all instances)
+    species = "Canis familiaris"
+
+# Create object
+dog = Dog()
+print(dog.species)  # Canis familiaris
+
+
+2.4 Creating Multiple Objects
+------------------------------
+
+class Dog:
+    species = "Canis familiaris"
+
+dog1 = Dog()
+dog2 = Dog()
+dog3 = Dog()
+
+print(dog1.species)  # Canis familiaris
+print(dog2.species)  # Canis familiaris
+
+
+================================================================================
+SECTION 3: ATTRIBUTES AND METHODS
+================================================================================
+
+3.1 Instance Attributes
+-----------------------
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name  # Instance attribute
+        self.age = age    # Instance attribute
+
+# Create objects with different attributes
+dog1 = Dog("Buddy", 3)
+dog2 = Dog("Max", 5)
+
+print(dog1.name)  # Buddy
+print(dog2.name)  # Max
+
+
+3.2 Instance Methods
+--------------------
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def bark(self):
+        return f"{self.name} says Woof!"
+    
+    def get_age(self):
+        return f"{self.name} is {self.age} years old"
+
+dog = Dog("Buddy", 3)
+print(dog.bark())      # Buddy says Woof!
+print(dog.get_age())   # Buddy is 3 years old
+
+
+3.3 Methods with Parameters
+----------------------------
+
+class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def greet(self, person):
+        return f"{self.name} greets {person}!"
+
+dog = Dog("Buddy")
+print(dog.greet("John"))  # Buddy greets John!
+
+
+3.4 The 'self' Parameter
+-------------------------
+
+'self' refers to the instance of the class
+- It's the first parameter in instance methods
+- It gives access to instance attributes and methods
+- Name 'self' is convention (can be anything, but don't change it!)
+
+class Dog:
+    def __init__(self, name):
+        self.name = name  # self.name is instance attribute
+    
+    def display(self):
+        print(self.name)  # Accessing instance attribute
+
+
+================================================================================
+SECTION 4: THE __init__ CONSTRUCTOR
+================================================================================
+
+4.1 What is __init__?
+---------------------
+
+__init__ is a special method called a constructor
+- Automatically called when creating a new object
+- Used to initialize object attributes
+- Sets up initial state of the object
+
+Syntax:
+    class ClassName:
+        def __init__(self, parameters):
+            # Initialize attributes
+
+
+4.2 Basic Constructor
+----------------------
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# When you create object, __init__ is called automatically
+person = Person("John", 30)
+print(person.name)  # John
+print(person.age)   # 30
+
+
+4.3 Constructor with Default Values
+------------------------------------
+
+class Person:
+    def __init__(self, name, age=18, city="Unknown"):
+        self.name = name
+        self.age = age
+        self.city = city
+
+# Different ways to create objects
+person1 = Person("John")
+person2 = Person("Sarah", 25)
+person3 = Person("Mike", 30, "Mumbai")
+
+print(person1.age)   # 18 (default)
+print(person2.age)   # 25
+print(person3.city)  # Mumbai
+
+
+4.4 Constructor with Validation
+--------------------------------
+
+class Person:
+    def __init__(self, name, age):
+        if age < 0:
+            raise ValueError("Age cannot be negative")
+        
+        self.name = name
+        self.age = age
+
+# Valid
+person1 = Person("John", 30)
+
+# Invalid - raises error
+# person2 = Person("Sarah", -5)  # ValueError
+
+
+================================================================================
+SECTION 5: INSTANCE VS CLASS ATTRIBUTES
+================================================================================
+
+5.1 Instance Attributes
+-----------------------
+
+- Unique to each object
+- Defined in __init__ method
+- Accessed using self
+
+class Dog:
+    def __init__(self, name):
+        self.name = name  # Instance attribute
+
+dog1 = Dog("Buddy")
+dog2 = Dog("Max")
+
+print(dog1.name)  # Buddy
+print(dog2.name)  # Max
+
+
+5.2 Class Attributes
+--------------------
+
+- Shared by all instances
+- Defined directly in class (not in __init__)
+- Same value for all objects
+
+class Dog:
+    species = "Canis familiaris"  # Class attribute
+    
+    def __init__(self, name):
+        self.name = name  # Instance attribute
+
+dog1 = Dog("Buddy")
+dog2 = Dog("Max")
+
+print(dog1.species)  # Canis familiaris
+print(dog2.species)  # Canis familiaris
+
+# Change class attribute
+Dog.species = "Dog"
+print(dog1.species)  # Dog (changed for all instances)
+
+
+5.3 Modifying Attributes
+-------------------------
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+dog = Dog("Buddy", 3)
+
+# Modify instance attribute
+dog.age = 4
+print(dog.age)  # 4
+
+# Add new attribute
+dog.breed = "Labrador"
+print(dog.breed)  # Labrador
+
+
+5.4 Counting Instances Example
+-------------------------------
+
+class Dog:
+    count = 0  # Class attribute
+    
+    def __init__(self, name):
+        self.name = name
+        Dog.count += 1  # Increment class attribute
+
+dog1 = Dog("Buddy")
+dog2 = Dog("Max")
+dog3 = Dog("Charlie")
+
+print(Dog.count)  # 3 (total number of Dog objects created)
+
+
+================================================================================
+SECTION 6: ENCAPSULATION (PRIVATE/PUBLIC)
+================================================================================
+
+6.1 Public Attributes
+---------------------
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name  # Public attribute
+        self.age = age    # Public attribute
+
+person = Person("John", 30)
+print(person.name)  # Accessible
+person.age = 31     # Modifiable
+
+
+6.2 Private Attributes (Name Mangling)
+---------------------------------------
+
+Use double underscore __ prefix for private attributes
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name      # Public
+        self.__age = age      # Private (name mangling)
+
+person = Person("John", 30)
+print(person.name)      # Works
+# print(person.__age)   # AttributeError
+
+# Access private attribute (not recommended)
+print(person._Person__age)  # 30 (name mangling)
+
+
+6.3 Protected Attributes (Convention)
+--------------------------------------
+
+Use single underscore _ prefix (convention only, still accessible)
+
+class Person:
+    def __init__(self, name, age):
+        self._age = age  # Protected (by convention)
+
+person = Person("John", 30)
+print(person._age)  # 30 (accessible but shouldn't be used directly)
+
+
+6.4 Getters and Setters
+------------------------
+
+class Person:
+    def __init__(self, name, age):
+        self.__age = age  # Private
+    
+    # Getter
+    def get_age(self):
+        return self.__age
+    
+    # Setter
+    def set_age(self, age):
+        if age < 0:
+            raise ValueError("Age cannot be negative")
+        self.__age = age
+
+person = Person("John", 30)
+print(person.get_age())  # 30
+
+person.set_age(31)
+print(person.get_age())  # 31
+
+
+6.5 Real-World Example - Bank Account
+--------------------------------------
+
+class BankAccount:
+    def __init__(self, account_number, balance=0):
+        self.account_number = account_number
+        self.__balance = balance  # Private
+    
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            return f"Deposited: {amount}"
+        return "Invalid amount"
+    
+    def withdraw(self, amount):
+        if amount > self.__balance:
+            return "Insufficient funds"
+        if amount > 0:
+            self.__balance -= amount
+            return f"Withdrawn: {amount}"
+        return "Invalid amount"
+    
+    def get_balance(self):
+        return self.__balance
+
+account = BankAccount("123456", 1000)
+print(account.deposit(500))     # Deposited: 500
+print(account.get_balance())    # 1500
+print(account.withdraw(200))    # Withdrawn: 200
+print(account.get_balance())    # 1300
+
+
+================================================================================
+SECTION 7: INHERITANCE
+================================================================================
+
+7.1 What is Inheritance?
+-------------------------
+
+Inheritance allows a class to inherit attributes and methods from another class.
+
+Terms:
+- Parent Class (Base Class, Super Class)
+- Child Class (Derived Class, Sub Class)
+
+Benefits:
+✓ Code reusability
+✓ Logical hierarchy
+✓ Easy maintenance
+
+
+7.2 Basic Inheritance
+----------------------
+
+# Parent class
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        return f"{self.name} makes a sound"
+
+# Child class
+class Dog(Animal):
+    pass
+
+# Child inherits from parent
+dog = Dog("Buddy")
+print(dog.speak())  # Buddy makes a sound
+
+
+7.3 Extending Parent Class
+---------------------------
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        return f"{self.name} makes a sound"
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)  # Call parent constructor
+        self.breed = breed
+    
+    def speak(self):  # Override parent method
+        return f"{self.name} barks"
+
+dog = Dog("Buddy", "Labrador")
+print(dog.speak())  # Buddy barks
+print(dog.breed)    # Labrador
+
+
+7.4 The super() Function
+-------------------------
+
+super() gives access to parent class methods
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def info(self):
+        return f"Animal: {self.name}"
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)  # Call parent __init__
+        self.breed = breed
+    
+    def info(self):
+        parent_info = super().info()  # Call parent method
+        return f"{parent_info}, Breed: {self.breed}"
+
+dog = Dog("Buddy", "Labrador")
+print(dog.info())  # Animal: Buddy, Breed: Labrador
+
+
+7.5 Multiple Levels of Inheritance
+-----------------------------------
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Mammal(Animal):
+    def __init__(self, name, warm_blooded=True):
+        super().__init__(name)
+        self.warm_blooded = warm_blooded
+
+class Dog(Mammal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed
+
+dog = Dog("Buddy", "Labrador")
+print(dog.name)          # Buddy
+print(dog.warm_blooded)  # True
+print(dog.breed)         # Labrador
+
+
+7.6 isinstance() and issubclass()
+----------------------------------
+
+class Animal:
+    pass
+
+class Dog(Animal):
+    pass
+
+dog = Dog()
+
+# isinstance - check if object is instance of class
+print(isinstance(dog, Dog))     # True
+print(isinstance(dog, Animal))  # True
+print(isinstance(dog, str))     # False
+
+# issubclass - check if class is subclass of another
+print(issubclass(Dog, Animal))  # True
+print(issubclass(Animal, Dog))  # False
+
+
+================================================================================
+SECTION 8: POLYMORPHISM
+================================================================================
+
+8.1 What is Polymorphism?
+--------------------------
+
+"Many forms" - same interface, different implementations
+- Method overriding
+- Same method name, different behavior
+
+
+8.2 Method Overriding
+----------------------
+
+class Animal:
+    def speak(self):
+        return "Animal makes a sound"
+
+class Dog(Animal):
+    def speak(self):  # Override
+        return "Dog barks"
+
+class Cat(Animal):
+    def speak(self):  # Override
+        return "Cat meows"
+
+# Same method name, different behavior
+dog = Dog()
+cat = Cat()
+
+print(dog.speak())  # Dog barks
+print(cat.speak())  # Cat meows
+
+
+8.3 Polymorphism in Action
+---------------------------
+
+class Animal:
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+class Bird(Animal):
+    def speak(self):
+        return "Chirp!"
+
+# Polymorphism - same interface, different implementations
+def make_animal_speak(animal):
+    print(animal.speak())
+
+dog = Dog()
+cat = Cat()
+bird = Bird()
+
+make_animal_speak(dog)   # Woof!
+make_animal_speak(cat)   # Meow!
+make_animal_speak(bird)  # Chirp!
+
+
+8.4 Polymorphism with Built-in Functions
+-----------------------------------------
+
+# len() works with different types (polymorphism)
+print(len("Hello"))      # 5
+print(len([1, 2, 3]))    # 3
+print(len({'a': 1}))     # 1
+
+
+8.5 Operator Overloading
+-------------------------
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def __add__(self, other):  # Overload + operator
+        return Point(self.x + other.x, self.y + other.y)
+    
+    def __str__(self):
+        return f"Point({self.x}, {self.y})"
+
+p1 = Point(1, 2)
+p2 = Point(3, 4)
+p3 = p1 + p2  # Uses __add__
+
+print(p3)  # Point(4, 6)
+
+
+================================================================================
+SECTION 9: ABSTRACTION
+================================================================================
+
+9.1 What is Abstraction?
+-------------------------
+
+Hiding complex implementation details, showing only necessary features
+- Abstract classes cannot be instantiated
+- Used as blueprints for other classes
+
+
+9.2 Abstract Classes (using ABC)
+---------------------------------
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):  # Abstract class
+    @abstractmethod
+    def speak(self):
+        pass  # Must be implemented by child classes
+    
+    @abstractmethod
+    def move(self):
+        pass
+
+# Cannot create instance of abstract class
+# animal = Animal()  # TypeError
+
+class Dog(Animal):
+    def speak(self):  # Must implement
+        return "Woof!"
+    
+    def move(self):   # Must implement
+        return "Running"
+
+dog = Dog()
+print(dog.speak())  # Woof!
+print(dog.move())   # Running
+
+
+9.3 Abstract Class with Concrete Methods
+-----------------------------------------
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+    
+    @abstractmethod
+    def perimeter(self):
+        pass
+    
+    def describe(self):  # Concrete method
+        return "This is a shape"
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
+    
+    def perimeter(self):
+        return 2 * (self.width + self.height)
+
+rect = Rectangle(5, 3)
+print(rect.area())        # 15
+print(rect.perimeter())   # 16
+print(rect.describe())    # This is a shape
+
+
+9.4 Real-World Example - Payment System
+----------------------------------------
+
+from abc import ABC, abstractmethod
+
+class PaymentProcessor(ABC):
+    @abstractmethod
+    def process_payment(self, amount):
+        pass
+    
+    @abstractmethod
+    def refund(self, transaction_id):
+        pass
+
+class CreditCardProcessor(PaymentProcessor):
+    def process_payment(self, amount):
+        return f"Processing ${amount} via Credit Card"
+    
+    def refund(self, transaction_id):
+        return f"Refunding transaction {transaction_id}"
+
+class PayPalProcessor(PaymentProcessor):
+    def process_payment(self, amount):
+        return f"Processing ${amount} via PayPal"
+    
+    def refund(self, transaction_id):
+        return f"Refunding PayPal transaction {transaction_id}"
+
+# Usage
+cc = CreditCardProcessor()
+pp = PayPalProcessor()
+
+print(cc.process_payment(100))
+print(pp.process_payment(50))
+
+
+================================================================================
+SECTION 10: SPECIAL/MAGIC METHODS
+================================================================================
+
+10.1 What are Magic Methods?
+-----------------------------
+
+Special methods with double underscores (dunder methods)
+- Provide special behavior
+- Called automatically by Python
+- Examples: __init__, __str__, __add__, etc.
+
+
+10.2 __str__ and __repr__
+--------------------------
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        # For print() and str()
+        return f"{self.name}, {self.age} years old"
+    
+    def __repr__(self):
+        # For debugging, should be unambiguous
+        return f"Person('{self.name}', {self.age})"
+
+person = Person("John", 30)
+print(str(person))   # John, 30 years old
+print(repr(person))  # Person('John', 30)
+
+
+10.3 Comparison Methods
+------------------------
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __eq__(self, other):  # ==
+        return self.age == other.age
+    
+    def __lt__(self, other):  # <
+        return self.age < other.age
+    
+    def __le__(self, other):  # <=
+        return self.age <= other.age
+    
+    def __gt__(self, other):  # >
+        return self.age > other.age
+    
+    def __ge__(self, other):  # >=
+        return self.age >= other.age
+
+p1 = Person("John", 30)
+p2 = Person("Sarah", 25)
+
+print(p1 > p2)   # True
+print(p1 == p2)  # False
+print(p2 < p1)   # True
+
+
+10.4 Arithmetic Operations
+---------------------------
+
+class Vector:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def __add__(self, other):  # +
+        return Vector(self.x + other.x, self.y + other.y)
+    
+    def __sub__(self, other):  # -
+        return Vector(self.x - other.x, self.y - other.y)
+    
+    def __mul__(self, scalar):  # *
+        return Vector(self.x * scalar, self.y * scalar)
+    
+    def __str__(self):
+        return f"Vector({self.x}, {self.y})"
+
+v1 = Vector(2, 3)
+v2 = Vector(1, 4)
+
+v3 = v1 + v2
+print(v3)  # Vector(3, 7)
+
+v4 = v1 * 2
+print(v4)  # Vector(4, 6)
+
+
+10.5 Container Methods
+-----------------------
+
+class MyList:
+    def __init__(self):
+        self.items = []
+    
+    def __len__(self):
+        return len(self.items)
+    
+    def __getitem__(self, index):
+        return self.items[index]
+    
+    def __setitem__(self, index, value):
+        self.items[index] = value
+    
+    def add(self, item):
+        self.items.append(item)
+
+mylist = MyList()
+mylist.add(10)
+mylist.add(20)
+mylist.add(30)
+
+print(len(mylist))     # 3
+print(mylist[0])       # 10
+mylist[1] = 25
+print(mylist[1])       # 25
+
+
+10.6 Context Manager Methods
+-----------------------------
+
+class FileManager:
+    def __init__(self, filename, mode):
+        self.filename = filename
+        self.mode = mode
+        self.file = None
+    
+    def __enter__(self):
+        self.file = open(self.filename, self.mode)
+        return self.file
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.file:
+            self.file.close()
+
+# Usage with 'with' statement
+with FileManager("test.txt", "w") as f:
+    f.write("Hello, World!")
+
+
+10.7 Common Magic Methods Summary
+----------------------------------
+
+Initialization:
+    __init__(self, ...)      Constructor
+    __new__(cls, ...)        Create instance
+
+String Representation:
+    __str__(self)            str() and print()
+    __repr__(self)           repr() and debugging
+
+Comparison:
+    __eq__(self, other)      ==
+    __ne__(self, other)      !=
+    __lt__(self, other)      <
+    __le__(self, other)      <=
+    __gt__(self, other)      >
+    __ge__(self, other)      >=
+
+Arithmetic:
+    __add__(self, other)     +
+    __sub__(self, other)     -
+    __mul__(self, other)     *
+    __truediv__(self, other) /
+    __floordiv__(self, other) //
+    __mod__(self, other)     %
+
+Container:
+    __len__(self)            len()
+    __getitem__(self, key)   []
+    __setitem__(self, key, value) [] =
+    __contains__(self, item) in
+
+
+================================================================================
+SECTION 11: PROPERTY DECORATORS
+================================================================================
+
+11.1 @property Decorator
+-------------------------
+
+Allows you to access methods like attributes
+
+class Person:
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+    
+    @property
+    def age(self):
+        return self._age
+    
+    @age.setter
+    def age(self, value):
+        if value < 0:
+            raise ValueError("Age cannot be negative")
+        self._age = value
+    
+    @age.deleter
+    def age(self):
+        del self._age
+
+person = Person("John", 30)
+
+# Access like attribute (calls getter)
+print(person.age)  # 30
+
+# Set like attribute (calls setter)
+person.age = 31
+
+# Delete
+del person.age
+
+
+11.2 Read-Only Property
+------------------------
+
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    
+    @property
+    def radius(self):
+        return self._radius
+    
+    @property
+    def area(self):  # Read-only (no setter)
+        return 3.14159 * self._radius ** 2
+    
+    @property
+    def circumference(self):  # Read-only
+        return 2 * 3.14159 * self._radius
+
+circle = Circle(5)
+print(circle.area)           # 78.53975
+print(circle.circumference)  # 31.4159
+
+# circle.area = 100  # AttributeError (no setter)
+
+
+11.3 Property with Validation
+------------------------------
+
+class Employee:
+    def __init__(self, name, salary):
+        self._name = name
+        self.salary = salary  # Uses setter
+    
+    @property
+    def salary(self):
+        return self._salary
+    
+    @salary.setter
+    def salary(self, value):
+        if value < 0:
+            raise ValueError("Salary cannot be negative")
+        if value > 1000000:
+            raise ValueError("Salary too high")
+        self._salary = value
+
+emp = Employee("John", 50000)
+print(emp.salary)  # 50000
+
+emp.salary = 60000  # Valid
+# emp.salary = -1000  # ValueError
+
+
+================================================================================
+SECTION 12: CLASS METHODS AND STATIC METHODS
+================================================================================
+
+12.1 Instance Methods (Regular)
+--------------------------------
+
+class MyClass:
+    def instance_method(self):
+        return f"Instance method called, {self}"
+
+obj = MyClass()
+obj.instance_method()
+
+
+12.2 Class Methods (@classmethod)
+----------------------------------
+
+- Bound to class, not instance
+- First parameter is cls (the class itself)
+- Can access/modify class attributes
+
+class Person:
+    count = 0  # Class attribute
+    
+    def __init__(self, name):
+        self.name = name
+        Person.count += 1
+    
+    @classmethod
+    def get_count(cls):
+        return f"Total persons: {cls.count}"
+    
+    @classmethod
+    def create_anonymous(cls):
+        return cls("Anonymous")
+
+p1 = Person("John")
+p2 = Person("Sarah")
+
+print(Person.get_count())  # Total persons: 2
+
+# Alternative constructor
+p3 = Person.create_anonymous()
+print(p3.name)  # Anonymous
+
+
+12.3 Static Methods (@staticmethod)
+------------------------------------
+
+- Not bound to class or instance
+- No self or cls parameter
+- Just a regular function in class namespace
+
+class MathOperations:
+    @staticmethod
+    def add(x, y):
+        return x + y
+    
+    @staticmethod
+    def multiply(x, y):
+        return x * y
+
+# Call without creating instance
+print(MathOperations.add(5, 3))       # 8
+print(MathOperations.multiply(4, 2))  # 8
+
+
+12.4 When to Use Which?
+------------------------
+
+Instance Method:
+    - Needs access to instance data
+    - Operates on instance attributes
+
+Class Method:
+    - Needs access to class data
+    - Alternative constructors
+    - Factory methods
+
+Static Method:
+    - Doesn't need instance or class data
+    - Utility functions related to class
+    - Could be regular function, but logically belongs to class
+
+
+12.5 Real Example - Date Class
+-------------------------------
+
+from datetime import date
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    @classmethod
+    def from_birth_year(cls, name, birth_year):
+        """Alternative constructor"""
+        current_year = date.today().year
+        age = current_year - birth_year
+        return cls(name, age)
+    
+    @staticmethod
+    def is_adult(age):
+        """Utility method"""
+        return age >= 18
+
+# Regular constructor
+p1 = Person("John", 30)
+
+# Class method as alternative constructor
+p2 = Person.from_birth_year("Sarah", 1995)
+print(p2.age)  # Calculated age
+
+# Static method
+print(Person.is_adult(20))  # True
+
+
+================================================================================
+SECTION 13: MULTIPLE INHERITANCE
+================================================================================
+
+13.1 Basic Multiple Inheritance
+--------------------------------
+
+class Father:
+    def skills(self):
+        return "Gardening"
+
+class Mother:
+    def skills(self):
+        return "Cooking"
+
+class Child(Father, Mother):  # Multiple inheritance
+    pass
+
+child = Child()
+print(child.skills())  # Gardening (from Father - first in list)
+
+
+13.2 Diamond Problem
+--------------------
+
+class A:
+    def method(self):
+        return "A"
+
+class B(A):
+    def method(self):
+        return "B"
+
+class C(A):
+    def method(self):
+        return "C"
+
+class D(B, C):  # Diamond inheritance
+    pass
+
+d = D()
+print(d.method())  # B (follows MRO)
+
+
+13.3 Using super() in Multiple Inheritance
+-------------------------------------------
+
+class A:
+    def __init__(self):
+        print("A init")
+        super().__init__()
+
+class B:
+    def __init__(self):
+        print("B init")
+        super().__init__()
+
+class C(A, B):
+    def __init__(self):
+        print("C init")
+        super().__init__()
+
+c = C()
+# Output:
+# C init
+# A init
+# B init
+
+
+================================================================================
+SECTION 14: METHOD RESOLUTION ORDER (MRO)
+================================================================================
+
+14.1 What is MRO?
+------------------
+
+Method Resolution Order determines the order in which Python looks for methods
+in inheritance hierarchy.
+
+View MRO:
+    ClassName.__mro__
+    ClassName.mro()
+
+
+14.2 MRO Example
+-----------------
+
+class A:
+    def method(self):
+        return "A"
+
+class B(A):
+    def method(self):
+        return "B"
+
+class C(A):
+    def method(self):
+        return "C"
+
+class D(B, C):
+    pass
+
+print(D.__mro__)
+# (<class '__main__.D'>, <class '__main__.B'>, 
+#  <class '__main__.C'>, <class '__main__.A'>, 
+#  <class 'object'>)
+
+d = D()
+print(d.method())  # B (follows MRO)
+
+
+14.3 MRO with super()
+----------------------
+
+class A:
+    def __init__(self):
+        print("A")
+        super().__init__()
+
+class B(A):
+    def __init__(self):
+        print("B")
+        super().__init__()
+
+class C(A):
+    def __init__(self):
+        print("C")
+        super().__init__()
+
+class D(B, C):
+    def __init__(self):
+        print("D")
+        super().__init__()
+
+d = D()
+# Output: D, B, C, A (follows MRO)
+
+
+================================================================================
+SECTION 15: COMPOSITION VS INHERITANCE
+================================================================================
+
+15.1 What is Composition?
+--------------------------
+
+"Has-a" relationship instead of "is-a"
+- Object contains other objects
+- More flexible than inheritance
+
+
+15.2 Inheritance Example
+-------------------------
+
+class Engine:
+    def start(self):
+        return "Engine started"
+
+class Car(Engine):  # Inheritance - Car IS-A Engine (wrong!)
+    pass
+
+
+15.3 Composition Example (Better)
+----------------------------------
+
+class Engine:
+    def start(self):
+        return "Engine started"
+    
+    def stop(self):
+        return "Engine stopped"
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()  # Composition - Car HAS-A Engine
+    
+    def start(self):
+        return self.engine.start()
+    
+    def stop(self):
+        return self.engine.stop()
+
+car = Car()
+print(car.start())  # Engine started
+print(car.stop())   # Engine stopped
+
+
+15.4 Composition with Multiple Components
+------------------------------------------
+
+class Engine:
+    def start(self):
+        return "Engine started"
+
+class Wheels:
+    def __init__(self, count=4):
+        self.count = count
+    
+    def info(self):
+        return f"{self.count} wheels"
+
+class GPS:
+    def navigate(self, destination):
+        return f"Navigating to {destination}"
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()
+        self.wheels = Wheels(4)
+        self.gps = GPS()
+    
+    def start(self):
+        return self.engine.start()
+    
+    def navigate(self, destination):
+        return self.gps.navigate(destination)
+    
+    def info(self):
+        return self.wheels.info()
+
+car = Car()
+print(car.start())              # Engine started
+print(car.navigate("Mumbai"))   # Navigating to Mumbai
+print(car.info())               # 4 wheels
+
+
+15.5 When to Use Which?
+------------------------
+
+Use Inheritance when:
+    - Clear "is-a" relationship
+    - Want to reuse code from parent
+    - Want polymorphic behavior
+
+Use Composition when:
+    - "Has-a" relationship
+    - Need more flexibility
+    - Want to avoid deep inheritance hierarchies
+    - Want to change behavior at runtime
+
+
+================================================================================
+SECTION 16: DATA CLASSES
+================================================================================
+
+16.1 What are Data Classes?
+----------------------------
+
+Introduced in Python 3.7
+- Automatically generate special methods
+- Reduce boilerplate code
+- Great for storing data
+
+Install (if needed):
+    pip install dataclasses
+
+
+16.2 Basic Data Class
+----------------------
+
+from dataclasses import dataclass
+
+@dataclass
+class Person:
+    name: str
+    age: int
+    city: str
+
+# Automatically creates __init__, __repr__, __eq__
+person = Person("John", 30, "Mumbai")
+print(person)  # Person(name='John', age=30, city='Mumbai')
+
+
+16.3 Data Class with Default Values
+------------------------------------
+
+from dataclasses import dataclass
+
+@dataclass
+class Person:
+    name: str
+    age: int = 18
+    city: str = "Unknown"
+
+person1 = Person("John")
+person2 = Person("Sarah", 25, "Delhi")
+
+print(person1)  # Person(name='John', age=18, city='Unknown')
+print(person2)  # Person(name='Sarah', age=25, city='Delhi')
+
+
+16.4 Data Class Features
+-------------------------
+
+from dataclasses import dataclass, field
+
+@dataclass(order=True)  # Enable comparison
+class Person:
+    name: str
+    age: int
+    city: str = field(default="Unknown", repr=False)  # Hide in repr
+
+p1 = Person("John", 30)
+p2 = Person("Sarah", 25)
+
+print(p1 > p2)  # True (compares age)
+
+
+16.5 Frozen Data Classes (Immutable)
+-------------------------------------
+
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class Point:
+    x: int
+    y: int
+
+point = Point(10, 20)
+# point.x = 30  # FrozenInstanceError (immutable)
+
+
+================================================================================
+SECTION 17: OOP BEST PRACTICES
+================================================================================
+
+17.1 General Best Practices
+----------------------------
+
+1. Single Responsibility Principle
+   - Each class should have one purpose
+
+2. Keep Classes Small
+   - Don't create god classes
+   - Break into smaller classes
+
+3. Use Descriptive Names
+   - Class names: PascalCase (Person, BankAccount)
+   - Method names: snake_case (get_balance, process_payment)
+
+4. Encapsulation
+   - Hide internal details
+   - Use private attributes when needed
+
+5. Favor Composition over Inheritance
+   - More flexible
+   - Easier to maintain
+
+
+17.2 Code Examples
+-------------------
+
+# Bad - Too many responsibilities
+class Employee:
+    def calculate_salary(self):
+        pass
+    
+    def save_to_database(self):
+        pass
+    
+    def send_email(self):
+        pass
+    
+    def generate_report(self):
+        pass
+
+# Good - Single responsibility
+class Employee:
+    def calculate_salary(self):
+        pass
+
+class EmployeeDatabase:
+    def save(self, employee):
+        pass
+
+class EmailService:
+    def send(self, to, message):
+        pass
+
+class ReportGenerator:
+    def generate(self, employee):
+        pass
+
+
+17.3 SOLID Principles
+----------------------
+
+S - Single Responsibility Principle
+O - Open/Closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+
+
+================================================================================
+SECTION 18: REAL-WORLD DATA ENGINEERING EXAMPLES
+================================================================================
+
+18.1 ETL Pipeline Class
+-----------------------
+
+class ETLPipeline:
+    def __init__(self, source, destination):
+        self.source = source
+        self.destination = destination
+        self.data = None
+    
+    def extract(self):
+        """Extract data from source"""
+        print(f"Extracting from {self.source}")
+        # Simulated extraction
+        self.data = [
+            {"id": 1, "name": "John", "age": 30},
+            {"id": 2, "name": "Sarah", "age": 25}
+        ]
+        return self.data
+    
+    def transform(self):
+        """Transform data"""
+        print("Transforming data")
+        if self.data:
+            for record in self.data:
+                record['age_group'] = 'adult' if record['age'] >= 18 else 'minor'
+        return self.data
+    
+    def load(self):
+        """Load data to destination"""
+        print(f"Loading to {self.destination}")
+        # Simulated load
+        for record in self.data:
+            print(record)
+    
+    def run(self):
+        """Execute complete pipeline"""
+        self.extract()
+        self.transform()
+        self.load()
+
+# Usage
+pipeline = ETLPipeline("database.csv", "warehouse.db")
+pipeline.run()
+
+
+18.2 Data Validator Class
+--------------------------
+
+class DataValidator:
+    def __init__(self, data):
+        self.data = data
+        self.errors = []
+    
+    def validate_not_null(self, field):
+        """Check for null values"""
+        for i, record in enumerate(self.data):
+            if not record.get(field):
+                self.errors.append({
+                    'row': i,
+                    'field': field,
+                    'error': 'Null value'
+                })
+    
+    def validate_type(self, field, expected_type):
+        """Validate data type"""
+        for i, record in enumerate(self.data):
+            value = record.get(field)
+            if value and not isinstance(value, expected_type):
+                self.errors.append({
+                    'row': i,
+                    'field': field,
+                    'error': f'Expected {expected_type.__name__}'
+                })
+    
+    def validate_range(self, field, min_val, max_val):
+        """Validate numeric range"""
+        for i, record in enumerate(self.data):
+            value = record.get(field)
+            if value and (value < min_val or value > max_val):
+                self.errors.append({
+                    'row': i,
+                    'field': field,
+                    'error': f'Value {value} out of range [{min_val}, {max_val}]'
+                })
+    
+    def get_errors(self):
+        """Get all validation errors"""
+        return self.errors
+    
+    def is_valid(self):
+        """Check if data is valid"""
+        return len(self.errors) == 0
+
+# Usage
+data = [
+    {"name": "John", "age": 30, "salary": 50000},
+    {"name": "", "age": 25, "salary": -1000},
+    {"name": "Mike", "age": 150, "salary": 60000}
+]
+
+validator = DataValidator(data)
+validator.validate_not_null('name')
+validator.validate_type('age', int)
+validator.validate_range('age', 0, 120)
+validator.validate_range('salary', 0, 1000000)
+
+if not validator.is_valid():
+    print("Validation errors:")
+    for error in validator.get_errors():
+        print(error)
+
+
+18.3 Database Connection Pool
+------------------------------
+
+class DatabaseConnection:
+    def __init__(self, host, port, database):
+        self.host = host
+        self.port = port
+        self.database = database
+        self.connected = False
+    
+    def connect(self):
+        print(f"Connecting to {self.database} at {self.host}:{self.port}")
+        self.connected = True
+    
+    def disconnect(self):
+        print(f"Disconnecting from {self.database}")
+        self.connected = False
+    
+    def execute(self, query):
+        if not self.connected:
+            raise Exception("Not connected to database")
+        print(f"Executing: {query}")
+        return f"Result for: {query}"
+
+class ConnectionPool:
+    def __init__(self, host, port, database, pool_size=5):
+        self.connections = []
+        for _ in range(pool_size):
+            conn = DatabaseConnection(host, port, database)
+            self.connections.append(conn)
+        self.available = list(self.connections)
+        self.in_use = []
+    
+    def get_connection(self):
+        """Get available connection from pool"""
+        if not self.available:
+            raise Exception("No available connections")
+        
+        conn = self.available.pop(0)
+        self.in_use.append(conn)
+        if not conn.connected:
+            conn.connect()
+        return conn
+    
+    def release_connection(self, conn):
+        """Return connection to pool"""
+        if conn in self.in_use:
+            self.in_use.remove(conn)
+            self.available.append(conn)
+    
+    def close_all(self):
+        """Close all connections"""
+        for conn in self.connections:
+            if conn.connected:
+                conn.disconnect()
+
+# Usage
+pool = ConnectionPool("localhost", 5432, "analytics_db", pool_size=3)
+
+# Get connection from pool
+conn1 = pool.get_connection()
+result = conn1.execute("SELECT * FROM users")
+
+# Release back to pool
+pool.release_connection(conn1)
+
+# Clean up
+pool.close_all()
+
+
+18.4 Data Pipeline with Logging
+--------------------------------
+
+import logging
+from datetime import datetime
+
+class DataPipeline:
+    def __init__(self, name):
+        self.name = name
+        self.logger = self._setup_logger()
+        self.start_time = None
+        self.end_time = None
+    
+    def _setup_logger(self):
+        """Setup pipeline logger"""
+        logger = logging.getLogger(self.name)
+        logger.setLevel(logging.INFO)
+        
+        # Console handler
+        handler = logging.StreamHandler()
+        formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        )
+        handler.setFormatter(formatter)
+        logger.addHandler(handler)
+        
+        return logger
+    
+    def start(self):
+        """Start pipeline execution"""
+        self.start_time = datetime.now()
+        self.logger.info(f"Starting pipeline: {self.name}")
+    
+    def extract(self):
+        """Extract step"""
+        self.logger.info("Extracting data...")
+        # Extraction logic
+        return [1, 2, 3, 4, 5]
+    
+    def transform(self, data):
+        """Transform step"""
+        self.logger.info(f"Transforming {len(data)} records...")
+        # Transformation logic
+        return [x * 2 for x in data]
+    
+    def load(self, data):
+        """Load step"""
+        self.logger.info(f"Loading {len(data)} records...")
+        # Load logic
+        self.logger.info("Data loaded successfully")
+    
+    def end(self):
+        """End pipeline execution"""
+        self.end_time = datetime.now()
+        duration = (self.end_time - self.start_time).total_seconds()
+        self.logger.info(f"Pipeline completed in {duration:.2f} seconds")
+    
+    def run(self):
+        """Execute complete pipeline"""
+        try:
+            self.start()
+            data = self.extract()
+            transformed = self.transform(data)
+            self.load(transformed)
+            self.end()
+        except Exception as e:
+            self.logger.error(f"Pipeline failed: {str(e)}")
+            raise
+
+# Usage
+pipeline = DataPipeline("sales_pipeline")
+pipeline.run()
+
+
+================================================================================
+SECTION 19: PRACTICE EXERCISES
+================================================================================
+
+BEGINNER LEVEL
+==============
+
+Exercise 1: Create Basic Class
+-------------------------------
+Task: Create a Student class with name and grade attributes.
+
+Solution:
+    class Student:
+        def __init__(self, name, grade):
+            self.name = name
+            self.grade = grade
+    
+    student = Student("John", 85)
+    print(f"{student.name}: {student.grade}")
+
+
+Exercise 2: Add Methods
+------------------------
+Task: Add a method to Student class that returns if student passed (grade >= 40).
+
+Solution:
+    class Student:
+        def __init__(self, name, grade):
+            self.name = name
+            self.grade = grade
+        
+        def has_passed(self):
+            return self.grade >= 40
+    
+    student = Student("John", 85)
+    print(student.has_passed())  # True
+
+
+Exercise 3: Class with Multiple Objects
+----------------------------------------
+Task: Create Rectangle class and calculate area for 3 different rectangles.
+
+Solution:
+    class Rectangle:
+        def __init__(self, width, height):
+            self.width = width
+            self.height = height
+        
+        def area(self):
+            return self.width * self.height
+    
+    rect1 = Rectangle(5, 3)
+    rect2 = Rectangle(10, 2)
+    rect3 = Rectangle(4, 4)
+    
+    print(rect1.area())  # 15
+    print(rect2.area())  # 20
+    print(rect3.area())  # 16
+
+
+Exercise 4: Bank Account
+-------------------------
+Task: Create BankAccount class with deposit and withdraw methods.
+
+Solution:
+    class BankAccount:
+        def __init__(self, account_number, balance=0):
+            self.account_number = account_number
+            self.balance = balance
+        
+        def deposit(self, amount):
+            if amount > 0:
+                self.balance += amount
+                return f"Deposited {amount}. New balance: {self.balance}"
+            return "Invalid amount"
+        
+        def withdraw(self, amount):
+            if amount > self.balance:
+                return "Insufficient funds"
+            if amount > 0:
+                self.balance -= amount
+                return f"Withdrawn {amount}. New balance: {self.balance}"
+            return "Invalid amount"
+        
+        def get_balance(self):
+            return self.balance
+    
+    account = BankAccount("12345", 1000)
+    print(account.deposit(500))
+    print(account.withdraw(200))
+    print(account.get_balance())
+
+
+Exercise 5: String Representation
+----------------------------------
+Task: Add __str__ method to Person class.
+
+Solution:
+    class Person:
+        def __init__(self, name, age, city):
+            self.name = name
+            self.age = age
+            self.city = city
+        
+        def __str__(self):
+            return f"{self.name}, {self.age} years old, from {self.city}"
+    
+    person = Person("John", 30, "Mumbai")
+    print(person)  # John, 30 years old, from Mumbai
+
+
+INTERMEDIATE LEVEL
+==================
+
+Exercise 6: Inheritance
+-----------------------
+Task: Create Vehicle parent class and Car child class.
+
+Solution:
+    class Vehicle:
+        def __init__(self, brand, model):
+            self.brand = brand
+            self.model = model
+        
+        def info(self):
+            return f"{self.brand} {self.model}"
+    
+    class Car(Vehicle):
+        def __init__(self, brand, model, doors):
+            super().__init__(brand, model)
+            self.doors = doors
+        
+        def info(self):
+            return f"{super().info()} with {self.doors} doors"
+    
+    car = Car("Toyota", "Camry", 4)
+    print(car.info())  # Toyota Camry with 4 doors
+
+
+Exercise 7: Encapsulation
+--------------------------
+Task: Create Employee class with private salary attribute and getter/setter.
+
+Solution:
+    class Employee:
+        def __init__(self, name, salary):
+            self.name = name
+            self.__salary = salary
+        
+        def get_salary(self):
+            return self.__salary
+        
+        def set_salary(self, salary):
+            if salary < 0:
+                raise ValueError("Salary cannot be negative")
+            self.__salary = salary
+        
+        def give_raise(self, percentage):
+            raise_amount = self.__salary * (percentage / 100)
+            self.__salary += raise_amount
+    
+    emp = Employee("John", 50000)
+    print(emp.get_salary())  # 50000
+    emp.give_raise(10)
+    print(emp.get_salary())  # 55000
+
+
+Exercise 8: Polymorphism
+-------------------------
+Task: Create Shape parent class and Circle, Rectangle child classes with area().
+
+Solution:
+    import math
+    
+    class Shape:
+        def area(self):
+            pass
+    
+    class Circle(Shape):
+        def __init__(self, radius):
+            self.radius = radius
+        
+        def area(self):
+            return math.pi * self.radius ** 2
+    
+    class Rectangle(Shape):
+        def __init__(self, width, height):
+            self.width = width
+            self.height = height
+        
+        def area(self):
+            return self.width * self.height
+    
+    shapes = [Circle(5), Rectangle(4, 6)]
+    for shape in shapes:
+        print(f"Area: {shape.area():.2f}")
+
+
+Exercise 9: Class Method
+-------------------------
+Task: Create Person class with class method to count instances.
+
+Solution:
+    class Person:
+        count = 0
+        
+        def __init__(self, name):
+            self.name = name
+            Person.count += 1
+        
+        @classmethod
+        def get_count(cls):
+            return cls.count
+        
+        @classmethod
+        def create_anonymous(cls):
+            return cls("Anonymous")
+    
+    p1 = Person("John")
+    p2 = Person("Sarah")
+    p3 = Person.create_anonymous()
+    
+    print(Person.get_count())  # 3
+
+
+Exercise 10: Property Decorator
+--------------------------------
+Task: Create Temperature class with Celsius property that converts from Fahrenheit.
+
+Solution:
+    class Temperature:
+        def __init__(self, fahrenheit):
+            self._fahrenheit = fahrenheit
+        
+        @property
+        def celsius(self):
+            return (self._fahrenheit - 32) * 5/9
+        
+        @property
+        def fahrenheit(self):
+            return self._fahrenheit
+        
+        @fahrenheit.setter
+        def fahrenheit(self, value):
+            self._fahrenheit = value
+    
+    temp = Temperature(98.6)
+    print(f"{temp.fahrenheit}°F = {temp.celsius:.1f}°C")
+
+
+ADVANCED LEVEL
+==============
+
+Exercise 11: Abstract Base Class
+---------------------------------
+Task: Create abstract Database class with connect/disconnect methods.
+
+Solution:
+    from abc import ABC, abstractmethod
+    
+    class Database(ABC):
+        @abstractmethod
+        def connect(self):
+            pass
+        
+        @abstractmethod
+        def disconnect(self):
+            pass
+        
+        @abstractmethod
+        def execute_query(self, query):
+            pass
+    
+    class MySQLDatabase(Database):
+        def __init__(self, host, port):
+            self.host = host
+            self.port = port
+        
+        def connect(self):
+            return f"Connected to MySQL at {self.host}:{self.port}"
+        
+        def disconnect(self):
+            return "Disconnected from MySQL"
+        
+        def execute_query(self, query):
+            return f"Executing MySQL query: {query}"
+    
+    db = MySQLDatabase("localhost", 3306)
+    print(db.connect())
+    print(db.execute_query("SELECT * FROM users"))
+    print(db.disconnect())
+
+
+Exercise 12: Composition
+-------------------------
+Task: Create Computer class composed of CPU, RAM, and Storage.
+
+Solution:
+    class CPU:
+        def __init__(self, brand, speed):
+            self.brand = brand
+            self.speed = speed
+        
+        def info(self):
+            return f"{self.brand} @ {self.speed}GHz"
+    
+    class RAM:
+        def __init__(self, size):
+            self.size = size
+        
+        def info(self):
+            return f"{self.size}GB RAM"
+    
+    class Storage:
+        def __init__(self, capacity, type):
+            self.capacity = capacity
+            self.type = type
+        
+        def info(self):
+            return f"{self.capacity}GB {self.type}"
+    
+    class Computer:
+        def __init__(self, cpu, ram, storage):
+            self.cpu = cpu
+            self.ram = ram
+            self.storage = storage
+        
+        def specifications(self):
+            return f"""
+            CPU: {self.cpu.info()}
+            RAM: {self.ram.info()}
+            Storage: {self.storage.info()}
+            """
+    
+    cpu = CPU("Intel i7", 3.5)
+    ram = RAM(16)
+    storage = Storage(512, "SSD")
+    
+    computer = Computer(cpu, ram, storage)
+    print(computer.specifications())
+
+
+Exercise 13: Context Manager
+-----------------------------
+Task: Create Timer context manager to measure execution time.
+
+Solution:
+    import time
+    
+    class Timer:
+        def __enter__(self):
+            self.start = time.time()
+            return self
+        
+        def __exit__(self, *args):
+            self.end = time.time()
+            self.duration = self.end - self.start
+            print(f"Execution time: {self.duration:.4f} seconds")
+    
+    # Usage
+    with Timer():
+        time.sleep(2)
+        sum(range(1000000))
+
+
+Exercise 14: Magic Methods
+---------------------------
+Task: Create Vector class with arithmetic operations.
+
+Solution:
+    class Vector:
+        def __init__(self, x, y):
+            self.x = x
+            self.y = y
+        
+        def __add__(self, other):
+            return Vector(self.x + other.x, self.y + other.y)
+        
+        def __sub__(self, other):
+            return Vector(self.x - other.x, self.y - other.y)
+        
+        def __mul__(self, scalar):
+            return Vector(self.x * scalar, self.y * scalar)
+        
+        def __str__(self):
+            return f"Vector({self.x}, {self.y})"
+        
+        def __eq__(self, other):
+            return self.x == other.x and self.y == other.y
+    
+    v1 = Vector(2, 3)
+    v2 = Vector(1, 4)
+    
+    v3 = v1 + v2
+    print(v3)  # Vector(3, 7)
+    
+    v4 = v1 * 2
+    print(v4)  # Vector(4, 6)
+
+
+Exercise 15: Data Class for ETL
+--------------------------------
+Task: Create data class for ETL job configuration.
+
+Solution:
+    from dataclasses import dataclass, field
+    from typing import List
+    
+    @dataclass
+    class ETLConfig:
+        job_name: str
+        source: str
+        destination: str
+        transformations: List[str] = field(default_factory=list)
+        schedule: str = "daily"
+        retry_count: int = 3
+        
+        def add_transformation(self, transformation):
+            self.transformations.append(transformation)
+    
+    config = ETLConfig(
+        job_name="sales_pipeline",
+        source="sales.csv",
+        destination="warehouse.db"
+    )
+    
+    config.add_transformation("remove_nulls")
+    config.add_transformation("deduplicate")
+    
+    print(config)
+
+
+REAL-WORLD DATA ENGINEERING PROJECTS
+=====================================
+
+Exercise 16: CSV Reader Class
+------------------------------
+Task: Create CSV reader with validation.
+
+Solution:
+    import csv
+    
+    class CSVReader:
+        def __init__(self, filename):
+            self.filename = filename
+            self.data = []
+            self.headers = []
+        
+        def read(self):
+            """Read CSV file"""
+            with open(self.filename, 'r') as file:
+                reader = csv.DictReader(file)
+                self.headers = reader.fieldnames
+                self.data = list(reader)
+            return self.data
+        
+        def validate_columns(self, required_columns):
+            """Validate required columns exist"""
+            missing = set(required_columns) - set(self.headers)
+            if missing:
+                raise ValueError(f"Missing columns: {missing}")
+            return True
+        
+        def filter_rows(self, condition):
+            """Filter rows based on condition"""
+            return [row for row in self.data if condition(row)]
+        
+        def get_column(self, column_name):
+            """Get specific column values"""
+            return [row[column_name] for row in self.data]
+    
+    # Usage
+    reader = CSVReader("sales.csv")
+    reader.read()
+    reader.validate_columns(['product', 'quantity', 'price'])
+    
+    # Filter expensive products
+    expensive = reader.filter_rows(lambda row: float(row['price']) > 1000)
+
+
+Exercise 17: Data Transformer
+------------------------------
+Task: Create data transformation pipeline.
+
+Solution:
+    class DataTransformer:
+        def __init__(self, data):
+            self.data = data
+            self.transformations = []
+        
+        def add_transformation(self, func):
+            """Add transformation function"""
+            self.transformations.append(func)
+            return self
+        
+        def apply(self):
+            """Apply all transformations"""
+            result = self.data
+            for transform in self.transformations:
+                result = transform(result)
+            return result
+    
+    # Example transformations
+    def remove_nulls(data):
+        return [row for row in data if all(row.values())]
+    
+    def convert_to_upper(data):
+        return [{k: v.upper() if isinstance(v, str) else v 
+                 for k, v in row.items()} 
+                for row in data]
+    
+    def add_timestamp(data):
+        from datetime import datetime
+        for row in data:
+            row['processed_at'] = datetime.now().isoformat()
+        return data
+    
+    # Usage
+    raw_data = [
+        {'name': 'john', 'age': 30},
+        {'name': 'sarah', 'age': 25}
+    ]
+    
+    transformer = DataTransformer(raw_data)
+    transformed = (transformer
+                   .add_transformation(remove_nulls)
+                   .add_transformation(convert_to_upper)
+                   .add_transformation(add_timestamp)
+                   .apply())
+    
+    print(transformed)
+
+
+Exercise 18: Logger Class
+--------------------------
+Task: Create custom logger for data pipeline.
+
+Solution:
+    from datetime import datetime
+    
+    class PipelineLogger:
+        LOG_LEVELS = ['DEBUG', 'INFO', 'WARNING', 'ERROR']
+        
+        def __init__(self, pipeline_name, log_file=None):
+            self.pipeline_name = pipeline_name
+            self.log_file = log_file
+            self.logs = []
+        
+        def _log(self, level, message):
+            """Internal logging method"""
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            log_entry = f"[{timestamp}] [{level}] [{self.pipeline_name}] {message}"
+            
+            print(log_entry)
+            self.logs.append(log_entry)
+            
+            if self.log_file:
+                with open(self.log_file, 'a') as f:
+                    f.write(log_entry + '\n')
+        
+        def debug(self, message):
+            self._log('DEBUG', message)
+        
+        def info(self, message):
+            self._log('INFO', message)
+        
+        def warning(self, message):
+            self._log('WARNING', message)
+        
+        def error(self, message):
+            self._log('ERROR', message)
+        
+        def get_logs(self):
+            return self.logs
+    
+    # Usage
+    logger = PipelineLogger("etl_pipeline", "pipeline.log")
+    logger.info("Pipeline started")
+    logger.warning("Missing data detected")
+    logger.error("Failed to connect to database")
+
+
+Exercise 19: Data Quality Checker
+----------------------------------
+Task: Create comprehensive data quality checker.
+
+Solution:
+    class DataQualityChecker:
+        def __init__(self, data):
+            self.data = data
+            self.issues = []
+        
+        def check_nulls(self):
+            """Check for null values"""
+            for i, row in enumerate(self.data):
+                for key, value in row.items():
+                    if value is None or value == '':
+                        self.issues.append({
+                            'row': i,
+                            'column': key,
+                            'issue': 'NULL_VALUE'
+                        })
+        
+        def check_duplicates(self):
+            """Check for duplicate rows"""
+            seen = set()
+            for i, row in enumerate(self.data):
+                row_tuple = tuple(sorted(row.items()))
+                if row_tuple in seen:
+                    self.issues.append({
+                        'row': i,
+                        'issue': 'DUPLICATE_ROW'
+                    })
+                seen.add(row_tuple)
+        
+        def check_data_types(self, schema):
+            """Validate data types"""
+            for i, row in enumerate(self.data):
+                for column, expected_type in schema.items():
+                    if column in row:
+                        value = row[column]
+                        if not isinstance(value, expected_type):
+                            self.issues.append({
+                                'row': i,
+                                'column': column,
+                                'issue': 'TYPE_MISMATCH',
+                                'expected': expected_type.__name__,
+                                'got': type(value).__name__
+                            })
+        
+        def check_ranges(self, ranges):
+            """Check value ranges"""
+            for i, row in enumerate(self.data):
+                for column, (min_val, max_val) in ranges.items():
+                    if column in row:
+                        value = row[column]
+                        if value < min_val or value > max_val:
+                            self.issues.append({
+                                'row': i,
+                                'column': column,
+                                'issue': 'OUT_OF_RANGE',
+                                'value': value,
+                                'range': f'[{min_val}, {max_val}]'
+                            })
+        
+        def generate_report(self):
+            """Generate quality report"""
+            report = {
+                'total_rows': len(self.data),
+                'total_issues': len(self.issues),
+                'issues_by_type': {}
+            }
+            
+            for issue in self.issues:
+                issue_type = issue['issue']
+                report['issues_by_type'][issue_type] = \
+                    report['issues_by_type'].get(issue_type, 0) + 1
+            
+            return report
+    
+    # Usage
+    data = [
+        {'name': 'John', 'age': 30, 'salary': 50000},
+        {'name': '', 'age': 25, 'salary': 60000},
+        {'name': 'John', 'age': 30, 'salary': 50000},  # Duplicate
+        {'name': 'Mike', 'age': 150, 'salary': -1000}
+    ]
+    
+    checker = DataQualityChecker(data)
+    checker.check_nulls()
+    checker.check_duplicates()
+    checker.check_ranges({'age': (0, 120), 'salary': (0, 1000000)})
+    
+    report = checker.generate_report()
+    print(report)
+
+
+Exercise 20: Complete ETL System
+---------------------------------
+Task: Build complete ETL system with all OOP concepts.
+
+Solution:
+    from abc import ABC, abstractmethod
+    from datetime import datetime
+    import json
+    
+    # Abstract base class
+    class DataSource(ABC):
+        @abstractmethod
+        def read(self):
+            pass
+    
+    # Concrete implementations
+    class CSVDataSource(DataSource):
+        def __init__(self, filename):
+            self.filename = filename
+        
+        def read(self):
+            # Simplified CSV reading
+            return [
+                {'id': 1, 'name': 'Product A', 'price': 100},
+                {'id': 2, 'name': 'Product B', 'price': 200}
+            ]
+    
+    class JSONDataSource(DataSource):
+        def __init__(self, filename):
+            self.filename = filename
+        
+        def read(self):
+            with open(self.filename, 'r') as f:
+                return json.load(f)
+    
+    # Transformation classes
+    class Transformation:
+        def apply(self, data):
+            raise NotImplementedError
+    
+    class RemoveNullsTransformation(Transformation):
+        def apply(self, data):
+            return [row for row in data if all(row.values())]
+    
+    class AddTimestampTransformation(Transformation):
+        def apply(self, data):
+            for row in data:
+                row['processed_at'] = datetime.now().isoformat()
+            return data
+    
+    # Main ETL Pipeline
+    class ETLPipeline:
+        def __init__(self, name, source):
+            self.name = name
+            self.source = source
+            self.transformations = []
+            self.data = None
+        
+        def add_transformation(self, transformation):
+            self.transformations.append(transformation)
+            return self
+        
+        def extract(self):
+            """Extract data from source"""
+            print(f"[{self.name}] Extracting data...")
+            self.data = self.source.read()
+            print(f"Extracted {len(self.data)} records")
+            return self
+        
+        def transform(self):
+            """Apply all transformations"""
+            print(f"[{self.name}] Transforming data...")
+            for transformation in self.transformations:
+                self.data = transformation.apply(self.data)
+            print(f"Transformed to {len(self.data)} records")
+            return self
+        
+        def load(self, destination):
+            """Load data to destination"""
+            print(f"[{self.name}] Loading data to {destination}...")
+            with open(destination, 'w') as f:
+                json.dump(self.data, f, indent=2)
+            print("Load complete")
+            return self
+        
+        def run(self, destination):
+            """Execute complete pipeline"""
+            try:
+                (self.extract()
+                     .transform()
+                     .load(destination))
+                print(f"[{self.name}] Pipeline completed successfully")
+            except Exception as e:
+                print(f"[{self.name}] Pipeline failed: {str(e)}")
+                raise
+    
+    # Usage
+    source = CSVDataSource("products.csv")
+    pipeline = ETLPipeline("product_pipeline", source)
+    
+    pipeline.add_transformation(RemoveNullsTransformation())
+    pipeline.add_transformation(AddTimestampTransformation())
+    
+    pipeline.run("output.json")
+
+
+================================================================================
+SUMMARY & KEY TAKEAWAYS
+================================================================================
+
+Core OOP Concepts:
+------------------
+✓ Classes and Objects - Blueprint and instances
+✓ Encapsulation - Data hiding and protection
+✓ Inheritance - Code reuse through parent-child relationships
+✓ Polymorphism - Same interface, different implementations
+✓ Abstraction - Hiding complexity
+
+Important Features:
+-------------------
+✓ __init__ - Constructor for initialization
+✓ self - Reference to instance
+✓ super() - Access parent class
+✓ @property - Getter/setter as attributes
+✓ @classmethod - Methods bound to class
+✓ @staticmethod - Utility methods
+✓ Magic methods - __str__, __add__, etc.
+
+Best Practices:
+---------------
+✓ Single responsibility principle
+✓ Favor composition over inheritance
+✓ Use meaningful names
+✓ Keep classes small and focused
+✓ Encapsulate data appropriately
+✓ Write docstrings
+✓ Follow PEP 8 style guide
+
+For Data Engineering:
+---------------------
+✓ Use classes for ETL pipelines
+✓ Implement data validators
+✓ Create reusable connectors
+✓ Build transformation frameworks
+✓ Add proper logging
+✓ Handle errors gracefully
+✓ Make code testable
+
+================================================================================
+END OF OOP GUIDE
+================================================================================
+
+Practice these concepts to master Object-Oriented Programming in Python!
+Build real projects, refactor existing code, and always think about
+maintainability and scalability.
+
+Good luck with your Python journey! 🚀

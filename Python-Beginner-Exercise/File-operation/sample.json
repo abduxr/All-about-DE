@@ -1,0 +1,72 @@
+{
+  "company": "TechNova Solutions",
+  "location": "India",
+  "employees": [
+    {
+      "id": 101,
+      "name": "Mohammed Abdullah",
+      "age": 22,
+      "department": "Software",
+      "skills": ["Python", "Node.js", "React"],
+      "address": {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pincode": 600001
+      },
+      "projects": [
+        {"project_id": "P1001", "name": "E-Commerce App", "status": "Completed"},
+        {"project_id": "P1002", "name": "AI Chatbot", "status": "In Progress"}
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Rahul Sharma",
+      "age": 25,
+      "department": "DevOps",
+      "skills": ["Azure", "Docker", "Kubernetes"],
+      "address": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": 500001
+      },
+      "projects": [
+        {"project_id": "P1003", "name": "Cloud Migration", "status": "Completed"}
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Sneha Reddy",
+      "age": 24,
+      "department": "Data Science",
+      "skills": ["Python", "ML", "PyTorch"],
+      "address": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": 560001
+      },
+      "projects": [
+        {"project_id": "P1004", "name": "Image Classification", "status": "In Progress"},
+        {"project_id": "P1005", "name": "Prediction Model", "status": "Planning"}
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Software",
+      "head": "Arjun Mehta",
+      "budget": 500000
+    },
+    {
+      "name": "DevOps",
+      "head": "Priya Nair",
+      "budget": 300000
+    },
+    {
+      "name": "Data Science",
+      "head": "Kiran Kumar",
+      "budget": 450000
+    }
+  ],
+  "active": true,
+  "founded_year": 2018
+}
