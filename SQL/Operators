@@ -1,0 +1,165 @@
+MySQL Operators Documentation
+
+This document provides a comprehensive list of all major MySQL operators with clear explanations and examples.
+
+1. Arithmetic Operators
+
+Addition (+) — Adds two numbers.
+
+Example: SELECT 5 + 3;
+
+Subtraction (-) — Subtracts one number from another.
+
+Example: SELECT 10 - 4;
+
+Multiplication (*) — Multiplies two numbers.
+
+Example: SELECT 6 * 7;
+
+Division (/) — Divides one number by another.
+
+Example: SELECT 20 / 5;
+
+Modulus (%) — Returns the remainder.
+
+Example: SELECT 10 % 3;
+
+2. Comparison Operators
+
+Equal (=) — Checks if values are equal.
+
+Example: SELECT * FROM users WHERE age = 25;
+
+Not Equal (!= or <>) — Checks if values are not equal.
+
+Example: SELECT * FROM users WHERE age != 25;
+
+Greater Than (>)
+
+Example: SELECT * FROM products WHERE price > 100;
+
+Less Than (<)
+
+Example: SELECT * FROM products WHERE price < 50;
+
+Greater Than or Equal (>=)
+
+Example: SELECT * FROM users WHERE score >= 80;
+
+Less Than or Equal (<=)
+
+Example: SELECT * FROM users WHERE score <= 60;
+
+NULL-safe Equal (<=>) — Compares values including NULL.
+
+Example: SELECT 1 <=> NULL;
+
+3. Logical Operators
+
+AND — True if both conditions are true.
+
+Example: SELECT * FROM users WHERE age > 18 AND status = 'active';
+
+OR — True if at least one condition is true.
+
+Example: SELECT * FROM users WHERE city = 'NY' OR city = 'LA';
+
+NOT — Negates a condition.
+
+Example: SELECT * FROM users WHERE NOT status = 'inactive';
+
+4. Bitwise Operators
+
+Bitwise AND (&)
+
+Example: SELECT 5 & 3;
+
+Bitwise OR (|)
+
+Example: SELECT 5 | 3;
+
+Bitwise XOR (^)
+
+Example: SELECT 5 ^ 3;
+
+Bitwise NOT (~)
+
+Example: SELECT ~5;
+
+Left Shift (<<)
+
+Example: SELECT 5 << 1;
+
+Right Shift (>>)
+
+Example: SELECT 5 >> 1;
+
+5. Assignment Operators
+
+= — Assigns a value.
+
+Example: SET @x = 10;
+
+:= — Assigns a value in expressions.
+
+Example: SELECT @y := 20;
+
+6. String Operators
+
+Concatenation (CONCAT)
+
+Example: SELECT CONCAT('Hello', ' World');
+
+LIKE — Pattern matching.
+
+Example: SELECT * FROM users WHERE name LIKE 'A%';
+
+NOT LIKE
+
+Example: SELECT * FROM users WHERE name NOT LIKE '%son';
+
+REGEXP / RLIKE — Regular expression matching.
+
+Example: SELECT * FROM users WHERE name REGEXP '^A';
+
+7. Logical/Flow Operators
+
+IN — Matches any value in a list.
+
+Example: SELECT * FROM users WHERE id IN (1, 2, 3);
+
+NOT IN
+
+Example: SELECT * FROM users WHERE id NOT IN (4, 5);
+
+BETWEEN — Checks if value is within a range.
+
+Example: SELECT * FROM products WHERE price BETWEEN 100 AND 500;
+
+NOT BETWEEN
+
+Example: SELECT * FROM products WHERE price NOT BETWEEN 100 AND 500;
+
+IS NULL
+
+Example: SELECT * FROM users WHERE email IS NULL;
+
+IS NOT NULL
+
+Example: SELECT * FROM users WHERE email IS NOT NULL;
+
+8. Other Useful Operators
+
+EXISTS — Checks if a subquery returns rows.
+
+Example: SELECT * FROM users WHERE EXISTS (SELECT id FROM orders WHERE users.id = orders.user_id);
+
+ANY / SOME — Compares a value to any value in a list.
+
+Example: SELECT 10 > ANY (SELECT age FROM users);
+
+ALL — Compares a value to all values in a list.
+
+Example: SELECT 10 > ALL (SELECT age FROM users);
+
+
