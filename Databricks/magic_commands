@@ -1,0 +1,69 @@
+# Databricks Magic Commands and Shortcuts
+
+Databricks notebooks support **magic commands** and **keyboard shortcuts** that make coding, debugging, and collaboration faster.  
+Magic commands let you switch languages, run SQL, shell scripts, or time execution, while shortcuts streamline navigation and editing.
+
+---
+
+## 🔮 Magic Commands in Databricks
+
+### Language Switching
+- **%python** → Run cell in Python.
+- **%scala** → Run cell in Scala.
+- **%r** → Run cell in R.
+- **%sql** → Run cell in SQL.
+
+### Notebook and File Operations
+- **%run <notebook-path>** → Import and run another notebook.
+- **%fs** → Interact with the Databricks File System (DBFS).  
+  Example: `%fs ls /mnt/data`
+- **%sh** → Run shell commands directly from a notebook cell.
+- **%md** → Render Markdown for documentation inside notebooks.
+
+### Package Management
+- **%pip install <package>** → Install Python packages within a notebook session.
+- **%conda install <package>** → Install packages using Conda (if enabled).
+
+### Timing and Performance
+- **%%time** → Measure execution time of a single cell.
+- **%%timeit** → Run code multiple times and report average execution time.
+
+### File Utilities
+- **%%writefile <filename>** → Write cell contents to a file.
+- **%cat <filename>** → Display contents of a file.
+
+### Discovery
+- **%lsmagic** → List all available magic commands.
+
+---
+
+## ⌨️ Keyboard Shortcuts in Databricks
+
+| **Shortcut** | **Action** |
+|--------------|------------|
+| **Esc + B new cell below and + A for new cell above the current poiting cell
+| **Ctrl + Enter** | Run current cell |
+| **Shift + Enter** | Run cell and move to next |
+| **Alt + Enter** | Run cell and insert new one below |
+| **Ctrl + /** | Toggle comment for selected lines |
+| **Ctrl + Shift + -** | Split cell at cursor |
+| **Ctrl + Shift + F** | Search across notebook |
+| **Ctrl + Shift + P** | Open command palette (quick actions) |
+| **Ctrl + Shift + L** | Toggle line numbers |
+| **Ctrl + B** | Toggle sidebar visibility |
+| **Ctrl + D** | Duplicate current line |
+| **Ctrl + Z / Ctrl + Y** | Undo / Redo |
+
+---
+
+## 📌 Tips for Effective Use
+- Use **%md cells** to document steps directly in your notebook for better collaboration.  
+- Combine **%sql** with visualization features to quickly plot query results.  
+- Use **%fs** to manage files in DBFS without leaving the notebook.  
+- Keyboard shortcuts save time when running multiple cells or editing large notebooks.  
+- **%lsmagic** is handy to discover hidden or less‑used commands.  
+
+---
+
+## ✅ Why It Matters
+By mastering **magic commands** and **shortcuts**, you can make Databricks notebooks more interactive, reduce repetitive tasks, and improve productivity — especially when handling large datasets or collaborating across teams.
