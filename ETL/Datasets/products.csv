@@ -1,0 +1,301 @@
+product_id,product_name,category,subcategory,brand,supplier,unit_cost,selling_price,stock_quantity,rating,launch_date
+PROD00001,Feeling Shoes,Fashion,Shoes,Baker Inc,Howell Group,182.08,228.79,383,1.6,2024-12-23
+PROD00002,Late Makeup,Beauty,Makeup,Mccoy-Holt,Gardner-Perry,346.42,862.76,44,4.6,2025-06-12
+PROD00003,Accept Shirt,Fashion,Shirt,Bishop-Miranda,Johnson PLC,298.89,396.35,493,2.7,2026-01-07
+PROD00004,Type Shirt,Fashion,Shirt,"Diaz, Forbes and Cunningham","Johnson, Nelson and Brown",145.71,102.56,283,3.4,2024-09-13
+PROD00005,Behind Treadmill,Sports,Treadmill,"Nguyen, Day and Lara",Long-Peck,391.7,696.67,434,4.4,2025-08-24
+PROD00006,Hear Chair,Home,Chair,Reyes and Sons,"Tran, Dominguez and Lopez",263.7,519.33,382,2.6,2025-02-23
+PROD00007,Surface Laptop,Electronics,Laptop,"Rodriguez, Mullen and Simpson",Morgan-Anderson,252.49,130.49,255,3.6,2025-05-10
+PROD00008,Third Tablet,Electronics,Tablet,"Swanson, Castro and Davis",Copeland and Sons,445.48,31.83,184,4.7,2023-07-18
+PROD00009,She Shoes,Fashion,Shoes,Williams Inc,Williams Ltd,431.8,577.01,187,3.2,2023-07-17
+PROD00010,Red Shoes,Fashion,Shoes,"Meyer, Johnston and Wilson",Shah and Sons,477.68,774.96,8,3.3,2025-02-14
+PROD00011,Father Phone,Electronics,Phone,Horne and Sons,Mcmillan-Morgan,115.71,924.13,485,4.2,2023-07-25
+PROD00012,Impact Treadmill,Sports,Treadmill,Martinez and Sons,"Castro, Odonnell and Allison",318.0,511.03,212,2.7,2023-09-30
+PROD00013,Decision Cream,Beauty,Cream,"Torres, Moody and Carpenter",Lara-Williams,323.86,546.9,78,2.1,2025-08-01
+PROD00014,Natural Chair,Home,Chair,"White, Peterson and Newton",Johnson and Sons,260.54,219.13,413,1.6,2024-12-27
+PROD00015,Raise Table,Home,Table,"Torres, Phillips and Jackson","Scott, Marshall and Schmidt",297.35,767.96,332,3.7,2024-11-09
+PROD00016,This Phone,Electronics,Phone,"Gray, Richardson and Russell","Ortiz, Vargas and Mitchell",352.35,735.36,433,2.0,2025-03-08
+PROD00017,Real Shirt,Fashion,Shirt,Lynch-Williams,"Maddox, Rivera and Kim",463.07,133.67,313,3.4,2025-08-23
+PROD00018,Parent Lamp,Home,Lamp,"Hernandez, Johnson and Gonzalez",Brown-Shelton,373.43,745.85,61,1.1,2023-11-24
+PROD00019,Drive Jacket,Fashion,Jacket,Smith Inc,"Rodriguez, Haas and Parker",15.56,506.48,177,3.1,2024-04-23
+PROD00020,East Chair,Home,Chair,Morrow-White,Martin-Espinoza,192.22,754.78,447,2.1,2024-11-18
+PROD00021,East Laptop,Electronics,Laptop,"Bryan, Roberts and Reed","Campbell, Pierce and Murphy",174.16,440.74,268,1.3,2024-10-27
+PROD00022,Future Dumbbell,Sports,Dumbbell,Wood-Warner,Hensley Inc,47.76,466.09,184,1.2,2026-02-26
+PROD00023,Ground Football,Sports,Football,"Ayala, Robinson and Scott",Parker-Schmidt,190.17,270.01,52,4.6,2024-03-12
+PROD00024,Realize Laptop,Electronics,Laptop,Taylor-Rogers,"Fowler, Davis and Brown",372.98,22.52,439,4.5,2025-08-27
+PROD00025,Wrong Shirt,Fashion,Shirt,Simpson LLC,Bailey-Gallegos,241.16,395.32,76,1.7,2025-08-23
+PROD00026,People Tablet,Electronics,Tablet,Prince-Wood,"Evans, Lynch and Moss",403.53,719.74,335,2.7,2024-08-11
+PROD00027,Have Chair,Home,Chair,"Reynolds, Thomas and Morgan",Mccarthy Inc,213.97,725.88,138,4.3,2024-02-12
+PROD00028,After Treadmill,Sports,Treadmill,Browning-Mann,Moore-Smith,68.51,679.86,26,1.7,2024-11-04
+PROD00029,Item Football,Sports,Football,Clarke-Bryant,"Sanchez, Morales and Hughes",477.5,87.55,238,4.5,2024-02-06
+PROD00030,Word Table,Home,Table,Oconnor Inc,Kelly-Powers,52.33,467.61,188,1.8,2024-12-08
+PROD00031,Learn Treadmill,Sports,Treadmill,Thomas Group,Cervantes-Smith,372.39,257.73,188,3.4,2023-09-17
+PROD00032,Young Cream,Beauty,Cream,"Rodriguez, Jennings and Porter",Miller-Kane,368.91,555.63,407,2.0,2024-03-10
+PROD00033,Worry Phone,Electronics,Phone,Arnold and Sons,Riley-Hatfield,21.72,550.71,325,4.4,2023-07-26
+PROD00034,Management Phone,Electronics,Phone,Smith-Murray,Long-Burke,10.72,664.16,434,4.0,2025-05-10
+PROD00035,Soldier Chair,Home,Chair,"Spence, Cunningham and Mcdonald","Williams, Johnson and Williams",110.55,983.45,214,3.0,2023-07-31
+PROD00036,Value Laptop,Electronics,Laptop,Lewis-Long,Robbins Ltd,358.71,111.17,471,1.9,2024-07-11
+PROD00037,Firm Treadmill,Sports,Treadmill,"Davis, White and Nelson","Powers, Burgess and Merritt",353.41,385.04,498,4.0,2025-08-01
+PROD00038,Market Football,Sports,Football,Sanders Ltd,Burch-Henderson,257.66,644.47,201,1.3,2025-10-12
+PROD00039,Various Football,Sports,Football,Moon Group,Alvarez Inc,223.14,964.93,121,2.2,2023-09-24
+PROD00040,Mr Table,Home,Table,"Benjamin, Reed and Parks","Williams, Jones and Olson",353.36,740.65,162,2.8,2025-04-19
+PROD00041,In Shirt,Fashion,Shirt,"Russell, Payne and Williams","Luna, Farmer and Jennings",472.34,153.39,394,3.3,2023-12-13
+PROD00042,Production Shirt,Fashion,Shirt,"Mcgrath, Hunt and Pittman",Davis LLC,90.54,476.73,208,1.5,2024-03-30
+PROD00043,Office Chair,Home,Chair,Weber Group,"Yates, Lee and Lambert",231.44,474.08,436,1.5,2024-05-14
+PROD00044,Determine Jacket,Fashion,Jacket,"Campbell, Lewis and Porter",Barnett and Sons,159.07,710.61,308,1.2,2025-01-12
+PROD00045,Difference Chair,Home,Chair,Bender and Sons,"Martin, Valdez and Cameron",54.69,263.25,182,2.6,2024-05-20
+PROD00046,Which Tablet,Electronics,Tablet,Paul Inc,Watts-Cook,156.43,823.69,89,1.1,2026-04-26
+PROD00047,Everything Perfume,Beauty,Perfume,"Lindsey, Hicks and Sullivan",Williams-Mitchell,282.42,559.12,48,2.8,2024-12-08
+PROD00048,Attack Shirt,Fashion,Shirt,Mcdonald-Kim,"Doyle, Solomon and Brown",15.86,833.76,113,1.5,2025-06-16
+PROD00049,Anyone Perfume,Beauty,Perfume,"Davies, Johnson and Vaughan",Davis LLC,346.28,938.82,43,3.3,2025-02-02
+PROD00050,Network Chair,Home,Chair,"Lewis, Waters and Avila","Rowe, Simpson and Rivers",20.68,83.18,462,3.6,2024-08-13
+PROD00051,Member Shirt,Fashion,Shirt,Neal-Barnett,Gonzalez and Sons,453.49,832.77,169,1.5,2024-04-02
+PROD00052,Room Cream,Beauty,Cream,Meyer Ltd,Johnson and Sons,92.31,582.41,420,3.9,2023-10-05
+PROD00053,Usually Cream,Beauty,Cream,"Romero, Campbell and Baird",Mueller and Sons,197.54,438.13,181,1.9,2024-01-17
+PROD00054,Later Shoes,Fashion,Shoes,Rosario Group,"Patterson, Gray and White",147.13,885.76,17,3.5,2024-06-27
+PROD00055,Standard Football,Sports,Football,Cooper Group,Miles Group,327.17,508.91,451,3.2,2025-01-31
+PROD00056,Parent Laptop,Electronics,Laptop,Montoya-Ayala,Chavez-Ross,147.09,154.49,102,3.6,2026-04-15
+PROD00057,Whether Football,Sports,Football,Garrett Ltd,"Harris, Nicholson and Benson",319.07,806.12,406,1.1,2024-02-14
+PROD00058,Step Makeup,Beauty,Makeup,"Clay, Schwartz and Hogan",Duran-Miller,185.96,553.63,248,2.4,2025-03-06
+PROD00059,Subject Dumbbell,Sports,Dumbbell,Torres-Hernandez,Rodriguez PLC,167.59,285.03,13,2.3,2023-09-15
+PROD00060,Reflect Shirt,Fashion,Shirt,Burton-Kaufman,"Fisher, Walsh and Bradley",448.92,782.97,29,4.2,2024-07-22
+PROD00061,Walk Makeup,Beauty,Makeup,Duarte Ltd,Waters and Sons,185.14,592.31,119,4.9,2025-09-06
+PROD00062,Environmental Laptop,Electronics,Laptop,Wilkinson-Frazier,Walker-Drake,331.86,281.2,417,4.2,2023-11-06
+PROD00063,Once Laptop,Electronics,Laptop,Fry-Price,"Walsh, Martinez and Roy",292.09,983.01,198,2.4,2023-12-29
+PROD00064,That Shirt,Fashion,Shirt,Mueller-Brown,Wiley and Sons,125.91,331.64,377,3.8,2025-01-04
+PROD00065,Ability Football,Sports,Football,"Ross, Green and Shepard",Jones and Sons,354.69,364.65,290,3.3,2025-04-17
+PROD00066,Force Football,Sports,Football,Best-Fitzgerald,Lopez-Wright,419.98,814.19,496,3.0,2026-03-21
+PROD00067,War Chair,Home,Chair,Gonzalez-Pruitt,Burns Ltd,250.31,108.45,119,3.4,2025-12-19
+PROD00068,Theory Tablet,Electronics,Tablet,"Fox, Miranda and Curtis",Elliott-Miller,244.21,345.1,314,1.8,2024-07-11
+PROD00069,Important Shoes,Fashion,Shoes,Hart-Bell,"Nelson, Moore and Campbell",361.3,920.41,432,4.5,2024-06-08
+PROD00070,Probably Laptop,Electronics,Laptop,"Haas, Marquez and Johnson",Brown LLC,82.38,710.6,72,4.1,2023-12-12
+PROD00071,Record Treadmill,Sports,Treadmill,Thomas Inc,Wolf-Hubbard,480.67,386.12,482,3.6,2024-03-22
+PROD00072,Increase Football,Sports,Football,Oconnor-Murray,"Vaughan, Clarke and Owen",174.91,336.15,499,1.6,2023-11-30
+PROD00073,Knowledge Makeup,Beauty,Makeup,"Anderson, Cooper and Berger",Washington-Mack,480.72,656.2,89,3.8,2024-04-16
+PROD00074,Approach Dumbbell,Sports,Dumbbell,Richardson PLC,Miller and Sons,445.9,621.43,182,1.9,2024-06-17
+PROD00075,Determine Football,Sports,Football,"Anderson, Lewis and Cummings","Ramos, Clark and Church",195.41,739.32,150,1.5,2023-05-27
+PROD00076,Party Tablet,Electronics,Tablet,Pearson Ltd,Kelley-Moore,474.86,403.77,394,4.9,2024-05-11
+PROD00077,Audience Laptop,Electronics,Laptop,Wheeler-Daugherty,Lindsey Inc,305.17,922.62,495,3.4,2026-02-02
+PROD00078,Recent Football,Sports,Football,"Jacobson, Thompson and Johnston",Smith-Dickerson,468.98,157.83,381,1.3,2025-05-21
+PROD00079,Dream Table,Home,Table,Oneill-Everett,Johnson Ltd,92.26,887.61,45,4.3,2023-09-23
+PROD00080,Policy Table,Home,Table,Hunter-Hunt,Harris-Allison,15.58,225.49,354,1.3,2025-05-10
+PROD00081,Add Chair,Home,Chair,Brady-Robinson,Lee Inc,363.0,67.18,224,3.9,2024-01-29
+PROD00082,Born Shoes,Fashion,Shoes,Palmer LLC,Bradley-Friedman,251.61,391.14,279,2.5,2026-01-16
+PROD00083,Listen Makeup,Beauty,Makeup,"Hamilton, Brown and Larson","Guerrero, Blackwell and Wade",328.98,693.42,83,2.8,2024-07-02
+PROD00084,Whose Phone,Electronics,Phone,Zimmerman Ltd,"Moore, Nguyen and Evans",19.84,275.91,53,1.3,2025-06-08
+PROD00085,Rich Shoes,Fashion,Shoes,Suarez and Sons,Hendrix-Knight,88.84,93.5,482,4.6,2024-05-15
+PROD00086,Base Phone,Electronics,Phone,Perkins and Sons,Fleming-Torres,301.07,621.37,247,3.8,2024-11-17
+PROD00087,Own Makeup,Beauty,Makeup,Sandoval-Robinson,Landry LLC,90.85,891.96,80,1.2,2024-05-18
+PROD00088,Plant Chair,Home,Chair,Barron PLC,Ruiz-Burnett,487.46,421.09,283,3.9,2024-10-20
+PROD00089,No Treadmill,Sports,Treadmill,Gray Ltd,Welch-Flowers,333.69,311.45,49,1.2,2024-04-04
+PROD00090,Answer Dumbbell,Sports,Dumbbell,Brown LLC,Livingston-Sutton,421.53,170.52,184,1.0,2026-03-11
+PROD00091,Work Phone,Electronics,Phone,"Hill, Mcclure and Glass","Burton, Madden and Coleman",413.71,632.59,245,1.8,2024-12-12
+PROD00092,Woman Laptop,Electronics,Laptop,Green-Robertson,Mata and Sons,93.71,305.98,41,2.9,2024-09-04
+PROD00093,Soon Phone,Electronics,Phone,Hicks Inc,"Silva, Ross and Blair",394.59,481.53,458,3.6,2025-01-09
+PROD00094,Order Tablet,Electronics,Tablet,"Johnson, Fox and Lopez","Ruiz, Daniel and Myers",276.62,201.18,453,2.5,2023-09-27
+PROD00095,Moment Shoes,Fashion,Shoes,"Dominguez, Olson and Howard","Robles, Martinez and Rodriguez",31.86,450.95,134,1.9,2026-02-06
+PROD00096,Left Lamp,Home,Lamp,Brooks-Humphrey,Campos-Jackson,40.2,757.19,341,1.4,2025-09-24
+PROD00097,Through Lamp,Home,Lamp,Mcpherson-Miller,"Rodriguez, Carrillo and Frost",212.85,761.33,116,3.2,2024-07-30
+PROD00098,Kitchen Makeup,Beauty,Makeup,"Cook, Gray and Allen",Kidd Ltd,215.13,544.8,443,4.7,2024-02-10
+PROD00099,Meet Football,Sports,Football,Walsh LLC,Williams LLC,243.37,97.38,462,4.4,2024-06-01
+PROD00100,Six Tablet,Electronics,Tablet,Wheeler and Sons,Wilcox Group,289.9,526.48,292,3.7,2025-12-02
+PROD00101,Chance Football,Sports,Football,Bowers PLC,"Lopez, Lester and Johnson",68.94,762.04,88,4.8,2025-10-21
+PROD00102,Need Shirt,Fashion,Shirt,Ramirez-Richards,Duncan-Mccormick,406.15,143.66,216,1.3,2025-04-05
+PROD00103,Ball Cream,Beauty,Cream,"Hart, Dunn and Wilson","Rodriguez, Charles and Clarke",498.66,634.68,427,3.4,2024-09-10
+PROD00104,Side Lamp,Home,Lamp,"Thomas, Edwards and Walker","Potter, Wang and Gonzales",457.95,85.67,198,3.2,2025-02-14
+PROD00105,Change Treadmill,Sports,Treadmill,Wilson PLC,Zimmerman Group,429.75,529.29,469,4.5,2024-11-23
+PROD00106,Environment Dumbbell,Sports,Dumbbell,"Leonard, Berry and Curry",Cross-Martinez,266.06,431.2,212,1.6,2026-02-24
+PROD00107,All Dumbbell,Sports,Dumbbell,Williams-Meyer,Davis PLC,295.51,965.54,51,4.7,2025-06-08
+PROD00108,Player Football,Sports,Football,Gibson-Hansen,Roberts-Booker,395.02,870.13,450,2.4,2024-04-28
+PROD00109,The Perfume,Beauty,Perfume,"Taylor, Cantrell and Martinez",Smith Inc,197.69,495.87,311,2.9,2025-09-14
+PROD00110,Above Shoes,Fashion,Shoes,"Contreras, Clark and Torres","Alvarez, Mack and Carrillo",207.46,625.88,348,3.8,2026-04-06
+PROD00111,Story Phone,Electronics,Phone,Dodson-Carson,"Smith, Cooper and Olson",445.89,344.86,121,1.2,2025-05-10
+PROD00112,Music Perfume,Beauty,Perfume,Gray-Lee,"Phillips, Williams and Proctor",449.55,39.83,418,4.2,2025-09-03
+PROD00113,Kitchen Table,Home,Table,Lambert PLC,Maddox-Rice,422.99,861.07,350,1.4,2024-04-29
+PROD00114,Management Shirt,Fashion,Shirt,"Evans, Gould and Johnston",Hernandez-Gray,157.24,748.85,396,4.3,2025-08-03
+PROD00115,Bad Lamp,Home,Lamp,Klein-Gonzales,Lynn-Phillips,214.22,652.64,96,2.8,2025-09-11
+PROD00116,Career Makeup,Beauty,Makeup,"Hale, Cisneros and Wheeler",Sims Inc,247.39,526.17,191,4.3,2025-08-11
+PROD00117,Land Football,Sports,Football,"Torres, Baker and Ellis","Frye, Kelly and Taylor",42.15,715.38,206,1.5,2024-01-29
+PROD00118,Sign Dumbbell,Sports,Dumbbell,Elliott-Warren,"Benson, Roberts and Li",24.18,208.91,426,1.8,2025-08-29
+PROD00119,Night Laptop,Electronics,Laptop,Brooks-Perry,Thomas-Weber,26.2,69.55,184,3.8,2025-06-13
+PROD00120,While Table,Home,Table,"Wright, Campbell and Thomas",Hall Group,413.52,515.02,325,4.7,2025-04-02
+PROD00121,New Laptop,Electronics,Laptop,"Stewart, Smith and Downs",Faulkner-Turner,192.51,602.16,90,4.8,2025-09-16
+PROD00122,Before Makeup,Beauty,Makeup,"Garcia, Walters and Watkins",Juarez-Griffith,280.15,357.36,428,4.6,2025-01-26
+PROD00123,Task Phone,Electronics,Phone,Golden-Clark,Perez Inc,23.45,68.66,437,3.3,2023-09-18
+PROD00124,Stock Shirt,Fashion,Shirt,Gomez Inc,Mendez-Cook,327.22,684.14,137,3.6,2024-07-11
+PROD00125,Eat Football,Sports,Football,Williamson-Cameron,Russell-Lyons,433.67,967.8,349,1.0,2025-06-23
+PROD00126,What Jacket,Fashion,Jacket,Norton Group,Freeman PLC,94.87,804.85,114,2.0,2023-06-07
+PROD00127,Peace Lamp,Home,Lamp,Taylor PLC,"Bradley, Wright and Cox",483.84,649.89,216,4.6,2025-07-12
+PROD00128,Medical Table,Home,Table,Harris Ltd,Meyer Inc,133.48,477.36,346,3.1,2024-03-21
+PROD00129,Figure Treadmill,Sports,Treadmill,Morrison Ltd,Buck-Blanchard,296.4,27.2,339,4.9,2025-02-25
+PROD00130,Usually Lamp,Home,Lamp,"Doyle, Mccullough and Martin","Perry, Harris and Johnston",327.2,616.87,152,3.7,2025-09-02
+PROD00131,Collection Cream,Beauty,Cream,Bass PLC,Howard Inc,174.78,290.95,166,4.4,2025-04-25
+PROD00132,Letter Lamp,Home,Lamp,"Morris, Washington and Owens",Duke-Silva,358.44,894.53,152,1.8,2025-10-02
+PROD00133,Statement Football,Sports,Football,Knight-Walker,"Holt, Richards and Smith",450.85,809.32,410,4.2,2024-09-29
+PROD00134,Throw Makeup,Beauty,Makeup,Johnson Group,Hernandez-Jones,166.6,157.13,13,3.6,2024-11-03
+PROD00135,Body Table,Home,Table,"Wright, Sanders and Smith",Caldwell Inc,454.39,416.51,377,1.1,2025-12-19
+PROD00136,Population Football,Sports,Football,Campbell-Esparza,Rivas and Sons,178.15,719.1,351,3.1,2023-08-07
+PROD00137,Top Makeup,Beauty,Makeup,Kaufman Inc,"Rodriguez, Lopez and Sparks",185.66,314.19,87,4.4,2023-06-12
+PROD00138,Feel Football,Sports,Football,"Levy, Wiley and Crawford",Foster LLC,153.95,481.37,379,2.0,2024-07-10
+PROD00139,Safe Football,Sports,Football,Roberts Ltd,"Watson, Velasquez and Taylor",473.99,901.6,335,1.4,2023-10-06
+PROD00140,For Chair,Home,Chair,"Bennett, George and Russell",Walker and Sons,374.66,320.94,403,4.5,2025-10-07
+PROD00141,Parent Table,Home,Table,"Elliott, Smith and Peterson",Harper-Avila,296.93,474.49,60,2.9,2025-03-18
+PROD00142,Meet Dumbbell,Sports,Dumbbell,Sanford Group,"Meyer, Decker and Bennett",472.71,89.79,455,1.8,2023-12-04
+PROD00143,Age Tablet,Electronics,Tablet,Smith Ltd,Guzman Inc,197.02,312.39,27,4.5,2024-08-14
+PROD00144,Else Shirt,Fashion,Shirt,Johnson-Ellis,Smith Ltd,496.25,355.82,291,4.6,2023-06-16
+PROD00145,Why Cream,Beauty,Cream,"White, Lopez and Bowers","Hernandez, Aguirre and Gross",165.03,721.36,398,1.3,2025-06-19
+PROD00146,Result Lamp,Home,Lamp,Sellers Inc,Wright Group,493.45,327.15,29,1.0,2025-06-22
+PROD00147,Well Chair,Home,Chair,Solomon Group,Hall Inc,382.98,185.23,391,1.6,2023-08-15
+PROD00148,Stop Laptop,Electronics,Laptop,"Barker, Price and Graham","Lopez, Stewart and Carroll",311.1,640.82,206,2.7,2025-11-20
+PROD00149,Recognize Perfume,Beauty,Perfume,Santiago Ltd,Beltran-Lara,12.29,543.11,374,2.5,2023-11-19
+PROD00150,Whole Phone,Electronics,Phone,Woods Inc,Moreno and Sons,380.86,540.41,9,3.7,2025-03-08
+PROD00151,Quality Shirt,Fashion,Shirt,Sanchez-Robinson,Mccarthy Inc,349.83,357.46,66,1.4,2023-11-18
+PROD00152,Until Dumbbell,Sports,Dumbbell,Walker and Sons,Sullivan-Evans,160.0,83.98,23,2.2,2026-03-19
+PROD00153,Star Table,Home,Table,"Johnson, Watson and Williams","Martin, Maddox and Kelly",366.64,604.44,172,2.7,2024-04-09
+PROD00154,Sea Shoes,Fashion,Shoes,"Lopez, Duke and Rogers","Rogers, Rivera and Soto",498.11,500.38,384,1.8,2025-03-03
+PROD00155,Level Cream,Beauty,Cream,Bell-Turner,Thomas-Carlson,121.92,732.63,67,1.8,2024-06-22
+PROD00156,West Tablet,Electronics,Tablet,Hall-Garcia,"Mendez, Perez and Harris",257.27,140.7,364,3.6,2024-02-16
+PROD00157,East Phone,Electronics,Phone,Oliver-Hall,Elliott-Adams,439.51,270.67,273,3.5,2026-04-07
+PROD00158,Who Football,Sports,Football,Mcintyre-Garza,Davis PLC,334.37,660.5,10,1.2,2025-05-08
+PROD00159,End Phone,Electronics,Phone,Thompson-Lopez,"Pittman, Aguilar and Robinson",227.71,141.12,129,2.9,2023-07-02
+PROD00160,Clear Shirt,Fashion,Shirt,"Gould, Mitchell and Lara","Arias, Wagner and Smith",350.64,637.71,154,2.7,2026-03-15
+PROD00161,Only Tablet,Electronics,Tablet,"Lee, Brown and Henderson","Smith, Matthews and Dunlap",264.95,630.34,358,1.5,2025-09-07
+PROD00162,Fast Tablet,Electronics,Tablet,Mccoy and Sons,Fisher-Estrada,362.2,135.38,58,4.1,2023-09-21
+PROD00163,Beyond Cream,Beauty,Cream,Walton LLC,Harvey Inc,308.41,782.4,425,3.1,2025-11-15
+PROD00164,Scientist Shoes,Fashion,Shoes,Wilson Ltd,"Mitchell, Walsh and Mcpherson",354.68,309.44,20,3.2,2023-06-14
+PROD00165,Tv Jacket,Fashion,Jacket,"Bush, Fisher and Wood",Davis Group,467.23,343.99,1,1.1,2023-10-24
+PROD00166,Book Laptop,Electronics,Laptop,Young PLC,Oconnor PLC,419.26,675.64,76,4.8,2024-02-07
+PROD00167,Prepare Football,Sports,Football,Ward LLC,Sanford-Warner,364.55,119.26,131,3.6,2024-02-10
+PROD00168,Apply Perfume,Beauty,Perfume,"Diaz, Powell and Smith",Alvarez-Jennings,139.42,69.08,416,1.7,2023-08-23
+PROD00169,Gun Phone,Electronics,Phone,Smith-Hancock,Nguyen Ltd,186.51,683.23,218,4.0,2024-03-20
+PROD00170,Personal Laptop,Electronics,Laptop,Curtis PLC,"Patterson, Lopez and Powers",14.74,155.63,331,1.7,2024-12-01
+PROD00171,Respond Table,Home,Table,"Russell, Gonzales and Lowery",Walton Inc,477.99,282.94,375,1.4,2023-09-23
+PROD00172,Process Chair,Home,Chair,Webster LLC,Knox-Charles,65.78,412.25,233,2.1,2026-04-21
+PROD00173,Room Makeup,Beauty,Makeup,Carter-Wise,Hawkins-Collier,426.83,803.9,332,4.5,2025-04-15
+PROD00174,Effort Shirt,Fashion,Shirt,"Mendoza, Mckinney and Phillips",Bryant and Sons,74.93,731.88,482,4.4,2025-09-28
+PROD00175,Teach Phone,Electronics,Phone,Sanchez Group,"Silva, Allen and Sims",456.5,493.02,291,3.7,2024-02-15
+PROD00176,Safe Jacket,Fashion,Jacket,Smith-Miles,Acosta-Nelson,196.08,371.43,14,4.5,2024-01-05
+PROD00177,Best Shoes,Fashion,Shoes,"Anderson, Ayala and Warren","Cox, Rose and Gonzalez",461.0,130.68,210,2.8,2024-03-09
+PROD00178,Sit Phone,Electronics,Phone,Miranda-Guzman,"Salazar, Francis and Reynolds",330.94,32.11,444,3.7,2026-02-22
+PROD00179,Star Dumbbell,Sports,Dumbbell,"Lewis, Quinn and Mejia",Brown-Love,286.86,978.34,342,4.5,2025-09-10
+PROD00180,Tell Dumbbell,Sports,Dumbbell,Robinson-Sanchez,Hill-Grant,347.24,625.87,221,3.6,2025-02-07
+PROD00181,Theory Shoes,Fashion,Shoes,Moss PLC,Bridges Ltd,179.42,682.77,197,1.6,2023-12-27
+PROD00182,Road Dumbbell,Sports,Dumbbell,"Everett, Grimes and Suarez",Baker and Sons,36.74,650.53,80,3.0,2025-07-01
+PROD00183,Maintain Perfume,Beauty,Perfume,Mullins Inc,"Smith, Cummings and Christensen",436.01,93.37,251,2.3,2025-02-03
+PROD00184,Order Table,Home,Table,Smith-Murphy,Wood-Hamilton,34.67,238.25,329,2.5,2026-01-15
+PROD00185,Yes Shirt,Fashion,Shirt,Finley Inc,Parrish-Phelps,234.96,805.24,229,1.4,2025-01-07
+PROD00186,Sometimes Perfume,Beauty,Perfume,"Garner, Wong and Fischer","Mckay, Lam and Hicks",164.87,981.06,381,3.6,2024-12-12
+PROD00187,Industry Phone,Electronics,Phone,Rodriguez-Buckley,Stokes-Lopez,212.05,565.99,0,4.3,2024-03-09
+PROD00188,Administration Dumbbell,Sports,Dumbbell,"Sexton, Snow and Lyons",Briggs Group,322.39,892.31,287,1.8,2026-03-06
+PROD00189,Sing Perfume,Beauty,Perfume,Ortiz LLC,"Pineda, Fields and Davis",188.04,73.19,114,4.4,2024-10-05
+PROD00190,Politics Lamp,Home,Lamp,"Anderson, Ward and Hunter","Michael, Price and Shields",386.03,607.95,366,3.6,2025-10-11
+PROD00191,Relationship Cream,Beauty,Cream,"Santiago, Dalton and Robinson",Garner-Melendez,57.74,665.73,1,2.4,2023-09-12
+PROD00192,Loss Lamp,Home,Lamp,Lee Group,Davis-Santos,265.77,708.05,23,4.6,2026-04-24
+PROD00193,Television Cream,Beauty,Cream,Gillespie Ltd,"Olson, Decker and Mayo",412.7,747.66,209,1.4,2024-06-09
+PROD00194,Live Football,Sports,Football,"Phillips, Elliott and Medina",Lambert-Frye,101.9,931.61,201,1.9,2024-01-29
+PROD00195,Until Jacket,Fashion,Jacket,Norman LLC,Garner-Morgan,175.59,762.01,23,4.7,2025-05-12
+PROD00196,Six Football,Sports,Football,Hill PLC,"Graham, Lane and Carroll",388.35,461.49,337,3.4,2026-02-10
+PROD00197,Product Football,Sports,Football,Dennis-Juarez,Pham Group,482.29,24.25,376,1.2,2024-02-10
+PROD00198,Every Makeup,Beauty,Makeup,"Chapman, Montoya and Morris",Miller LLC,246.64,518.17,471,4.6,2025-02-14
+PROD00199,Development Football,Sports,Football,Davies LLC,"Quinn, Bryan and Massey",367.94,145.81,198,3.6,2024-09-21
+PROD00200,Floor Treadmill,Sports,Treadmill,Moore Inc,Walker Ltd,257.01,396.97,311,4.7,2023-08-05
+PROD00201,Risk Shoes,Fashion,Shoes,Harris LLC,Mueller LLC,204.96,356.0,150,2.8,2024-09-01
+PROD00202,Face Shirt,Fashion,Shirt,"Cisneros, Davis and Yang",Williams Ltd,212.25,706.01,383,3.0,2025-10-23
+PROD00203,Role Treadmill,Sports,Treadmill,Boyd Inc,Casey Group,358.82,936.8,323,1.9,2024-03-22
+PROD00204,Side Jacket,Fashion,Jacket,Davis and Sons,Martinez-Hall,360.05,692.88,471,3.7,2025-06-19
+PROD00205,Create Jacket,Fashion,Jacket,Johnson PLC,Mathews LLC,275.82,644.14,363,1.5,2026-02-21
+PROD00206,Cover Lamp,Home,Lamp,"Patrick, Carlson and Hoffman","Perkins, Terry and White",245.38,579.23,341,3.8,2024-06-11
+PROD00207,Loss Treadmill,Sports,Treadmill,"Miller, Davis and Gray",White-Rubio,439.96,433.94,6,3.1,2023-12-01
+PROD00208,Mrs Phone,Electronics,Phone,Olson PLC,Montgomery-Spencer,81.21,676.85,102,2.1,2023-07-13
+PROD00209,City Shoes,Fashion,Shoes,"Coleman, Jimenez and Charles",Morales-Young,344.86,163.5,31,3.8,2025-09-23
+PROD00210,Society Chair,Home,Chair,Aguilar-Gonzalez,Moreno-Robertson,379.26,51.66,416,2.8,2024-08-24
+PROD00211,Fear Dumbbell,Sports,Dumbbell,Moran-Scott,York and Sons,372.35,867.54,380,3.6,2024-06-19
+PROD00212,Fall Cream,Beauty,Cream,Rivera PLC,Scott Group,260.35,800.9,356,2.2,2026-03-31
+PROD00213,Eight Phone,Electronics,Phone,Mitchell-Patterson,Brown-Vaughn,199.9,957.57,499,3.7,2024-05-08
+PROD00214,Environmental Football,Sports,Football,Rogers-Harris,Roberts-Lawson,16.35,266.31,317,4.5,2023-11-01
+PROD00215,Him Cream,Beauty,Cream,Curry-Richards,Neal LLC,456.63,710.54,331,2.5,2023-06-13
+PROD00216,Democrat Dumbbell,Sports,Dumbbell,"Wall, Taylor and Martinez",Farley and Sons,371.84,212.54,371,4.9,2025-06-24
+PROD00217,Task Table,Home,Table,Soto Ltd,Cannon and Sons,96.94,689.01,95,4.8,2025-07-26
+PROD00218,Many Football,Sports,Football,Brown-Patterson,"Richardson, Brown and Johnson",194.83,439.94,284,2.1,2025-05-22
+PROD00219,Capital Jacket,Fashion,Jacket,Thompson-Wagner,Rangel Inc,424.55,25.53,238,3.8,2024-08-05
+PROD00220,Ahead Shirt,Fashion,Shirt,Lee Ltd,Newton Group,85.31,336.18,26,4.1,2025-05-06
+PROD00221,Operation Dumbbell,Sports,Dumbbell,Manning PLC,"Schmidt, Ho and Wilson",157.57,794.11,281,2.4,2023-10-24
+PROD00222,Environmental Lamp,Home,Lamp,"Johnson, Mitchell and Carter",Ramirez LLC,117.78,200.19,34,4.1,2024-07-05
+PROD00223,Anything Shoes,Fashion,Shoes,"Williams, Boyer and Payne","Garcia, Orr and Burgess",276.11,415.35,178,1.9,2025-11-19
+PROD00224,Place Jacket,Fashion,Jacket,Miller-Harris,Hayes-Barker,172.62,373.58,111,4.8,2025-05-08
+PROD00225,Audience Dumbbell,Sports,Dumbbell,Brown Group,Stone-Turner,242.68,570.11,385,4.9,2024-02-01
+PROD00226,Perform Laptop,Electronics,Laptop,Gonzalez LLC,"Valdez, Woods and Jones",337.78,456.75,463,3.6,2026-01-24
+PROD00227,Level Football,Sports,Football,Davis-Diaz,Krueger-Diaz,479.86,688.9,164,2.5,2026-01-12
+PROD00228,Success Phone,Electronics,Phone,Solis-Farley,Barron Group,135.73,729.5,12,4.6,2023-11-27
+PROD00229,Serve Lamp,Home,Lamp,Ward Ltd,Johns PLC,403.38,456.65,22,2.2,2025-05-09
+PROD00230,Since Shoes,Fashion,Shoes,"Martinez, Taylor and Richardson",Fox-Parsons,261.81,949.25,85,4.9,2023-12-10
+PROD00231,Movie Dumbbell,Sports,Dumbbell,"Hamilton, Hebert and Allen",Huffman-Murphy,13.59,84.16,343,3.5,2024-02-25
+PROD00232,Type Jacket,Fashion,Jacket,Benitez-Washington,"Harvey, Griffin and Payne",217.86,121.85,275,4.3,2023-06-22
+PROD00233,Interest Makeup,Beauty,Makeup,Parrish Ltd,"Davis, Wu and Malone",410.21,90.68,351,1.6,2024-05-08
+PROD00234,Hundred Makeup,Beauty,Makeup,Green LLC,Tucker-Harris,172.54,105.77,27,1.7,2026-03-30
+PROD00235,Under Lamp,Home,Lamp,"Gomez, Morgan and Dodson",Lamb-Carter,44.52,825.19,466,2.0,2024-06-08
+PROD00236,Alone Perfume,Beauty,Perfume,West Group,"Rowe, Davis and Rice",318.81,444.36,8,2.6,2026-03-21
+PROD00237,Civil Tablet,Electronics,Tablet,Clarke Group,Gordon Group,12.89,725.88,32,4.0,2023-08-07
+PROD00238,Bag Football,Sports,Football,Hill-Maxwell,"Ramirez, Andrews and Green",353.43,91.14,475,3.0,2025-02-25
+PROD00239,Report Lamp,Home,Lamp,"Moore, Montoya and Ward",Benson-Marks,157.66,104.78,391,4.7,2025-07-07
+PROD00240,Know Perfume,Beauty,Perfume,Horton PLC,Pollard and Sons,412.84,50.2,80,3.1,2025-05-21
+PROD00241,Our Jacket,Fashion,Jacket,Hughes LLC,Wallace LLC,201.59,801.53,279,2.2,2025-03-30
+PROD00242,Play Shoes,Fashion,Shoes,"Jacobs, Wallace and Johnson",Sullivan-Keith,341.87,915.89,407,4.5,2024-03-14
+PROD00243,Republican Chair,Home,Chair,Jones-Horton,"Gonzalez, Santos and Knox",281.23,563.97,63,1.2,2024-01-18
+PROD00244,Foot Dumbbell,Sports,Dumbbell,"Taylor, Escobar and Miller","Williams, Ayers and Sanders",203.1,556.57,43,2.2,2026-01-10
+PROD00245,Decide Chair,Home,Chair,Peterson Group,Garcia-Coleman,212.2,653.01,262,1.6,2024-10-03
+PROD00246,Her Shirt,Fashion,Shirt,Cook-Johnson,"Collier, Quinn and Cole",312.27,267.69,58,1.7,2023-05-17
+PROD00247,Father Football,Sports,Football,Smith LLC,Brown-Anderson,427.18,933.72,281,2.8,2025-01-08
+PROD00248,Look Football,Sports,Football,"Sanchez, Fields and Cox",Dennis PLC,152.42,86.02,50,1.8,2025-07-01
+PROD00249,Attack Treadmill,Sports,Treadmill,Chase LLC,"Turner, Kelly and Santos",476.25,370.0,343,3.6,2023-07-02
+PROD00250,Want Phone,Electronics,Phone,"Guerra, Evans and Campbell",Murray PLC,313.56,902.12,162,2.9,2025-11-26
+PROD00251,Middle Lamp,Home,Lamp,"Porter, Rodriguez and Tanner",Carson Ltd,333.12,699.59,78,3.3,2024-02-21
+PROD00252,Treat Table,Home,Table,"Torres, Hudson and Ellis",Bullock-Sweeney,479.74,185.27,160,2.0,2026-01-29
+PROD00253,Two Jacket,Fashion,Jacket,Rangel-Smith,Berger and Sons,372.51,447.4,430,2.4,2024-02-27
+PROD00254,Story Table,Home,Table,Rowe Inc,Green-Fischer,236.8,371.57,156,2.9,2025-08-15
+PROD00255,Mrs Laptop,Electronics,Laptop,"Kelley, Velez and Dennis",Harrell Inc,326.32,100.33,143,4.4,2023-08-07
+PROD00256,Gun Jacket,Fashion,Jacket,Robertson Ltd,"Thomas, Ross and Fleming",106.25,738.87,320,1.3,2024-12-06
+PROD00257,Receive Laptop,Electronics,Laptop,"Johnson, Hughes and Jenkins",Johnston Ltd,426.3,638.99,416,3.3,2023-10-19
+PROD00258,Door Makeup,Beauty,Makeup,"Russell, Miller and Williamson","Davis, Hardin and Hunt",114.25,55.92,133,3.2,2024-09-04
+PROD00259,Major Treadmill,Sports,Treadmill,Stanley Inc,Livingston Group,330.41,165.66,200,1.9,2024-03-21
+PROD00260,Film Dumbbell,Sports,Dumbbell,Martinez LLC,Brooks-Stewart,430.01,151.2,256,3.0,2024-03-18
+PROD00261,They Perfume,Beauty,Perfume,Barron-Clark,Wilson LLC,256.06,669.42,434,4.9,2024-08-24
+PROD00262,Remain Dumbbell,Sports,Dumbbell,"Stuart, Clark and Duncan",Williams-Thomas,91.26,523.85,228,1.6,2025-12-18
+PROD00263,Anything Dumbbell,Sports,Dumbbell,Weber and Sons,"Gonzalez, Perry and Alexander",333.11,968.38,376,3.9,2025-05-08
+PROD00264,Third Chair,Home,Chair,Macdonald Group,"Johnson, Gutierrez and Martinez",117.22,497.89,32,2.1,2025-11-12
+PROD00265,Music Shirt,Fashion,Shirt,Garcia and Sons,Payne-Bell,337.61,527.53,405,2.4,2024-10-09
+PROD00266,Style Perfume,Beauty,Perfume,Glenn LLC,Edwards-Hood,441.96,59.11,332,2.3,2023-12-16
+PROD00267,Cell Dumbbell,Sports,Dumbbell,Rocha-Jordan,Bailey PLC,416.53,838.17,134,3.3,2025-05-21
+PROD00268,Nature Football,Sports,Football,Boyd PLC,Aguilar Inc,194.56,390.95,300,3.6,2024-01-09
+PROD00269,Describe Tablet,Electronics,Tablet,Nguyen LLC,Hale and Sons,133.28,973.22,114,3.1,2024-07-12
+PROD00270,Various Table,Home,Table,Foster Inc,"Hammond, Carlson and Thomas",248.56,492.47,309,1.0,2023-09-06
+PROD00271,Send Shoes,Fashion,Shoes,Long PLC,Winters-Yates,91.15,95.55,329,2.1,2024-07-17
+PROD00272,Pm Shirt,Fashion,Shirt,"Hawkins, Perry and Jones",Carrillo Group,87.11,609.98,418,1.5,2024-05-03
+PROD00273,Water Shoes,Fashion,Shoes,"Johnson, Brown and Walker","Delgado, Davis and Morris",407.47,725.85,246,3.7,2026-03-30
+PROD00274,Glass Cream,Beauty,Cream,Atkins Group,"Marshall, Jones and Clark",299.49,654.31,210,1.1,2023-11-23
+PROD00275,Industry Laptop,Electronics,Laptop,Pena-Evans,"Frederick, Daugherty and Jones",291.01,177.91,322,3.1,2023-09-26
+PROD00276,Seek Football,Sports,Football,Riley-Jensen,"Thompson, Allison and Russell",37.4,273.09,92,3.1,2025-11-06
+PROD00277,Behind Makeup,Beauty,Makeup,Mason-Garcia,Murray-Wagner,484.93,644.87,449,3.9,2023-10-20
+PROD00278,Around Chair,Home,Chair,"Garcia, Stevens and Williams",Perez-Sampson,116.13,614.4,241,4.5,2024-10-08
+PROD00279,Color Shirt,Fashion,Shirt,Robinson-Velez,Owens Inc,416.88,608.82,406,3.3,2025-11-23
+PROD00280,Up Jacket,Fashion,Jacket,Harding-Powers,"Benson, Parker and Vega",333.23,279.23,370,3.7,2023-08-10
+PROD00281,Hand Makeup,Beauty,Makeup,Green Ltd,Huang Inc,299.39,245.22,197,1.5,2024-12-14
+PROD00282,Across Laptop,Electronics,Laptop,Powers-Klein,Blevins-Jones,266.13,911.15,350,2.7,2023-12-08
+PROD00283,Say Jacket,Fashion,Jacket,Valencia-Park,"Jones, Moody and Lewis",57.19,486.35,314,3.4,2025-11-13
+PROD00284,Lawyer Dumbbell,Sports,Dumbbell,Price-Strickland,"Jones, Li and Fleming",378.67,111.33,337,1.5,2025-02-28
+PROD00285,Choose Dumbbell,Sports,Dumbbell,"Parker, Taylor and Garcia",Vega Ltd,415.49,899.03,396,3.7,2025-04-09
+PROD00286,Least Makeup,Beauty,Makeup,Pratt LLC,Hunter Inc,216.14,877.33,357,3.1,2025-05-30
+PROD00287,Dark Shoes,Fashion,Shoes,Crawford-Brewer,Stewart Group,396.88,393.61,301,4.2,2023-11-03
+PROD00288,Event Football,Sports,Football,"Johnson, Marquez and Estrada",Cervantes Group,218.49,269.43,392,1.9,2024-09-22
+PROD00289,None Phone,Electronics,Phone,Weeks-Chaney,Little and Sons,303.16,552.86,131,1.8,2024-12-11
+PROD00290,Color Tablet,Electronics,Tablet,"Collins, Wilson and Clark",Smith LLC,266.04,529.37,192,3.6,2023-08-12
+PROD00291,Admit Table,Home,Table,"Wright, Mitchell and Howell",Wilson-Mejia,187.51,171.68,333,3.3,2024-04-14
+PROD00292,Newspaper Lamp,Home,Lamp,Moran Ltd,Jones-Harris,217.55,378.33,141,5.0,2023-07-20
+PROD00293,Enjoy Cream,Beauty,Cream,Anderson-Zhang,"Freeman, Stokes and Trujillo",212.48,788.11,247,1.7,2023-11-10
+PROD00294,Do Dumbbell,Sports,Dumbbell,Holder-Cruz,Cannon and Sons,247.04,988.74,295,2.4,2025-06-02
+PROD00295,See Makeup,Beauty,Makeup,Smith-Estes,"Gaines, Mitchell and Dalton",77.65,866.55,60,4.0,2024-09-03
+PROD00296,Trial Makeup,Beauty,Makeup,Thomas-Boyd,"Smith, Rojas and Hamilton",475.13,118.27,260,2.6,2026-04-22
+PROD00297,Radio Lamp,Home,Lamp,Gomez-Chase,Nichols Group,310.87,690.87,26,1.6,2025-01-20
+PROD00298,Night Laptop,Electronics,Laptop,"Padilla, Gutierrez and Knight",Conner-Hansen,413.4,482.24,307,2.7,2025-07-17
+PROD00299,Prevent Phone,Electronics,Phone,Hernandez-Cox,"Briggs, Cunningham and Gilmore",118.67,98.44,19,3.9,2024-08-08
+PROD00300,Risk Makeup,Beauty,Makeup,Brown and Sons,Jackson and Sons,331.53,300.74,493,3.4,2024-06-30

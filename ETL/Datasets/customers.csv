@@ -1,0 +1,1001 @@
+customer_id,first_name,last_name,gender,age,email,phone,city,state,country,signup_date,loyalty_tier,preferred_channel
+CUST00001,Cindy,Page,Other,25,dennisrose@brewer.com,803-287-3506x63206,Johnsonbury,Arizona,USA,2022-06-11,Silver,In-Store
+CUST00002,David,Juarez,Female,33,monique15@gmail.com,621-958-3122,Taylorside,New Hampshire,USA,2024-07-04,Silver,Web
+CUST00003,Melissa,Ward,Other,24,davidlucero@brown-williams.org,001-139-474-9690x8004,Carolview,Iowa,USA,2023-05-23,Platinum,In-Store
+CUST00004,Andrew,Fisher,Other,23,carrollmatthew@johnston-bishop.com,973.948.4448x6291,East Keithberg,Maryland,USA,2022-11-14,Platinum,Mobile App
+CUST00005,Samantha,Johnson,Male,19,hking@preston.com,(674)952-5787x276,Davidtown,Colorado,USA,2021-05-16,Silver,Web
+CUST00006,Katrina,Shepard,Male,50,idavies@hotmail.com,+1-532-222-7948x29760,North Christopherport,Florida,USA,2025-09-12,Platinum,Web
+CUST00007,Joseph,Bryant,Other,30,coopersteve@barber-wilson.com,(519)797-9664x6738,Tracifort,Alabama,USA,2021-08-23,Platinum,In-Store
+CUST00008,Phyllis,Brown,Other,52,whall@gmail.com,001-121-913-5714,Nicholasmouth,Pennsylvania,USA,2022-05-06,Gold,Web
+CUST00009,Christopher,Baker,Female,55,caseylori@hotmail.com,019-001-5175x06670,Wrightshire,Utah,USA,2025-03-06,Gold,Web
+CUST00010,Cesar,Schmidt,Male,62,wdodson@gmail.com,+1-376-792-5468x647,Port Danielle,South Dakota,USA,2023-10-30,Gold,Mobile App
+CUST00011,Christopher,Sanchez,Female,27,davisdavid@stevens-garcia.biz,9953898429,Arielfurt,Iowa,USA,2024-04-26,Silver,Mobile App
+CUST00012,Jonathan,Larson,Male,23,ryanmiranda@yahoo.com,880.178.9721,North Jessica,Nebraska,USA,2023-01-17,Gold,Web
+CUST00013,Amber,Smith,Female,40,john29@gmail.com,976-398-7661,East Kaitlyn,New Hampshire,USA,2026-02-26,Platinum,Mobile App
+CUST00014,Carrie,White,Male,64,mcooper@scott.org,(525)246-8944,Dianaview,Vermont,USA,2023-07-11,Gold,In-Store
+CUST00015,Cheryl,Jones,Male,42,mosleyjoshua@morris-perry.com,765.578.0497x68530,South Thomas,Virginia,USA,2021-09-19,Silver,In-Store
+CUST00016,Elizabeth,Stanton,Female,58,veronica46@martinez.com,557-116-5837,Rebeccabury,Tennessee,USA,2023-07-11,Platinum,Mobile App
+CUST00017,Robert,Ross,Other,30,ianderson@jordan.com,(479)978-0691,Lake Jaymouth,Massachusetts,USA,2024-11-06,Platinum,Web
+CUST00018,Aaron,Bonilla,Male,60,randygonzales@johnson.info,001-991-780-5596,Lewisborough,California,USA,2022-07-19,Silver,Mobile App
+CUST00019,Benjamin,Randolph,Male,32,shermanjames@daniels.org,539-304-9750x2437,Juanfurt,Utah,USA,2023-01-30,Silver,Mobile App
+CUST00020,Paul,Clark,Female,47,jorgebuchanan@thomas.info,001-009-526-5165x98112,Parkerbury,Connecticut,USA,2023-12-09,Platinum,Mobile App
+CUST00021,Kyle,Collins,Male,41,laurenbrown@martinez.com,(178)953-2860x048,Ethanberg,West Virginia,USA,2021-12-02,Gold,Web
+CUST00022,Toni,Henry,Other,35,william80@gmail.com,321-844-4695,Fernandezchester,Vermont,USA,2025-11-24,Platinum,In-Store
+CUST00023,Thomas,Hatfield,Other,22,jaimedelgado@middleton.org,546-056-6974x67441,Robertmouth,Alabama,USA,2024-04-30,Platinum,In-Store
+CUST00024,Patricia,Ramirez,Male,52,tracycolon@miller-gardner.com,+1-060-332-0999x601,Danielleview,New York,USA,2024-01-25,Platinum,Web
+CUST00025,Kathryn,Roman,Male,47,gnelson@west.info,+1-161-941-4615x58564,South Jessicafort,Texas,USA,2022-02-24,Gold,Mobile App
+CUST00026,Jessica,Raymond,Other,62,kelsey68@thomas.com,856.623.1753x35493,Lake Rodneyside,Hawaii,USA,2022-07-22,Platinum,Web
+CUST00027,Kurt,Johnson,Other,38,elizabeth45@eaton.com,537-366-8499x1768,Lake Jessica,New Mexico,USA,2025-03-20,Silver,Web
+CUST00028,Misty,Jackson,Male,69,terrellbrian@yahoo.com,(586)307-2948x514,Webbmouth,Idaho,USA,2024-01-05,Gold,Mobile App
+CUST00029,John,Nguyen,Female,22,brendagomez@gross.biz,366-092-3471x68037,Andersonview,Washington,USA,2021-06-10,Silver,In-Store
+CUST00030,Ryan,Cummings,Other,38,rsmith@hotmail.com,7042214586,Castillomouth,Michigan,USA,2021-09-17,Silver,In-Store
+CUST00031,Samuel,Bryant,Female,43,millerdavid@leonard.com,001-626-180-7705x383,Port Sarah,Nebraska,USA,2023-03-19,Platinum,Mobile App
+CUST00032,Alex,Kelley,Male,34,ksmith@gmail.com,+1-650-940-3928x324,Codyberg,Minnesota,USA,2026-01-18,Silver,Web
+CUST00033,Marc,Lin,Other,53,wilsonjasmin@young-lambert.biz,991.959.0545x0380,Joshuabury,Arkansas,USA,2026-01-08,Platinum,Mobile App
+CUST00034,Karen,Perez,Other,55,spencerwilliams@hotmail.com,001-210-654-2017,North Christie,West Virginia,USA,2022-09-27,Gold,In-Store
+CUST00035,Paul,Payne,Female,41,lisamartin@gmail.com,001-490-366-2698,Heathermouth,Georgia,USA,2025-04-23,Silver,Web
+CUST00036,Brad,Lopez,Other,49,christopher15@gmail.com,(828)865-2118x56809,New Robert,New Hampshire,USA,2024-12-26,Silver,Web
+CUST00037,Tonya,Nixon,Male,27,vmelendez@montes.com,001-139-854-2525,Larsenberg,Pennsylvania,USA,2022-09-28,Platinum,Web
+CUST00038,Thomas,Burns,Other,45,staceyzamora@sanchez.biz,246-444-8534x47561,South Michelle,Delaware,USA,2021-10-18,Platinum,Web
+CUST00039,Alyssa,Collier,Female,42,kristenjohnson@miller-brown.com,001-865-357-3097x847,West Robertshire,New Jersey,USA,2024-10-16,Platinum,Mobile App
+CUST00040,Sheila,Allen,Other,34,richardwilliams@yahoo.com,+1-962-946-7450x89053,North Eric,Hawaii,USA,2023-02-14,Platinum,Web
+CUST00041,Duane,Taylor,Other,64,kristenayers@perkins.net,999.968.5243x63246,Ashleebury,Indiana,USA,2022-12-07,Silver,In-Store
+CUST00042,Robert,Lane,Other,66,fhernandez@hotmail.com,(167)905-1516x545,Christopherside,Minnesota,USA,2026-04-02,Gold,In-Store
+CUST00043,Deanna,Townsend,Female,25,cwilliams@gibbs.com,516.647.1116,Curryland,Wisconsin,USA,2024-04-29,Gold,Mobile App
+CUST00044,Jesse,Brooks,Male,47,lori43@salazar.com,001-721-889-1105x802,Brownfurt,Minnesota,USA,2022-05-02,Silver,In-Store
+CUST00045,Patrick,Kelly,Other,34,kyoung@perkins-hawkins.com,466.540.8592x764,East Tony,Utah,USA,2021-07-20,Platinum,Web
+CUST00046,Maurice,Mercado,Other,24,smcguire@gmail.com,(663)325-4493,Port Kevinshire,Virginia,USA,2022-09-15,Platinum,Mobile App
+CUST00047,Kelly,Crane,Other,50,trandylan@gmail.com,+1-064-010-5793x7883,South Allison,South Dakota,USA,2024-01-20,Platinum,Web
+CUST00048,Ethan,Morrison,Male,41,longcraig@young.net,(550)392-0562x875,Kaylaberg,Massachusetts,USA,2023-07-11,Silver,In-Store
+CUST00049,Patricia,Phillips,Other,18,spearskaren@gmail.com,418-037-0882x871,Burkefort,Rhode Island,USA,2024-08-31,Platinum,Mobile App
+CUST00050,Elizabeth,Gilmore,Female,19,littleandrew@yahoo.com,+1-377-761-7605x684,Houstontown,Nevada,USA,2022-04-12,Silver,Mobile App
+CUST00051,Joshua,Garrett,Female,33,aadams@williams.com,127-623-2610x090,East Jason,Minnesota,USA,2026-03-21,Silver,Web
+CUST00052,Derek,Thomas,Other,23,knelson@cardenas-carlson.net,001-465-940-3329x016,New Evelyn,Washington,USA,2024-10-08,Silver,In-Store
+CUST00053,Sara,Cruz,Female,70,robinsonlisa@rosario.info,(267)380-5706,West Lindsey,Missouri,USA,2022-03-24,Silver,In-Store
+CUST00054,Tonya,Pace,Male,26,mherrera@walters.com,191.497.4837x80934,New Karaville,Maine,USA,2023-09-28,Platinum,Mobile App
+CUST00055,Emily,Johnson,Other,28,jamesmurphy@hotmail.com,275.316.3028x428,Lake David,Colorado,USA,2024-06-13,Gold,In-Store
+CUST00056,Kevin,Williams,Other,45,anna34@gmail.com,001-094-702-2295x71422,Christieport,North Carolina,USA,2022-11-26,Silver,In-Store
+CUST00057,Ashley,Hale,Other,62,lsharp@reese-watson.info,844.985.3512,Harrisland,Tennessee,USA,2023-02-06,Silver,In-Store
+CUST00058,Toni,Williams,Female,43,travis83@hoffman.biz,878.884.6971x419,Roseland,Missouri,USA,2023-04-08,Platinum,In-Store
+CUST00059,Sydney,Lin,Female,46,nkent@chavez.info,(980)737-0302x6431,Marieberg,Nebraska,USA,2024-12-26,Platinum,Mobile App
+CUST00060,Alexander,Taylor,Male,33,ronnie85@phillips.com,837.640.8880x361,Sandraview,Iowa,USA,2025-09-17,Silver,Web
+CUST00061,Deborah,Evans,Female,19,jenniferjohnson@crawford-king.com,2694214921,Sandraberg,Oregon,USA,2025-06-22,Platinum,In-Store
+CUST00062,Rebecca,Obrien,Male,55,mollycarlson@gmail.com,017-308-3321x66451,Lake Christopherville,Idaho,USA,2024-10-03,Silver,Web
+CUST00063,Carlos,Meyer,Male,63,xcarlson@hickman.org,720.702.3446,Joshuachester,Texas,USA,2022-01-05,Platinum,Web
+CUST00064,Charles,Pierce,Male,22,lzhang@yahoo.com,(622)711-4979x998,Colemanfurt,Maine,USA,2022-07-07,Silver,Mobile App
+CUST00065,John,Mcclain,Male,50,cynthiamorris@yahoo.com,001-663-408-9527x7751,Jamesview,Oregon,USA,2024-02-07,Silver,Mobile App
+CUST00066,Thomas,Delacruz,Other,49,tricia33@rios.com,001-883-123-1978x8604,Kennethtown,Missouri,USA,2024-08-22,Silver,In-Store
+CUST00067,Cindy,Proctor,Male,64,davismike@yahoo.com,(394)081-3517x08089,Davidfurt,New Jersey,USA,2022-01-05,Platinum,In-Store
+CUST00068,Andrew,Gardner,Female,33,ashlee98@yahoo.com,6915870688,South Dawn,Pennsylvania,USA,2022-05-18,Gold,Mobile App
+CUST00069,Bruce,Perkins,Male,24,allenlaura@yahoo.com,+1-477-714-3876,East Laurafort,Rhode Island,USA,2023-12-28,Silver,In-Store
+CUST00070,Pamela,Mccormick,Female,40,ashleymarshall@meyer.com,+1-185-735-0342x02057,East Alexanderhaven,Arizona,USA,2025-07-27,Gold,Mobile App
+CUST00071,Blake,Alvarez,Female,64,xweaver@mitchell.com,325-118-8685,Port Andrewton,Oklahoma,USA,2024-01-01,Silver,In-Store
+CUST00072,Wesley,Mann,Other,59,tranteresa@gmail.com,527-659-1644,Port Monicabury,Massachusetts,USA,2026-02-16,Silver,Web
+CUST00073,Peter,Stewart,Female,64,lwatkins@gmail.com,(952)923-1841x818,Ramirezberg,Virginia,USA,2021-09-29,Gold,Web
+CUST00074,Stephanie,Gonzales,Male,30,finleydaniel@hotmail.com,(546)718-7006x5691,Lake Karen,Utah,USA,2023-06-08,Silver,In-Store
+CUST00075,Brian,Wood,Female,26,andrea39@yahoo.com,+1-330-153-4481,Ramosland,Alaska,USA,2021-08-04,Gold,Web
+CUST00076,Gregory,Smith,Female,47,sally87@hotmail.com,+1-253-261-6712x563,New Georgetown,Oklahoma,USA,2026-03-09,Silver,Web
+CUST00077,Donald,Ford,Female,69,jholmes@scott.com,977-985-2534x760,New Christieberg,South Carolina,USA,2022-12-23,Platinum,Web
+CUST00078,Richard,Smith,Male,59,haynesryan@lee.info,001-581-825-0552x8542,Port Jeremymouth,North Carolina,USA,2025-10-06,Platinum,Web
+CUST00079,Vernon,Salazar,Male,66,dylanmcbride@thompson-allison.biz,509-418-3626x243,Lake Matthew,Colorado,USA,2022-03-27,Silver,Web
+CUST00080,Rita,Hale,Female,49,stevenswesley@hotmail.com,9003029507,Michaelborough,Kentucky,USA,2025-12-16,Gold,Web
+CUST00081,Richard,Reynolds,Female,21,bryanmindy@yahoo.com,712.848.8895,West Emily,Montana,USA,2024-10-18,Silver,Mobile App
+CUST00082,Tony,Smith,Male,42,benjaminricky@thompson.org,(925)006-6045,West Jasonhaven,Vermont,USA,2022-05-23,Gold,Mobile App
+CUST00083,Cameron,Love,Female,45,william30@wells.com,001-419-771-1914x08513,South Lindamouth,West Virginia,USA,2026-04-16,Platinum,In-Store
+CUST00084,Robert,Harris,Other,60,smithsummer@hotmail.com,877.281.1027x61040,Mariafort,Iowa,USA,2025-01-16,Platinum,Mobile App
+CUST00085,Jill,Holmes,Male,30,marshallsarah@yahoo.com,048.551.7393x9028,North Michelleport,Iowa,USA,2023-04-14,Gold,Web
+CUST00086,Jeanette,Medina,Male,55,kaitlinkrause@reed.com,0587919677,North Jacob,Missouri,USA,2026-04-21,Platinum,In-Store
+CUST00087,Timothy,Ramirez,Male,65,vschmidt@gmail.com,001-548-139-3833x23640,Port Ann,Washington,USA,2025-02-18,Gold,Web
+CUST00088,Robert,Sutton,Male,55,jcollins@gmail.com,+1-997-825-9465x402,Marshallside,Rhode Island,USA,2025-07-01,Gold,In-Store
+CUST00089,James,Smith,Other,28,timothy46@gmail.com,184-838-2287x3746,Danielleview,Arkansas,USA,2021-09-06,Silver,In-Store
+CUST00090,Brianna,Carr,Male,29,parkanthony@jimenez.biz,+1-802-271-3206,North Pamela,Florida,USA,2022-02-09,Silver,In-Store
+CUST00091,Jerome,Villa,Male,61,lparker@hart.biz,778-139-9456x285,South Wandafort,Virginia,USA,2025-07-01,Silver,Mobile App
+CUST00092,Craig,Barber,Male,54,smitheric@gmail.com,108.540.7429x25741,Rachelbury,South Carolina,USA,2026-04-06,Silver,In-Store
+CUST00093,Stacy,Martinez,Other,20,edwingordon@yahoo.com,(738)991-1374x544,Douglasshire,Maine,USA,2024-05-18,Platinum,Web
+CUST00094,Carrie,Jones,Female,60,patrick07@yahoo.com,+1-860-405-2004x702,Smithmouth,South Dakota,USA,2022-12-06,Platinum,In-Store
+CUST00095,Alicia,Reynolds,Other,38,raymondfernandez@valdez.biz,5430827465,Dianahaven,Iowa,USA,2025-04-30,Gold,Web
+CUST00096,Ashley,Tucker,Other,63,debrarobbins@chandler.biz,344.678.4862,Robertmouth,Maryland,USA,2021-10-30,Gold,Web
+CUST00097,Linda,Harding,Female,43,jill63@gmail.com,200.195.1887,Port Dustin,Idaho,USA,2024-11-24,Silver,In-Store
+CUST00098,Mark,Brown,Other,37,anthony71@alvarez.org,001-506-384-7242x824,New Lauren,Vermont,USA,2025-11-29,Gold,Mobile App
+CUST00099,John,Bell,Male,18,andrea75@owens.info,+1-192-813-9908,East Jennifermouth,Wisconsin,USA,2024-10-11,Gold,In-Store
+CUST00100,Kimberly,Ross,Other,24,robert87@fields.com,554.272.3084,Cochranfort,Colorado,USA,2022-05-31,Silver,In-Store
+CUST00101,Nicole,Garcia,Male,50,bryce54@hotmail.com,365-029-0008x75582,Port Davidmouth,North Carolina,USA,2026-01-08,Gold,Web
+CUST00102,Bobby,Porter,Female,22,glennrobert@gmail.com,265-306-8557,West Jason,Michigan,USA,2022-05-21,Silver,Mobile App
+CUST00103,Megan,Ramirez,Female,28,lriley@myers-smith.com,899-297-3938,Lake Kathleenchester,Montana,USA,2023-10-30,Gold,In-Store
+CUST00104,Adrian,Scott,Other,37,hawkinsveronica@lee-ruiz.com,001-194-376-9908x173,Petersonbury,Louisiana,USA,2021-07-25,Platinum,In-Store
+CUST00105,Christina,Villarreal,Other,18,anna48@navarro-richardson.org,351-673-8557x4741,Christopherburgh,New Hampshire,USA,2024-07-27,Platinum,In-Store
+CUST00106,Teresa,Smith,Female,60,elizabeth07@gmail.com,8473410951,Singletonbury,Florida,USA,2022-06-07,Silver,Web
+CUST00107,Lucas,Smith,Female,25,scottfigueroa@white.com,939.009.4039x74052,Huffmanshire,Texas,USA,2025-07-22,Silver,In-Store
+CUST00108,Justin,Johnson,Other,27,nicholssteven@gmail.com,+1-707-432-3654x825,Riverabury,Maine,USA,2023-11-22,Gold,Mobile App
+CUST00109,Theresa,Brown,Other,31,figueroagabriel@byrd.com,539.330.0103,Middletonborough,Hawaii,USA,2023-08-20,Platinum,Mobile App
+CUST00110,Jose,Paul,Male,61,trevor90@price-flores.biz,257.257.6339,North Matthewbury,Vermont,USA,2024-12-09,Platinum,Mobile App
+CUST00111,Kristin,Andrews,Other,49,pjohnson@hotmail.com,567-350-3279x122,Adamsburgh,Colorado,USA,2023-01-26,Gold,Web
+CUST00112,Kristen,Duarte,Male,58,mary72@yahoo.com,001-449-072-6920x1142,East Curtisshire,Utah,USA,2025-03-03,Gold,Mobile App
+CUST00113,Fred,Powell,Male,18,morgansmith@hotmail.com,696-070-7480x041,Richland,Rhode Island,USA,2021-09-11,Gold,Web
+CUST00114,Meghan,Huang,Other,34,george24@gmail.com,021-232-2567,North Kathryn,South Carolina,USA,2025-04-30,Silver,In-Store
+CUST00115,Gail,Ware,Female,53,lindsaywilson@garrison-lutz.com,509.046.6707x54864,West Alexandermouth,Nebraska,USA,2022-05-08,Platinum,Mobile App
+CUST00116,Karen,Jenkins,Other,18,lindsey87@hotmail.com,441-792-2341x816,Mackenziebury,Washington,USA,2024-05-17,Silver,Web
+CUST00117,Amy,Adams,Other,27,mclark@gmail.com,(355)738-5201,Edwardsmouth,Iowa,USA,2022-10-02,Platinum,Web
+CUST00118,Stephanie,Foley,Female,55,thomasadam@yahoo.com,+1-517-665-1220,Maryborough,New Mexico,USA,2022-02-23,Platinum,Web
+CUST00119,David,Curry,Female,26,cynthia29@guerrero.com,720-729-7837,West Donaldville,Maine,USA,2022-05-16,Silver,Mobile App
+CUST00120,Melanie,White,Female,68,william09@hotmail.com,001-016-090-8546x598,Port Steven,Iowa,USA,2023-07-14,Silver,Mobile App
+CUST00121,Monica,Smith,Male,61,joneslori@gmail.com,001-962-906-3592,East Johntown,Florida,USA,2023-03-30,Silver,In-Store
+CUST00122,Megan,Garrison,Male,40,taylorashley@gmail.com,001-270-262-0831,Markfort,North Carolina,USA,2025-01-24,Platinum,Mobile App
+CUST00123,Meagan,Cortez,Other,65,vangmatthew@turner.com,001-978-410-7282x9301,Port Natalie,Delaware,USA,2025-07-05,Silver,Web
+CUST00124,Colleen,Harper,Male,69,lisawood@preston.com,+1-769-532-4743x9500,Priscillaton,West Virginia,USA,2022-10-02,Silver,Mobile App
+CUST00125,Nancy,Edwards,Male,29,iperkins@serrano-duke.info,001-924-323-6678x162,Greenburgh,Colorado,USA,2022-07-08,Platinum,Mobile App
+CUST00126,Dominique,Young,Female,69,denisediaz@richardson.biz,348.581.5051x0410,Russellfurt,Colorado,USA,2023-02-02,Platinum,In-Store
+CUST00127,Pamela,Washington,Male,35,jack90@gmail.com,001-789-563-5168x79235,Sarahland,Nebraska,USA,2025-10-04,Silver,In-Store
+CUST00128,Jesus,Newman,Male,42,jeffrey33@hotmail.com,+1-608-830-2622x586,Youngfurt,Oregon,USA,2021-09-24,Silver,Mobile App
+CUST00129,Michael,Gonzalez,Male,30,hamiltonmary@chavez.net,001-657-181-3546x70479,Pooleshire,Oklahoma,USA,2023-05-29,Gold,Mobile App
+CUST00130,Dana,Johnson,Female,70,nhamilton@nolan.org,(657)589-1858,Leeburgh,Wyoming,USA,2023-03-15,Silver,Web
+CUST00131,Susan,Hamilton,Male,60,leah68@hotmail.com,001-247-408-2507x43936,South Jenniferfurt,Tennessee,USA,2023-08-20,Silver,Mobile App
+CUST00132,Marilyn,Thomas,Female,35,galvankatherine@gonzalez.com,001-596-007-1673x5079,Burgessbury,Connecticut,USA,2025-06-28,Silver,Mobile App
+CUST00133,Barbara,Miller,Female,59,waredaniel@johnson.com,960.686.8832,Murrayfort,Oklahoma,USA,2023-07-03,Platinum,Mobile App
+CUST00134,Anita,Li,Other,52,ryanshannon@yahoo.com,248-670-9957,Kellymouth,Florida,USA,2022-10-17,Gold,Web
+CUST00135,Steven,Stephens,Male,34,onelson@gmail.com,(872)128-3178x64631,South Stephanie,Idaho,USA,2024-09-23,Silver,In-Store
+CUST00136,Haley,Norton,Female,20,cummingssteven@yahoo.com,622-688-1929x9381,New Iantown,Texas,USA,2021-05-13,Silver,In-Store
+CUST00137,Holly,Hubbard,Female,40,ujohnson@wright-bryant.net,822.428.7691x727,Paigemouth,Colorado,USA,2023-08-19,Platinum,Mobile App
+CUST00138,Brendan,Ortiz,Female,56,jcraig@thompson-hill.com,(850)196-7335x926,West Sydney,Utah,USA,2024-10-02,Platinum,Web
+CUST00139,Tiffany,Bailey,Female,54,pdodson@yahoo.com,(096)861-6361x4979,Port Teresaberg,Alabama,USA,2023-10-24,Silver,Mobile App
+CUST00140,Donald,Bennett,Male,63,bsmith@gmail.com,001-032-643-8181x30835,Jessicamouth,Idaho,USA,2024-12-10,Gold,Web
+CUST00141,Peter,Williams,Other,69,gtucker@gmail.com,536.619.3796x296,Weberland,Alabama,USA,2021-10-16,Platinum,In-Store
+CUST00142,Rachel,Stark,Other,65,richard02@gmail.com,001-294-354-8571x382,Port Teresaborough,North Dakota,USA,2025-03-26,Platinum,In-Store
+CUST00143,John,Horn,Male,41,kyle48@hotmail.com,(543)295-8854,Port Stephenchester,Kentucky,USA,2022-08-24,Gold,Web
+CUST00144,Jacqueline,Tapia,Other,39,mdonovan@jones-wells.com,359-461-1098x73573,Chapmanchester,Idaho,USA,2023-07-29,Platinum,Mobile App
+CUST00145,Michael,Gutierrez,Other,25,patrickpratt@gmail.com,448-593-8836x385,Brendaton,Nebraska,USA,2021-05-26,Platinum,Mobile App
+CUST00146,Rebekah,Horn,Other,37,emiller@hotmail.com,681-004-4204x961,Port Tanner,Montana,USA,2024-12-29,Platinum,Mobile App
+CUST00147,Jane,Howard,Female,43,phowell@caldwell.org,001-610-033-8250x142,Anthonyside,Oklahoma,USA,2024-01-25,Platinum,Mobile App
+CUST00148,William,Gallagher,Other,26,salazarlance@gmail.com,+1-120-269-5388x40002,Bakerville,South Carolina,USA,2023-05-13,Silver,Mobile App
+CUST00149,Michael,Reed,Other,42,seth27@grimes-moon.biz,(758)762-6006,East Jeffrey,Vermont,USA,2025-04-03,Platinum,In-Store
+CUST00150,Daniel,Cummings,Male,57,bonnie69@larson-carter.com,(390)610-8008x0460,Orrside,Delaware,USA,2022-06-01,Platinum,Mobile App
+CUST00151,James,Adams,Female,53,sherry59@jensen.com,+1-885-389-0739x9100,North Richardburgh,Tennessee,USA,2022-05-02,Silver,Mobile App
+CUST00152,Joseph,Escobar,Female,31,johnmason@best.biz,+1-374-604-8319,Brownfurt,Montana,USA,2024-09-09,Gold,In-Store
+CUST00153,Leah,Stanley,Other,59,crobbins@jackson.com,(471)018-2435,Tracifort,Missouri,USA,2024-03-14,Gold,Mobile App
+CUST00154,Amanda,Pena,Female,46,jhill@harrison-ward.com,001-077-750-5752x189,West Jeremiahview,Massachusetts,USA,2024-08-29,Platinum,Web
+CUST00155,Steven,Fisher,Other,48,karenanderson@yahoo.com,001-947-284-2775,Christinaland,Kansas,USA,2024-12-29,Platinum,Web
+CUST00156,Heather,Rodriguez,Other,23,rebeccamejia@yahoo.com,001-138-392-5678,Anthonystad,Arizona,USA,2025-08-16,Gold,In-Store
+CUST00157,Robin,Burton,Other,58,irichards@gmail.com,702-177-0530x2175,New Summer,Washington,USA,2021-07-18,Platinum,Mobile App
+CUST00158,Jeremy,Wilson,Male,70,qkirk@roberson.com,(272)699-1370,Christinashire,North Carolina,USA,2024-08-01,Silver,In-Store
+CUST00159,Sean,Kerr,Female,32,dennisnguyen@delgado.info,359.755.1987x6354,Edwardside,Oklahoma,USA,2024-08-25,Silver,Web
+CUST00160,Thomas,Paul,Male,20,chelseagill@gomez.net,(390)711-7966x13670,West Shawn,Montana,USA,2026-01-23,Silver,Mobile App
+CUST00161,Joseph,Perry,Other,67,hernandezmatthew@steele-pollard.biz,001-335-770-1481x7639,East Katherinetown,Nebraska,USA,2026-05-03,Silver,Mobile App
+CUST00162,Colleen,Jones,Female,58,matthew95@gmail.com,197-881-0723x701,Christinastad,Massachusetts,USA,2021-08-13,Platinum,Web
+CUST00163,Rose,Garcia,Other,62,donaldbrown@gomez.com,978-554-9022,Petersside,Kentucky,USA,2025-05-06,Gold,Mobile App
+CUST00164,Peter,Lee,Female,33,taylordarryl@gmail.com,001-608-499-2288x29425,Aprilstad,Washington,USA,2022-03-20,Silver,In-Store
+CUST00165,Jessica,Zamora,Other,18,coopersean@david-anderson.info,001-032-488-1575,Blackwellborough,New Mexico,USA,2022-01-17,Silver,Mobile App
+CUST00166,Jacob,Allen,Male,29,fisherjoseph@hale.com,+1-485-059-8855,East John,Vermont,USA,2024-11-28,Platinum,In-Store
+CUST00167,Joseph,Atkinson,Female,21,colemanemily@matthews-pittman.net,859-153-6410,Port David,Florida,USA,2022-03-07,Platinum,Web
+CUST00168,Melinda,Lindsey,Male,47,calebblake@aguilar.com,6931760056,Elliottborough,New Jersey,USA,2022-10-22,Silver,Mobile App
+CUST00169,Lawrence,Guzman,Other,51,sotoautumn@martinez.com,9160986278,Lake Gregoryville,Vermont,USA,2021-06-30,Platinum,In-Store
+CUST00170,Jeff,Norris,Female,66,jacobscharles@hotmail.com,938.436.0154,Geraldfort,Kentucky,USA,2023-02-01,Gold,In-Store
+CUST00171,Kaitlyn,Flores,Other,50,krogers@simon.net,(262)514-4347x842,Port Rodneyberg,Wyoming,USA,2024-03-29,Gold,In-Store
+CUST00172,David,Hanna,Female,28,stewartthomas@hubbard-bradley.com,+1-376-176-4648x47921,Jameshaven,Louisiana,USA,2023-10-17,Platinum,Mobile App
+CUST00173,Anita,Brown,Female,34,wlynch@patton.biz,790.059.1535x6398,Michaelberg,Florida,USA,2026-01-29,Silver,In-Store
+CUST00174,Maria,Parks,Female,67,margaret55@gmail.com,460-116-8198,Sheilahaven,Arkansas,USA,2025-10-24,Platinum,Mobile App
+CUST00175,Timothy,Young,Other,33,kimberlyhancock@yahoo.com,834.097.2850x93017,West Marymouth,Georgia,USA,2026-03-07,Gold,Mobile App
+CUST00176,Jenny,George,Male,63,silvagina@hotmail.com,001-814-536-0304x5147,Catherineburgh,Louisiana,USA,2022-05-01,Gold,Web
+CUST00177,Heather,Copeland,Female,39,sharon08@yahoo.com,218-545-2079x78263,Elizabethbury,Florida,USA,2023-08-03,Gold,In-Store
+CUST00178,Michael,Jackson,Male,26,singram@oliver-farmer.biz,+1-946-124-8595x2136,East Suefurt,Utah,USA,2022-01-11,Silver,Web
+CUST00179,Morgan,Vance,Female,62,erin43@montoya-vega.com,+1-915-970-7953x68648,West Kara,Nevada,USA,2025-01-22,Silver,In-Store
+CUST00180,Shawn,Wolf,Male,22,tyler85@gmail.com,+1-244-365-8691,Kaylaborough,Utah,USA,2024-01-16,Gold,Mobile App
+CUST00181,William,Green,Female,52,kevin43@baird.com,865.317.0834,Lake Savannah,Alaska,USA,2024-10-21,Gold,Mobile App
+CUST00182,Kristy,Fox,Male,31,bryantwilliam@rivera.com,(336)594-5897x6573,Port Markville,Connecticut,USA,2026-03-24,Gold,Mobile App
+CUST00183,Heather,Sherman,Other,62,zjackson@nelson.com,516.899.7359x778,Lake Anthonychester,Idaho,USA,2021-06-14,Silver,In-Store
+CUST00184,Cynthia,Maxwell,Female,48,curtiskatherine@jones.org,5784609130,Robertville,Texas,USA,2022-08-15,Silver,Mobile App
+CUST00185,Susan,Harris,Female,66,hornmaria@oconnor.biz,+1-978-473-2128x86071,West Timothy,Delaware,USA,2022-10-18,Gold,Mobile App
+CUST00186,Samuel,Mooney,Other,65,richard73@hart.info,001-615-240-2650x63527,North Williamberg,Colorado,USA,2023-04-16,Platinum,In-Store
+CUST00187,Jessica,Conley,Other,32,frank05@yahoo.com,648-330-9703,Port Logan,New Mexico,USA,2021-10-20,Gold,Web
+CUST00188,Laura,Patterson,Female,45,brenda85@hotmail.com,+1-674-008-1155,Beckytown,Vermont,USA,2025-12-08,Gold,Web
+CUST00189,Karen,Gonzalez,Female,39,kristen12@gmail.com,057.806.4520x17527,Matthewberg,Kansas,USA,2023-04-20,Platinum,In-Store
+CUST00190,Ashley,Fletcher,Female,64,alexandra41@pope.com,(669)985-1065,East Rachel,South Dakota,USA,2025-06-05,Silver,Mobile App
+CUST00191,Kent,Cantu,Male,57,tasha98@costa-roman.com,607-024-2321x4802,Justinberg,Ohio,USA,2021-11-02,Platinum,Web
+CUST00192,Alejandra,Benton,Female,55,duanenewman@yahoo.com,001-718-898-8137x87865,New Sharon,Ohio,USA,2025-08-10,Platinum,In-Store
+CUST00193,Jackson,Pratt,Male,23,travis38@black.biz,+1-596-920-2371,Melissafurt,Nebraska,USA,2024-07-03,Platinum,Mobile App
+CUST00194,Sarah,Singleton,Male,47,kmartinez@ball.com,001-884-267-7806,Carlfurt,South Carolina,USA,2022-10-12,Silver,Web
+CUST00195,Jeremy,Robinson,Female,42,jbuckley@lynch.biz,+1-546-792-3604x85422,East Steve,Hawaii,USA,2021-10-20,Gold,Web
+CUST00196,Alexander,Wilson,Female,38,kelly65@king.com,+1-729-798-6425x57068,Jamesfort,Pennsylvania,USA,2021-07-04,Gold,Mobile App
+CUST00197,Brianna,Rose,Female,66,xmckinney@hotmail.com,2089587241,New Roberttown,Vermont,USA,2025-05-31,Gold,Mobile App
+CUST00198,Matthew,Wright,Male,48,smithrobert@smith.net,(689)367-0929,West Ryanport,Kansas,USA,2022-10-15,Silver,In-Store
+CUST00199,Matthew,Howell,Other,21,brittanyparker@sloan-preston.org,222.594.4523,East Michaelburgh,North Dakota,USA,2022-06-28,Gold,Web
+CUST00200,Kara,Porter,Other,22,michaelashaw@gmail.com,(840)376-2109,Espinozamouth,Ohio,USA,2025-02-25,Platinum,Web
+CUST00201,Brandi,James,Male,33,ralphpatel@gmail.com,+1-339-281-8077x2211,Kimberlymouth,Alaska,USA,2021-10-29,Silver,Web
+CUST00202,Gabriella,Rodriguez,Other,27,fmarshall@jones-franklin.com,001-812-198-4080x69121,East Kevinmouth,Texas,USA,2024-07-24,Silver,Web
+CUST00203,Joseph,Blair,Female,60,nwhitaker@gmail.com,335-835-0845,Port Trevor,North Dakota,USA,2023-05-20,Silver,In-Store
+CUST00204,James,Cannon,Male,47,wgonzalez@campbell.com,542-137-5704,Anthonytown,Michigan,USA,2026-04-27,Platinum,Mobile App
+CUST00205,Teresa,Moore,Female,28,kevinbaker@nichols.org,+1-044-037-7653x7092,Michaelland,Kentucky,USA,2022-03-10,Platinum,In-Store
+CUST00206,Mark,Hamilton,Other,63,davismelanie@gmail.com,+1-970-049-0949x864,Susanport,Arkansas,USA,2022-02-18,Silver,Web
+CUST00207,Mark,Keller,Female,24,coopersamantha@davis.com,(503)900-2993x970,Reedton,Iowa,USA,2025-11-15,Platinum,Web
+CUST00208,John,Robertson,Female,54,kjackson@mitchell-scott.com,(859)576-2948x5318,New Kathleen,Delaware,USA,2023-03-27,Platinum,Mobile App
+CUST00209,Ariel,Peters,Female,63,benjamin57@figueroa.org,175-521-7815,West Richard,Iowa,USA,2025-03-24,Silver,Web
+CUST00210,Jonathan,Hudson,Other,62,cantucarl@nicholson.info,+1-516-824-8495,North Tina,Washington,USA,2021-05-10,Platinum,Web
+CUST00211,Manuel,Beasley,Male,62,ijohnston@harper-francis.com,856.014.6275,Brandonbury,Kansas,USA,2023-09-28,Gold,In-Store
+CUST00212,Amber,Barnes,Other,69,rvang@fisher-harvey.com,(594)784-8392x4103,Darlenemouth,Kansas,USA,2024-04-05,Silver,In-Store
+CUST00213,Margaret,Taylor,Male,40,montgomerymarc@gmail.com,039.233.3200x9646,Petersonshire,Texas,USA,2022-02-01,Platinum,Mobile App
+CUST00214,David,Gonzales,Other,41,xcervantes@white.biz,(369)776-0910x37405,Williamburgh,Arizona,USA,2026-04-06,Silver,In-Store
+CUST00215,Alexa,Carter,Other,39,goodwinkristin@woodard-branch.net,(024)757-9177,Port Jennifer,Alaska,USA,2025-07-25,Silver,Mobile App
+CUST00216,Cindy,Armstrong,Female,24,stevenvaughn@bennett-christian.com,001-114-430-6724x20120,Samanthamouth,Illinois,USA,2024-05-19,Gold,Mobile App
+CUST00217,Cody,Morris,Other,47,scott46@lewis.org,6600586647,Jacobshire,Michigan,USA,2021-09-01,Platinum,Web
+CUST00218,Connie,Cox,Female,29,jonathan94@lewis.biz,738-740-5641x514,Mileshaven,Utah,USA,2023-11-06,Platinum,In-Store
+CUST00219,Christina,Juarez,Other,35,jeanneross@hotmail.com,681.456.6886x50939,Youngburgh,New Hampshire,USA,2022-05-09,Platinum,In-Store
+CUST00220,Amy,Wilson,Female,47,pricelarry@gmail.com,(738)377-6956x22350,Christineland,Oregon,USA,2024-04-04,Gold,In-Store
+CUST00221,Susan,Garza,Other,35,bakereric@yahoo.com,264-132-2100,Deannaville,Michigan,USA,2025-10-14,Gold,Web
+CUST00222,Peter,Vance,Male,35,dylan35@gmail.com,432.966.4811x963,Robertsville,Connecticut,USA,2025-01-19,Gold,Web
+CUST00223,Terri,Medina,Female,54,debrasingleton@gmail.com,001-367-577-6562x80088,Port Lisaberg,Kansas,USA,2021-06-01,Platinum,In-Store
+CUST00224,Isaiah,Rios,Female,39,joseph83@yahoo.com,001-674-267-0298,Debbiestad,Rhode Island,USA,2026-02-21,Silver,Mobile App
+CUST00225,Joseph,Potter,Female,29,phyllis46@hotmail.com,(114)844-6284x867,Howardfurt,Wyoming,USA,2021-07-06,Gold,Web
+CUST00226,Jonathan,Schmidt,Female,69,mary19@knight-frey.com,5107556930,Lisaview,California,USA,2024-05-01,Gold,Mobile App
+CUST00227,Lee,Olsen,Female,56,ddunn@mclaughlin-scott.org,822.227.3240x3762,Lake Vincentburgh,Wyoming,USA,2023-07-18,Platinum,Mobile App
+CUST00228,Kathryn,Gray,Other,18,bryan89@gmail.com,177-248-3897,East Brandy,Maryland,USA,2023-12-28,Platinum,Web
+CUST00229,Shawn,Richardson,Male,33,perrysusan@hotmail.com,+1-059-201-5323x8555,Port Taylorland,North Dakota,USA,2023-08-22,Platinum,Mobile App
+CUST00230,Jesse,Branch,Female,53,brandi89@gmail.com,960-782-5410x962,Davisberg,Kansas,USA,2024-06-27,Silver,In-Store
+CUST00231,Jeffery,Murray,Female,59,vdavis@holloway-best.com,768-128-6271x02419,Port Angelaside,Tennessee,USA,2021-07-07,Platinum,Mobile App
+CUST00232,Ryan,Fisher,Female,68,williamsrobert@hotmail.com,235.613.2582x6195,Martinezview,Missouri,USA,2022-06-05,Silver,Web
+CUST00233,Karina,Bartlett,Female,32,rdillon@hotmail.com,(126)451-1566,Howardberg,Minnesota,USA,2022-12-17,Gold,In-Store
+CUST00234,Dalton,Turner,Male,37,holly57@lowe.com,001-325-427-0288x20268,South Katherineburgh,Virginia,USA,2023-01-24,Platinum,In-Store
+CUST00235,Laurie,Blair,Female,48,thomassmith@soto-robinson.info,464.778.5060x2490,Fieldsport,Nebraska,USA,2023-06-26,Platinum,In-Store
+CUST00236,Jason,Cooper,Female,45,jamesbennett@yahoo.com,001-664-314-5104,New Nicholasstad,Hawaii,USA,2023-02-19,Platinum,In-Store
+CUST00237,Michael,Sampson,Female,40,hunterdenise@morales-bautista.com,(404)792-1636,Haynesmouth,Oklahoma,USA,2023-12-23,Platinum,Mobile App
+CUST00238,Lori,Duran,Female,37,athomas@castillo.com,749-028-8622x706,East Julia,Texas,USA,2026-03-31,Gold,Web
+CUST00239,Andrew,Williams,Male,64,james64@ibarra-young.com,001-254-190-1851x99997,Christinaland,Washington,USA,2023-12-30,Silver,Mobile App
+CUST00240,Rebekah,Thomas,Male,65,daniel07@vaughn.com,818.361.0617,North Nancy,Oregon,USA,2024-03-04,Platinum,In-Store
+CUST00241,Morgan,Henderson,Male,30,michaelbennett@hotmail.com,140.323.7512x264,Kimhaven,Ohio,USA,2025-07-28,Silver,In-Store
+CUST00242,Regina,Adams,Female,35,lalvarez@gmail.com,300.311.4142x6133,East Sandrafort,Florida,USA,2024-05-07,Platinum,In-Store
+CUST00243,Tina,Nguyen,Other,56,shannonwalton@yahoo.com,0538785552,Katrinaton,Iowa,USA,2025-06-12,Gold,Web
+CUST00244,Carly,Wong,Male,36,crystalramirez@yahoo.com,+1-939-170-7161,Browntown,Illinois,USA,2022-09-05,Silver,Mobile App
+CUST00245,Bryan,Bradley,Male,37,hwilliams@carroll.com,106.707.3633,Nicoletown,West Virginia,USA,2024-09-06,Silver,In-Store
+CUST00246,Michael,Swanson,Other,26,hayleybailey@yahoo.com,709.277.2181x3608,East Rebeccashire,Massachusetts,USA,2023-07-03,Gold,Web
+CUST00247,Crystal,Weber,Male,53,rodriguezryan@wheeler.info,+1-195-446-5080x0339,Davisbury,South Dakota,USA,2026-04-26,Gold,In-Store
+CUST00248,Christina,Cox,Male,58,ibrowning@yahoo.com,269.819.1668x6818,East Jonathanstad,Kentucky,USA,2025-03-15,Gold,Web
+CUST00249,Angela,Tucker,Male,54,amanda73@yahoo.com,(424)078-4235x30619,North Debra,Maine,USA,2024-01-31,Gold,Mobile App
+CUST00250,Neil,Smith,Female,46,coffeychristopher@hotmail.com,940.914.3099x480,New Jamesmouth,West Virginia,USA,2025-01-17,Gold,Web
+CUST00251,Mary,Lozano,Male,34,elijah01@sanchez.net,(845)043-3093x1211,Port Derrickchester,North Carolina,USA,2022-12-28,Gold,Web
+CUST00252,Christopher,Smith,Male,43,michelle44@fisher.com,001-678-517-7673,Samuelmouth,Nebraska,USA,2021-07-30,Gold,Web
+CUST00253,Todd,Brown,Other,58,tfry@williams.com,2267113972,East Amanda,Michigan,USA,2023-01-01,Platinum,Web
+CUST00254,Logan,Sutton,Male,27,steven76@mccullough-diaz.org,426.387.2910,Elizabethmouth,Hawaii,USA,2023-11-11,Platinum,Mobile App
+CUST00255,Leah,Murphy,Male,33,glendavis@caldwell.biz,184-821-0703x64298,Port Terri,Oregon,USA,2021-08-11,Silver,In-Store
+CUST00256,Emily,Farrell,Female,56,christopherbriggs@yahoo.com,294-659-8302,Joshuafurt,Pennsylvania,USA,2023-02-24,Platinum,In-Store
+CUST00257,Jason,Torres,Male,67,xrivera@hotmail.com,(583)767-0206x876,Clarkville,New Mexico,USA,2022-05-11,Platinum,Mobile App
+CUST00258,Tracy,Todd,Female,46,travisbryant@hotmail.com,(296)878-2779,Amandahaven,Rhode Island,USA,2021-09-28,Gold,In-Store
+CUST00259,Robert,Johnson,Female,37,laura94@wallace-jones.com,(812)873-7748,Lawrencetown,Louisiana,USA,2024-05-12,Platinum,In-Store
+CUST00260,Jonathan,Weber,Male,57,don86@gmail.com,507.143.6548,Guerreroland,Pennsylvania,USA,2024-04-19,Platinum,Web
+CUST00261,Frederick,Martin,Male,58,webbamber@yahoo.com,662-643-0915,Port Christine,Maryland,USA,2021-09-24,Silver,Mobile App
+CUST00262,Thomas,Carlson,Other,23,wellsjohn@gmail.com,(214)602-3787x07698,North Thomas,Wisconsin,USA,2022-07-06,Silver,Web
+CUST00263,Jesse,Thompson,Male,53,osbornregina@yahoo.com,001-607-102-8222x318,East Penny,Utah,USA,2022-01-09,Silver,Web
+CUST00264,Howard,Gallagher,Male,44,zmoore@dominguez-evans.com,(160)546-7466,Port Tonyfort,Virginia,USA,2025-10-12,Gold,In-Store
+CUST00265,David,Hurley,Other,48,ajones@neal.com,+1-800-365-2428x21097,East Jasmine,Alaska,USA,2023-09-09,Gold,Web
+CUST00266,Rebecca,Bailey,Male,36,brittany29@harrison-hunter.com,287-372-6115x4639,Marytown,Iowa,USA,2025-06-07,Platinum,Mobile App
+CUST00267,Patricia,Miller,Other,47,tracy79@cooper-potter.com,465-229-7403x95687,East Arthur,South Carolina,USA,2022-01-14,Silver,In-Store
+CUST00268,Michelle,Jones,Male,34,kathleengarcia@garcia-hatfield.info,(496)381-0437x5483,New Elizabeth,Ohio,USA,2021-05-21,Platinum,In-Store
+CUST00269,Kevin,Hernandez,Other,69,rodriguezmatthew@cochran.com,001-275-765-8180x5845,Barnetttown,Wyoming,USA,2024-01-25,Silver,Mobile App
+CUST00270,Sharon,Carter,Male,52,michael47@gmail.com,6240180652,Port Carolyn,Iowa,USA,2023-10-12,Silver,In-Store
+CUST00271,Alan,Scott,Male,35,jodibullock@hotmail.com,(864)005-1672x9018,South Karen,Connecticut,USA,2023-04-04,Silver,Web
+CUST00272,Kim,Kelly,Male,28,donaldsonjohn@mccann.info,517.471.1919x5553,South Sharon,Missouri,USA,2026-01-27,Gold,In-Store
+CUST00273,Jennifer,Garner,Other,70,gardnerashley@gmail.com,001-983-660-5048x1247,West Carl,Wisconsin,USA,2024-12-01,Platinum,Mobile App
+CUST00274,Hannah,Barnett,Female,25,gomezrichard@yahoo.com,6463989535,Andersonburgh,Nebraska,USA,2026-01-18,Gold,In-Store
+CUST00275,Robin,Vargas,Female,62,angelacooper@burns-diaz.org,+1-926-105-3353,Lake Johnport,Missouri,USA,2022-11-17,Gold,Mobile App
+CUST00276,David,Smith,Other,52,garciakyle@sellers.com,+1-043-850-6637x47556,South Johnhaven,Mississippi,USA,2023-10-29,Gold,Mobile App
+CUST00277,Michael,Brown,Male,56,ubrown@yahoo.com,+1-312-493-2011,Port Eileen,Montana,USA,2025-10-30,Silver,Mobile App
+CUST00278,Emily,Maddox,Other,38,john52@yahoo.com,(075)043-9789x8829,Bryanport,Oregon,USA,2026-04-04,Platinum,Mobile App
+CUST00279,Jessica,Owen,Male,23,mccormickdavid@jones-griffith.net,986-085-7522,Swansonland,Massachusetts,USA,2025-08-30,Silver,In-Store
+CUST00280,Charles,Burton,Other,55,lori12@herman.com,(747)125-7335x501,North Mark,New Hampshire,USA,2025-10-09,Silver,In-Store
+CUST00281,Cynthia,Fernandez,Female,54,loganrobert@gmail.com,203-254-6984x7174,East Tiffany,Nevada,USA,2025-06-11,Silver,Web
+CUST00282,Sarah,Marks,Female,51,brichards@hotmail.com,937.281.7218x222,Lake Michael,Georgia,USA,2023-06-29,Platinum,Mobile App
+CUST00283,James,Maldonado,Female,29,xhernandez@yahoo.com,962-309-5237x318,North Joshua,Georgia,USA,2025-01-23,Platinum,Mobile App
+CUST00284,Ross,Mosley,Other,70,ashleysandoval@miller-martinez.com,2990693637,Port Catherineland,Massachusetts,USA,2024-02-07,Gold,Web
+CUST00285,Thomas,Tate,Female,40,carl85@russell.com,+1-451-201-3069x25536,Wallshire,New Hampshire,USA,2023-10-24,Gold,Mobile App
+CUST00286,Matthew,Hayden,Female,60,emilymorgan@williams.com,(534)434-7263x1760,East Sherri,Illinois,USA,2023-06-18,Silver,Web
+CUST00287,Robert,Hayden,Female,44,sharonadams@long.com,(427)554-9087x6232,North Mollyborough,Arizona,USA,2024-04-01,Platinum,Mobile App
+CUST00288,Tracy,Oliver,Female,60,thomascole@miller.com,(988)825-8983x7194,Jenniferfort,Mississippi,USA,2024-05-07,Gold,In-Store
+CUST00289,Alexander,Maxwell,Male,47,antoniowarner@gmail.com,(035)114-9888,South Julieshire,Utah,USA,2023-06-06,Silver,Mobile App
+CUST00290,Amy,Smith,Female,38,sabrinawilliams@hotmail.com,001-084-352-8744,West Elizabeth,Wyoming,USA,2024-04-16,Silver,Mobile App
+CUST00291,Lisa,Lewis,Other,70,joe64@johnson.com,+1-653-649-2015,Port Becky,Montana,USA,2022-01-11,Silver,In-Store
+CUST00292,Corey,Green,Other,47,hvang@blair-shepherd.info,238-803-9487,Port Allison,New Jersey,USA,2023-08-22,Gold,Web
+CUST00293,Bobby,Sanchez,Male,51,candacewells@roberts-allen.com,699.946.0525x80029,Jasonmouth,Montana,USA,2025-07-20,Gold,In-Store
+CUST00294,Molly,Wheeler,Female,58,smithsusan@maynard-ballard.org,718-197-6152x980,New Larry,Michigan,USA,2024-05-28,Gold,Web
+CUST00295,Lisa,Miller,Male,35,christopher83@gmail.com,+1-234-818-1819x865,Jesseborough,Pennsylvania,USA,2025-04-19,Platinum,Web
+CUST00296,Leroy,Keith,Female,46,kmassey@taylor.com,706-467-2201,Kimberlyborough,Arizona,USA,2023-07-10,Platinum,Mobile App
+CUST00297,Katherine,Wyatt,Male,19,ystevenson@lewis.com,(449)736-2419x48869,West Ashley,Massachusetts,USA,2025-12-22,Platinum,In-Store
+CUST00298,Melissa,Curry,Male,63,victoria48@allen-harris.org,192-094-7020,West Erinport,Connecticut,USA,2022-05-04,Silver,Mobile App
+CUST00299,Michelle,Andrade,Other,18,smitchell@gmail.com,001-227-133-0598,Meyertown,Missouri,USA,2023-08-03,Platinum,Mobile App
+CUST00300,Peter,Brewer,Male,32,lisa64@gmail.com,352-979-9235x28422,Paulchester,Colorado,USA,2025-10-11,Silver,Mobile App
+CUST00301,Kelly,Gomez,Male,59,angelagregory@hotmail.com,223.803.4739x4931,Lake Karenville,Kentucky,USA,2021-05-17,Silver,Mobile App
+CUST00302,Kayla,Morris,Other,36,zjohnson@hotmail.com,+1-617-869-8854x6239,Jennystad,Delaware,USA,2024-09-01,Platinum,In-Store
+CUST00303,Cindy,Cain,Female,44,williamsjesse@yahoo.com,001-410-300-0474,North Rebekah,Nebraska,USA,2023-04-04,Gold,Mobile App
+CUST00304,Chad,Gibson,Male,47,carolinecalderon@robinson-rodriguez.biz,(921)100-6917,Bonnieborough,Iowa,USA,2021-10-02,Platinum,Web
+CUST00305,Nathaniel,Martin,Female,30,bryanford@hubbard.com,396.569.6422x2530,New Davidchester,Florida,USA,2023-08-02,Platinum,In-Store
+CUST00306,Adrian,Bean,Other,26,calebwalsh@brown.net,6830944146,North Ericborough,Utah,USA,2025-10-12,Silver,Mobile App
+CUST00307,Jessica,Villanueva,Female,39,sbaldwin@may-brown.biz,501-483-3585,Danaberg,North Dakota,USA,2022-02-16,Platinum,Mobile App
+CUST00308,James,Rodriguez,Male,36,umitchell@yahoo.com,(410)031-7316x5483,Natalieside,New Mexico,USA,2022-06-19,Platinum,Mobile App
+CUST00309,Thomas,Carroll,Other,55,jasminesantiago@bowen-frederick.net,430.338.4809,North Anna,Hawaii,USA,2025-12-19,Platinum,Mobile App
+CUST00310,Jonathan,Kelly,Male,46,lramos@hotmail.com,001-564-125-4772x30872,West Yvettemouth,West Virginia,USA,2024-04-23,Platinum,Mobile App
+CUST00311,Erik,Smith,Female,39,james49@hunt.com,+1-029-641-4278x1952,Aaronville,Tennessee,USA,2022-01-25,Platinum,In-Store
+CUST00312,Monique,Torres,Female,47,hillwilliam@barnes-larson.org,243.011.4558x2012,Cobbchester,Arizona,USA,2024-03-01,Gold,Web
+CUST00313,Kenneth,Lopez,Other,33,walkeramy@gmail.com,696-691-8025,North Georgeside,Minnesota,USA,2022-01-28,Platinum,Mobile App
+CUST00314,John,Wood,Male,67,robert86@tate.com,565.519.9846x839,New Gabriel,Iowa,USA,2023-07-24,Gold,Web
+CUST00315,Michael,Armstrong,Female,65,scottkyle@johnson.net,179.019.2824x6794,North Dawn,Utah,USA,2023-01-31,Gold,In-Store
+CUST00316,Tyler,Deleon,Female,42,jamesrodriguez@jennings-dennis.com,366.962.6716x18752,North Richardside,Nevada,USA,2024-04-18,Platinum,In-Store
+CUST00317,Lisa,Brown,Male,49,kjenkins@smith.com,337.552.1680,Smithhaven,Arizona,USA,2024-06-08,Silver,Web
+CUST00318,Elizabeth,Cook,Other,55,bauerbrenda@murray.biz,530.206.9671x76526,Osbornborough,New Mexico,USA,2024-04-14,Gold,Web
+CUST00319,Laura,Davis,Female,24,nrhodes@hernandez-wright.com,(042)418-0361x33411,Danielmouth,New Hampshire,USA,2022-11-12,Platinum,Mobile App
+CUST00320,Mark,Grant,Male,64,njones@gmail.com,000.777.1270x6322,Smithfurt,Colorado,USA,2025-10-27,Silver,Mobile App
+CUST00321,Stephen,Anderson,Other,27,elizabethwilliams@lindsey.net,378-125-1217,East Brian,Wyoming,USA,2022-09-12,Silver,Mobile App
+CUST00322,Emily,Newman,Female,39,alexandersanchez@gmail.com,2856204649,Port Adriennechester,Michigan,USA,2024-03-01,Platinum,In-Store
+CUST00323,Bryan,Hull,Female,59,jfitzpatrick@mcdonald.com,(653)752-1372,Nicholasberg,Colorado,USA,2023-01-30,Silver,Mobile App
+CUST00324,Richard,Alexander,Other,52,donald56@watson.info,955.819.5494x0362,Tiffanyshire,South Dakota,USA,2023-08-16,Gold,Mobile App
+CUST00325,Charles,Fitzgerald,Other,63,alicecuevas@yahoo.com,869.195.8636,Port Suzanne,Indiana,USA,2026-02-13,Gold,In-Store
+CUST00326,Elizabeth,Fisher,Male,57,todd29@johnson.com,770-923-0559x343,Lake Wayne,Rhode Island,USA,2023-06-18,Silver,Web
+CUST00327,Jeffrey,Barton,Other,61,timothyfloyd@santana-johnson.com,363-250-6039,Rebeccamouth,New Jersey,USA,2025-01-18,Gold,Web
+CUST00328,Jennifer,Dunn,Other,23,micheleescobar@hotmail.com,(665)306-2254,East John,Nevada,USA,2025-10-22,Gold,Web
+CUST00329,Kevin,Perez,Other,63,gwong@yahoo.com,2547701712,East Robert,Georgia,USA,2021-10-04,Silver,Mobile App
+CUST00330,Kathy,Clark,Male,62,justinfigueroa@gmail.com,(810)794-9962x5753,West Robinborough,Missouri,USA,2025-11-17,Gold,Web
+CUST00331,Tonya,Hampton,Male,38,tanyasteele@edwards.com,+1-548-902-8014,New Teresa,New Hampshire,USA,2025-01-30,Silver,Mobile App
+CUST00332,Jamie,Davis,Female,41,emcpherson@kelly.info,375-550-7376,Gutierrezshire,Utah,USA,2022-03-22,Gold,Web
+CUST00333,Jerry,Hall,Male,51,qanderson@yahoo.com,+1-461-977-2306x0762,New Richardhaven,Maine,USA,2025-03-20,Gold,In-Store
+CUST00334,Gina,Wilson,Other,68,mooreamanda@phillips.com,875-984-6937,New Stephenchester,Delaware,USA,2022-07-11,Silver,Web
+CUST00335,Brenda,Lopez,Male,23,washingtoncorey@hotmail.com,+1-782-733-5547,Wellsside,Indiana,USA,2021-06-30,Platinum,Mobile App
+CUST00336,Raymond,Nichols,Other,61,isabellaoneill@white-peck.com,(497)214-1708x9882,South Pamela,Iowa,USA,2022-01-24,Silver,Mobile App
+CUST00337,David,Craig,Other,27,wjohnson@smith.com,2447912866,East Michaelside,Colorado,USA,2024-06-22,Silver,Mobile App
+CUST00338,David,Rivera,Other,34,sanchezmichelle@hotmail.com,953-228-9131x14019,Markhaven,West Virginia,USA,2021-09-17,Gold,Mobile App
+CUST00339,Lisa,Buck,Other,18,richard06@hotmail.com,(080)496-0555,Port Tammy,North Dakota,USA,2023-07-25,Gold,Mobile App
+CUST00340,Robert,Pratt,Other,52,qkennedy@thompson.net,379.325.8471x390,South Robert,Delaware,USA,2024-08-26,Silver,Web
+CUST00341,Jonathan,White,Female,40,juanjordan@houston.org,045-753-9488x530,West Paige,Wisconsin,USA,2023-04-21,Platinum,Mobile App
+CUST00342,Vincent,Rowland,Other,45,wayne40@yahoo.com,001-653-973-8347x831,Suzannestad,Utah,USA,2024-08-08,Platinum,Mobile App
+CUST00343,Michael,Salinas,Female,37,anthonysmith@buck-parker.com,+1-143-754-5712,Lake Sara,Louisiana,USA,2026-02-27,Silver,Mobile App
+CUST00344,Maria,Patel,Female,24,joneswendy@hotmail.com,8365156535,Jacksonfort,Colorado,USA,2025-05-31,Silver,Mobile App
+CUST00345,Victoria,Fisher,Other,40,estrong@santiago-franklin.com,001-297-284-3645x169,Williamtown,North Carolina,USA,2022-02-10,Platinum,Mobile App
+CUST00346,Arthur,Kelly,Other,36,dennispotts@juarez.com,4869642329,Jasonshire,Arizona,USA,2022-12-18,Silver,In-Store
+CUST00347,Kenneth,Brown,Female,35,lejames@hotmail.com,(275)960-9643x6202,New Donaldview,Utah,USA,2025-10-30,Silver,In-Store
+CUST00348,Lindsey,Mercer,Other,67,kendra60@hartman-lawrence.com,001-130-394-3119,Matthewtown,Oklahoma,USA,2025-04-02,Platinum,Web
+CUST00349,Rachel,Bray,Other,65,briggsrandy@griffin.com,(018)023-3352,Lake Meganhaven,Nebraska,USA,2024-12-09,Gold,Mobile App
+CUST00350,Charles,Bradshaw,Male,56,hannah53@patterson-espinoza.net,001-099-598-9544x382,Millertown,Delaware,USA,2024-06-15,Gold,Web
+CUST00351,Amber,Butler,Other,30,chadhogan@gmail.com,(731)078-8017,Jamesview,New Mexico,USA,2024-05-02,Platinum,Mobile App
+CUST00352,Margaret,Finley,Other,66,reeveschristopher@wilson-perkins.com,(448)593-9051x855,South Kimberlyton,Virginia,USA,2024-05-31,Platinum,In-Store
+CUST00353,Brittany,Nash,Other,26,rebecca92@wiley.biz,(024)557-2037,Wolfeton,Massachusetts,USA,2025-06-07,Platinum,Web
+CUST00354,Christopher,Wright,Other,59,ggallegos@hotmail.com,602.907.8096x3181,Mitchellport,Maine,USA,2024-11-22,Silver,Mobile App
+CUST00355,Kayla,Brooks,Female,20,rstewart@pearson-sims.info,836-258-6582x2541,Jeremyside,Kentucky,USA,2022-06-04,Platinum,Mobile App
+CUST00356,Anthony,Clark,Other,26,akirk@hartman.com,+1-842-684-4310x93206,Michellemouth,Minnesota,USA,2022-07-13,Silver,Mobile App
+CUST00357,Amber,Alexander,Female,65,michellemartinez@taylor.info,247.001.5673,West Jonport,Mississippi,USA,2021-12-20,Gold,Web
+CUST00358,Michael,Edwards,Male,26,chadrobertson@yahoo.com,(199)248-3115,Matthewland,Minnesota,USA,2022-06-16,Platinum,Mobile App
+CUST00359,Ashley,Gill,Other,50,michele51@yahoo.com,220-947-9535x62927,North Kelly,Idaho,USA,2025-04-15,Gold,Web
+CUST00360,Thomas,Vaughan,Female,70,lhunt@gonzales.info,+1-318-825-3394x095,West Williamberg,Montana,USA,2023-08-17,Gold,Mobile App
+CUST00361,David,Hamilton,Other,39,clawrence@gmail.com,(987)472-7528x102,Lauriestad,Virginia,USA,2026-02-21,Silver,Mobile App
+CUST00362,Robert,Smith,Male,27,davidblake@jones.biz,+1-412-335-3752x8016,Matthewmouth,Oklahoma,USA,2022-12-30,Silver,In-Store
+CUST00363,Michelle,Snyder,Other,61,rclark@hughes.org,879.452.2649x62640,South Erika,Maine,USA,2025-04-01,Gold,In-Store
+CUST00364,Laura,Burke,Female,23,jonesapril@yahoo.com,+1-375-790-8582,Mccoytown,Virginia,USA,2024-11-16,Gold,Web
+CUST00365,Leslie,Stevens,Female,52,cookkelly@gmail.com,001-606-927-8397x6978,Cervantesside,Oklahoma,USA,2026-02-09,Silver,Mobile App
+CUST00366,Shannon,Carter,Female,61,zacharyperez@gmail.com,5658850624,New Alex,Kansas,USA,2022-07-30,Platinum,In-Store
+CUST00367,Taylor,Wright,Female,55,amandapayne@hotmail.com,592-116-4615x793,Davidton,Utah,USA,2023-04-04,Gold,In-Store
+CUST00368,Ashley,Strong,Female,24,nicholas50@yahoo.com,6467442616,North Chloeville,Missouri,USA,2023-03-28,Platinum,Web
+CUST00369,Justin,Carson,Female,19,kentzachary@hotmail.com,001-225-931-0147x9767,Thomasfort,Louisiana,USA,2023-06-07,Platinum,In-Store
+CUST00370,Karen,Bonilla,Female,57,lisa29@joyce-sanchez.com,+1-122-585-6993x69382,Tonimouth,Texas,USA,2025-12-11,Silver,In-Store
+CUST00371,Matthew,Luna,Male,58,jacqueline58@yahoo.com,+1-574-085-8831x582,North Rebeccaton,Oklahoma,USA,2025-10-04,Gold,In-Store
+CUST00372,Jacqueline,Fleming,Female,59,walshstacy@yahoo.com,001-097-779-3300x9562,East Margaretbury,Michigan,USA,2022-09-29,Gold,Web
+CUST00373,Joseph,Stevens,Male,20,dfowler@morrison.com,6979780548,New Jeffrey,Indiana,USA,2022-05-04,Silver,Mobile App
+CUST00374,Theresa,Johnson,Female,25,john76@esparza.com,(675)309-9682,Moonmouth,New Hampshire,USA,2023-01-04,Silver,Web
+CUST00375,Christina,Wilkins,Other,26,patrick16@yahoo.com,001-962-277-2013x6598,Port Kimberly,Alaska,USA,2022-07-27,Gold,Mobile App
+CUST00376,Christina,Ferguson,Female,60,collinsalexander@brown.net,(988)943-9765x3518,Townsendhaven,New York,USA,2023-02-24,Platinum,In-Store
+CUST00377,Natalie,Martinez,Other,44,npierce@yahoo.com,176.143.4356x0252,East Nancy,Florida,USA,2026-03-22,Platinum,In-Store
+CUST00378,Daniel,Potter,Other,27,robinsonelizabeth@daniels.com,886.176.3246,South Cheryl,Rhode Island,USA,2023-05-16,Gold,In-Store
+CUST00379,Brian,Holder,Male,49,jeremy87@gmail.com,268.650.9169,South Krista,Alabama,USA,2022-08-27,Platinum,Mobile App
+CUST00380,Rodney,Hernandez,Female,20,jeffery80@wheeler.org,+1-908-239-9772x26146,Dustinville,Massachusetts,USA,2024-04-03,Platinum,Mobile App
+CUST00381,James,Pope,Male,46,wesleymatthews@gmail.com,(231)693-5522x0653,Ryanfort,New Mexico,USA,2023-01-26,Gold,Web
+CUST00382,Lori,Conrad,Female,24,ggreen@smith.org,(658)223-4085,Tonyaton,Arizona,USA,2021-07-01,Platinum,Mobile App
+CUST00383,Amanda,Hayes,Other,59,smithkevin@salinas.com,052.439.5310x99040,East Mikayla,Tennessee,USA,2022-03-10,Gold,Web
+CUST00384,Veronica,Woods,Female,35,reyescurtis@hotmail.com,001-622-598-9112x5219,Barnesmouth,South Dakota,USA,2025-09-07,Silver,Web
+CUST00385,Samuel,Russell,Female,23,andrea91@gmail.com,407-858-7630,Port Connie,New Mexico,USA,2022-10-04,Platinum,Web
+CUST00386,Mathew,Hendricks,Other,58,keithjones@luna.info,(787)128-1879x75930,Port Jeffreyview,Oregon,USA,2023-03-20,Platinum,Web
+CUST00387,Brittany,Wright,Male,68,jonathan24@hughes.biz,521.477.5399x1277,Watersborough,South Dakota,USA,2021-09-03,Gold,Web
+CUST00388,Stephen,Lewis,Male,68,susanwebster@holmes.com,256.658.1327x7843,Foxside,Vermont,USA,2022-03-30,Platinum,Web
+CUST00389,Alexander,Lucas,Male,66,bhernandez@callahan-ford.com,(563)740-6239,West Christopher,Washington,USA,2026-03-28,Platinum,Web
+CUST00390,Ronald,Wilson,Other,31,kimwilliam@martinez.com,617-472-1462x561,Perkinsmouth,New Jersey,USA,2023-01-10,Silver,Mobile App
+CUST00391,Victor,Torres,Male,68,kevingonzalez@page-arellano.com,627-705-9400x23943,Jacksonburgh,Oregon,USA,2025-01-27,Platinum,Web
+CUST00392,Michelle,Lindsey,Female,27,olsonjacqueline@yahoo.com,968.391.7886x1565,Margaretberg,Delaware,USA,2021-11-23,Silver,In-Store
+CUST00393,Victoria,Peterson,Female,69,timothyfrancis@yahoo.com,121-144-1494x439,South Laurenville,Missouri,USA,2023-11-12,Silver,Web
+CUST00394,Kristopher,Little,Other,19,herringgregory@davis-rodriguez.com,+1-859-052-5849x4258,Parkerville,Wyoming,USA,2021-11-13,Silver,Web
+CUST00395,Lisa,Sharp,Female,68,lisabranch@gmail.com,(953)344-7063x798,Lake Matthewfurt,Arizona,USA,2025-05-03,Silver,In-Store
+CUST00396,Louis,Rodriguez,Female,19,grobinson@hall.com,(322)821-7415x6883,East Kellyfort,Iowa,USA,2024-02-23,Silver,Mobile App
+CUST00397,Sheila,Gonzalez,Male,26,smithaustin@hotmail.com,+1-573-977-4048,Moodychester,Colorado,USA,2025-05-31,Platinum,Mobile App
+CUST00398,Zachary,Robertson,Other,25,jonesvincent@gmail.com,(894)343-7729,Glassstad,Virginia,USA,2023-09-14,Platinum,Web
+CUST00399,Nicole,Meyer,Female,46,joyceaimee@yahoo.com,3489710803,Crystalville,Utah,USA,2022-04-06,Gold,In-Store
+CUST00400,Jennifer,Becker,Other,24,gibbscarrie@gmail.com,+1-735-388-5916,South Lauren,Nevada,USA,2021-05-31,Gold,In-Store
+CUST00401,Nancy,Gonzalez,Male,57,luis53@yahoo.com,897-036-2877x624,North Jamesville,Washington,USA,2022-05-02,Silver,In-Store
+CUST00402,Mikayla,Poole,Other,51,charles98@yahoo.com,+1-858-498-0285x02557,South Taylor,Massachusetts,USA,2022-10-12,Gold,Mobile App
+CUST00403,Janet,Jones,Other,19,dclark@kaiser.info,001-301-861-8231x42460,New Kristopher,West Virginia,USA,2022-10-01,Silver,Mobile App
+CUST00404,Reginald,Stewart,Female,45,kenneth78@gmail.com,+1-563-167-6038x17095,New Karen,Delaware,USA,2026-01-30,Platinum,Web
+CUST00405,Elaine,Rivera,Female,63,richardshaw@gmail.com,894-259-8482x257,Sarachester,Illinois,USA,2022-07-23,Gold,Web
+CUST00406,Jason,Sullivan,Male,38,heather84@yahoo.com,(030)693-4356x148,South Francisco,Washington,USA,2021-08-10,Platinum,Web
+CUST00407,Melanie,Johnson,Male,26,hbuckley@hotmail.com,1075928561,West Travisborough,Arkansas,USA,2025-08-31,Gold,In-Store
+CUST00408,Erika,Ramirez,Other,55,grayjacqueline@hotmail.com,(741)059-0367x02430,New Katelyn,Massachusetts,USA,2022-02-03,Platinum,In-Store
+CUST00409,Kelsey,Smith,Female,42,williamboyd@villanueva-nguyen.biz,391-852-4435,New Rebeccaside,Colorado,USA,2021-11-13,Platinum,In-Store
+CUST00410,Sheryl,Diaz,Female,47,paustin@willis.info,821-054-8788x693,Alexiston,Oregon,USA,2025-03-19,Platinum,In-Store
+CUST00411,Howard,Pittman,Female,24,sara22@yahoo.com,1875380514,Tranberg,Tennessee,USA,2025-03-07,Platinum,Web
+CUST00412,Alexandra,Johnson,Other,59,bradleyadams@yahoo.com,+1-395-887-6501x9990,Lake Gabrielstad,Pennsylvania,USA,2025-02-14,Platinum,In-Store
+CUST00413,Monica,Rivera,Male,45,bridgesjamie@yahoo.com,579.294.7239x3531,Shirleyfurt,Minnesota,USA,2021-08-17,Gold,Web
+CUST00414,Steven,Robbins,Female,39,newmanrhonda@gmail.com,1864712105,Karabury,New Mexico,USA,2023-07-17,Gold,Mobile App
+CUST00415,Edwin,Vargas,Female,64,jose13@noble-johnson.com,+1-033-697-1725x00621,Skinnerfurt,Alabama,USA,2026-01-23,Silver,Mobile App
+CUST00416,Ronald,Rivas,Female,38,herrerajennifer@hotmail.com,001-862-417-5036x14374,Nathanport,Wyoming,USA,2024-08-08,Platinum,Mobile App
+CUST00417,Gary,Choi,Female,27,cchavez@avery-gilbert.org,001-776-478-0375,Port Bernard,New York,USA,2022-06-26,Platinum,Mobile App
+CUST00418,Richard,Munoz,Male,23,cindy07@hotmail.com,6679279799,South Jack,Minnesota,USA,2024-08-29,Silver,Web
+CUST00419,Richard,Jensen,Female,24,shortrachel@diaz.info,1457003151,Joshuatown,Indiana,USA,2022-12-07,Platinum,In-Store
+CUST00420,Scott,Hughes,Female,69,johngill@fowler.com,(529)673-8998x66557,Pinedahaven,Arkansas,USA,2022-05-30,Silver,In-Store
+CUST00421,Anthony,Mitchell,Male,55,kyle18@hotmail.com,(603)969-8364x72443,West David,Wisconsin,USA,2025-04-05,Platinum,In-Store
+CUST00422,Richard,Thomas,Female,60,gabrielle25@jones.com,001-001-776-8681x222,South Jason,West Virginia,USA,2022-03-07,Silver,Mobile App
+CUST00423,Justin,Hughes,Female,60,uwright@moss-mitchell.com,486-802-4953x865,West Kenneth,Michigan,USA,2022-02-17,Gold,In-Store
+CUST00424,Lisa,Hall,Male,36,hwilcox@hancock.com,+1-410-803-5331x19285,South Sean,North Carolina,USA,2026-04-15,Platinum,Mobile App
+CUST00425,Michael,Navarro,Female,24,myates@osborn.com,001-228-096-3651x11687,West Barbara,Pennsylvania,USA,2024-03-08,Platinum,In-Store
+CUST00426,James,Lynch,Male,27,johnsonsamantha@hotmail.com,001-016-782-4770x362,South Tonyaview,Connecticut,USA,2025-08-04,Platinum,Mobile App
+CUST00427,Heidi,Serrano,Male,24,careynicholas@hotmail.com,055.253.8083x23103,South Jasonborough,Michigan,USA,2025-04-07,Gold,In-Store
+CUST00428,Michael,Park,Female,25,mirandajohnson@hotmail.com,5262102380,Joeburgh,New Jersey,USA,2024-11-13,Gold,In-Store
+CUST00429,Connor,Harrison,Male,69,cbenton@gmail.com,641.118.4943,Billbury,Montana,USA,2023-10-28,Gold,In-Store
+CUST00430,Lori,Henderson,Other,57,christina93@collins.info,(360)530-1785x727,Browningberg,Virginia,USA,2022-05-04,Platinum,In-Store
+CUST00431,Kevin,Brewer,Other,19,cindyholt@yahoo.com,958.906.0691x8364,Russellside,New York,USA,2023-07-18,Platinum,In-Store
+CUST00432,Emily,Becker,Other,35,stacyestrada@gmail.com,758.109.0530x1080,Rodrigueztown,Vermont,USA,2025-12-24,Silver,Web
+CUST00433,Steven,Yang,Female,62,harrisdavid@yahoo.com,+1-691-777-2498x121,East Todd,Hawaii,USA,2024-06-01,Gold,Mobile App
+CUST00434,Margaret,Moore,Female,18,smithbecky@gmail.com,001-476-808-5413x1523,Theresaberg,Ohio,USA,2023-08-07,Silver,Web
+CUST00435,Michael,Gregory,Other,60,robertjones@hotmail.com,001-736-528-2119x5273,Lake Kerry,Oregon,USA,2025-05-15,Gold,Web
+CUST00436,Ricardo,Bowman,Male,65,davidbrown@gmail.com,(724)692-3190x858,Wongberg,Connecticut,USA,2025-05-30,Platinum,Web
+CUST00437,Michael,Beasley,Male,65,khorton@martin-brooks.com,130.576.6433,Taylorshire,Illinois,USA,2024-04-04,Platinum,Web
+CUST00438,Sara,Thomas,Female,44,kwatson@lopez-hill.com,663.336.2845,Lake Audreybury,New Jersey,USA,2025-03-05,Gold,Mobile App
+CUST00439,Jennifer,Johnson,Male,41,smaddox@gmail.com,054.420.0720x6327,North Susanside,Utah,USA,2023-04-23,Gold,In-Store
+CUST00440,Shane,Edwards,Female,67,yesenia18@meyer.com,(342)484-3047x2229,Lake Briannatown,Massachusetts,USA,2023-06-09,Platinum,In-Store
+CUST00441,Cynthia,White,Male,21,tkelley@miller.biz,638-488-5149x319,New Cameronfort,Kansas,USA,2025-04-15,Silver,Web
+CUST00442,Brittany,Graham,Other,21,lopezcory@yahoo.com,6950780139,Mcdonaldport,Maryland,USA,2024-07-11,Platinum,Web
+CUST00443,Angela,Alvarez,Female,46,mary02@ramirez-patton.com,943.813.4570,New Coreyside,Nevada,USA,2023-07-07,Platinum,Mobile App
+CUST00444,Justin,Smith,Female,56,nicholasford@hotmail.com,001-962-193-6600x613,Port Tiffany,Nebraska,USA,2021-07-30,Gold,Mobile App
+CUST00445,Christine,Doyle,Female,31,levydamon@moore.org,948-286-0426x175,Alexisberg,Texas,USA,2022-08-08,Platinum,Web
+CUST00446,Andrea,Clark,Female,45,welchdevon@yahoo.com,882.564.5329x65588,West Ronnieview,Virginia,USA,2023-06-17,Silver,Mobile App
+CUST00447,Jessica,Webster,Other,61,williamslisa@yahoo.com,2854244681,Port Deborah,New Jersey,USA,2023-01-27,Platinum,Mobile App
+CUST00448,Mark,Thomas,Other,60,jjohnson@rice.com,609.677.1495x664,Tracyview,Maryland,USA,2022-08-13,Gold,Web
+CUST00449,Amanda,Padilla,Male,43,jillsilva@perez.com,214-029-2819,Durhamview,Montana,USA,2022-05-05,Platinum,Web
+CUST00450,Casey,Morris,Male,31,jacksoncynthia@yahoo.com,096-879-2435,East Christopherchester,Indiana,USA,2021-05-24,Gold,Web
+CUST00451,Shannon,Johnson,Male,66,zlawrence@gmail.com,940.982.4003x242,New Heatherside,Oklahoma,USA,2022-09-02,Gold,Mobile App
+CUST00452,Travis,Cannon,Female,25,gjohnson@long-lee.com,854-649-2517,North Sarahmouth,Maine,USA,2025-04-05,Silver,Mobile App
+CUST00453,James,Jackson,Other,45,lindsaylogan@cooper.biz,302-631-9178,North Chase,Wisconsin,USA,2021-08-11,Silver,Web
+CUST00454,Jason,Hayes,Female,52,wreed@hotmail.com,(100)503-4521x5907,West Kimberly,Indiana,USA,2023-07-11,Platinum,Web
+CUST00455,Marc,Norman,Other,53,lindaperez@espinoza.com,001-466-368-5225,Medinachester,New Hampshire,USA,2025-03-08,Platinum,Mobile App
+CUST00456,Christopher,Montes,Male,43,amy04@owens.biz,417.128.6262x1502,Douglasview,Florida,USA,2023-03-15,Platinum,Web
+CUST00457,Maria,Johnson,Female,19,jamesdavid@hotmail.com,+1-695-125-9668x72736,Port Alfredborough,California,USA,2022-06-05,Gold,Web
+CUST00458,Rose,Farley,Female,54,norma45@gmail.com,+1-959-368-0833x68586,Mariahview,Colorado,USA,2023-10-26,Gold,In-Store
+CUST00459,Bonnie,Patton,Female,63,langashley@pham-gentry.org,1220454713,Christopherton,Kentucky,USA,2021-10-09,Platinum,Mobile App
+CUST00460,Larry,Green,Female,25,judithmartin@hotmail.com,(943)188-6528,Collinston,Michigan,USA,2022-03-06,Gold,Web
+CUST00461,Deborah,Harrison,Female,28,jmartin@hotmail.com,001-534-597-7675x88429,North Bruce,New Jersey,USA,2022-03-15,Platinum,Mobile App
+CUST00462,Brian,Henson,Other,41,cfrye@gmail.com,+1-449-033-5563x8293,West Meganland,Ohio,USA,2021-08-08,Silver,Mobile App
+CUST00463,Adrian,Wallace,Male,33,gonzalezrebekah@vasquez.biz,(424)780-7826,East Sarahstad,South Carolina,USA,2025-08-06,Gold,In-Store
+CUST00464,Christopher,Boyd,Female,51,patrickrogers@cunningham.org,692-287-2955,Victoriashire,New Mexico,USA,2026-03-06,Silver,Mobile App
+CUST00465,Thomas,Hall,Female,65,paige16@hernandez.biz,+1-929-423-8600,Lake Benjamin,Nevada,USA,2021-07-10,Gold,Web
+CUST00466,Katherine,Gibson,Female,67,williambuchanan@hotmail.com,(102)928-8158,South Mariah,Pennsylvania,USA,2022-02-24,Silver,Web
+CUST00467,Brittany,Gonzalez,Other,58,adam14@roberts.biz,644-350-0245x755,Lake Michael,Georgia,USA,2022-03-27,Silver,In-Store
+CUST00468,Jasmine,Walker,Other,30,david78@hotmail.com,+1-698-219-5003,West Christinashire,Missouri,USA,2026-04-30,Gold,Mobile App
+CUST00469,Steven,Kennedy,Other,70,williamfoster@armstrong.net,175-059-6767x0961,Fisherstad,Colorado,USA,2024-11-10,Platinum,Web
+CUST00470,Patrick,Dixon,Male,24,victoria43@gmail.com,+1-605-974-8092x665,Lake Lauramouth,Wyoming,USA,2025-05-27,Silver,Mobile App
+CUST00471,Daryl,Klein,Male,29,hgay@hotmail.com,4106883030,Brownstad,Nevada,USA,2022-10-30,Platinum,Web
+CUST00472,William,Russell,Other,22,randyknox@yahoo.com,129-677-2473,East Patriciamouth,New Mexico,USA,2025-03-28,Silver,In-Store
+CUST00473,David,Buckley,Female,47,christopherjohnson@hotmail.com,745-113-3395x7863,Boyerstad,Delaware,USA,2022-05-21,Platinum,In-Store
+CUST00474,Stephanie,Velazquez,Female,61,toddsmith@obrien-walton.net,234.396.7250x2989,Lake Carla,New Jersey,USA,2021-10-23,Platinum,In-Store
+CUST00475,Matthew,Brown,Other,57,joannbryant@yahoo.com,001-277-478-0070x0423,Johnhaven,Wisconsin,USA,2024-03-13,Gold,In-Store
+CUST00476,Cynthia,Smith,Female,27,soliskaren@lester.com,+1-548-283-6366x993,Michellefurt,Oklahoma,USA,2025-09-04,Gold,Web
+CUST00477,Christina,Hansen,Female,46,johncoleman@hotmail.com,001-711-573-0744x01037,Port Danielhaven,Louisiana,USA,2022-11-27,Platinum,Mobile App
+CUST00478,Steven,Hurley,Female,55,qarroyo@gmail.com,504.345.5325,Arnoldmouth,Kansas,USA,2024-07-17,Silver,Mobile App
+CUST00479,Paul,Davis,Other,22,xrice@gray.org,550.026.5897x875,Lake Bryan,Mississippi,USA,2022-07-07,Gold,Mobile App
+CUST00480,Adrian,Ryan,Female,20,julia23@gmail.com,(722)826-4577x54587,Kaylamouth,North Carolina,USA,2024-04-18,Silver,Mobile App
+CUST00481,Thomas,Morris,Female,22,robert20@hotmail.com,686.405.8337x86814,Thomasmouth,New Mexico,USA,2025-03-05,Platinum,Web
+CUST00482,Leonard,Wilson,Other,56,estradalee@hotmail.com,+1-479-659-8821x5138,West Codyland,Wyoming,USA,2023-03-10,Platinum,Mobile App
+CUST00483,David,Schroeder,Female,55,laura91@gmail.com,9818260591,Brittanytown,Minnesota,USA,2024-04-20,Platinum,In-Store
+CUST00484,Carl,Singh,Male,46,kathrynmcdowell@yahoo.com,530.538.5200x1441,Ellistown,South Dakota,USA,2025-12-25,Platinum,In-Store
+CUST00485,Shannon,Schneider,Male,38,david81@molina-curry.info,554.776.4715,Rodriguezstad,Maine,USA,2023-06-08,Platinum,Mobile App
+CUST00486,Lisa,Maxwell,Other,27,xhoward@stevens.biz,001-601-636-3802x3385,Maryshire,Illinois,USA,2026-04-08,Silver,Mobile App
+CUST00487,Robert,Warner,Male,69,natalie73@roth-herring.com,+1-637-062-3153x993,Millerstad,Virginia,USA,2024-03-01,Gold,In-Store
+CUST00488,Helen,Lopez,Male,50,nsuarez@donovan.com,801-589-6395,Jasonmouth,Massachusetts,USA,2023-01-31,Platinum,Web
+CUST00489,Lisa,Sanchez,Male,33,brownmelvin@lopez.com,(397)601-5227,Lake Sherrifort,Alaska,USA,2023-05-23,Platinum,Mobile App
+CUST00490,Cheryl,Espinoza,Female,51,deanna11@yahoo.com,001-558-135-6555,East Jennifer,Missouri,USA,2022-12-15,Platinum,In-Store
+CUST00491,Amanda,Munoz,Male,41,xmcguire@gmail.com,+1-126-759-3018,Donaldfurt,Virginia,USA,2021-06-12,Gold,Mobile App
+CUST00492,Nathan,Smith,Female,44,cindy43@gmail.com,525.988.0578x8999,Lake Adamland,Georgia,USA,2025-09-01,Gold,In-Store
+CUST00493,Leslie,Jones,Other,21,robertbrown@kline-brewer.biz,268.801.9999x1986,North Hectorview,South Carolina,USA,2025-10-29,Platinum,In-Store
+CUST00494,Anna,Phillips,Female,22,udavis@castro-arias.com,(258)144-3832,New Grant,Massachusetts,USA,2025-09-08,Gold,Web
+CUST00495,James,Baker,Other,61,deanna28@hotmail.com,435-717-4281,New Katie,California,USA,2025-05-04,Gold,Mobile App
+CUST00496,David,Trujillo,Female,64,kimberly76@wall.net,(023)518-3617,New Emma,New Mexico,USA,2025-07-11,Platinum,In-Store
+CUST00497,Michael,Everett,Male,39,kellymartin@wagner-richards.info,+1-283-860-4382x101,Lake Sarah,Utah,USA,2021-06-02,Silver,In-Store
+CUST00498,Malik,Smith,Other,27,robertadams@chung.org,(602)345-3120x472,Casehaven,New York,USA,2024-06-29,Gold,Mobile App
+CUST00499,Jeffery,Moody,Other,62,tylerfrench@white.com,+1-895-072-2752,Markmouth,Maryland,USA,2022-08-23,Platinum,Mobile App
+CUST00500,Angel,Howard,Male,56,pattersonjames@hotmail.com,+1-906-933-6336x8823,Alexanderville,South Dakota,USA,2021-08-24,Platinum,Web
+CUST00501,Jonathan,Brown,Female,53,sstone@rose-paul.info,739.160.9145,Robertbury,Minnesota,USA,2025-06-01,Gold,In-Store
+CUST00502,Robert,Gomez,Female,70,jacoblynch@hotmail.com,(843)369-8319x718,Andrewshire,New Hampshire,USA,2022-03-18,Silver,In-Store
+CUST00503,Kenneth,Ford,Other,65,kgarcia@davis.com,001-100-749-8877x28838,Port Stevenport,Alabama,USA,2024-11-23,Platinum,In-Store
+CUST00504,Chad,Lawson,Male,59,davisaaron@walsh.com,001-434-559-3884x6135,Toddshire,Texas,USA,2021-10-14,Platinum,Mobile App
+CUST00505,Bryan,Shannon,Other,41,wcarpenter@smith-cantu.com,+1-959-152-5978,North Brucechester,Arizona,USA,2024-07-18,Silver,Mobile App
+CUST00506,Matthew,Chavez,Female,29,johnnypena@harris.com,242.242.5104x579,New Joshua,Louisiana,USA,2026-01-10,Silver,Mobile App
+CUST00507,Sandra,Wright,Female,30,uwright@gmail.com,841-475-6303,Angelahaven,Utah,USA,2023-10-17,Silver,Web
+CUST00508,Jonathan,Chavez,Male,22,pmullen@day.com,001-522-976-8652x2922,Lake Troy,New York,USA,2025-05-20,Gold,Web
+CUST00509,Michelle,Ramirez,Other,67,rburgess@yahoo.com,756-414-4943,North John,Washington,USA,2021-07-11,Platinum,In-Store
+CUST00510,Joann,Wells,Other,20,moraleslisa@hotmail.com,(948)136-1290x58445,New Brett,Idaho,USA,2024-08-18,Platinum,Mobile App
+CUST00511,Sara,Smith,Other,26,nicholas89@rojas-garcia.com,001-781-978-7565x45969,Port Brandishire,Maryland,USA,2022-03-10,Platinum,Mobile App
+CUST00512,Aaron,Wilson,Male,28,kweber@hotmail.com,001-217-821-1992x23208,Katherineview,Iowa,USA,2026-03-13,Silver,In-Store
+CUST00513,Paul,Wise,Other,69,meagan94@hotmail.com,001-446-253-0005,West Michael,Virginia,USA,2023-11-03,Silver,In-Store
+CUST00514,Alicia,Carlson,Female,20,danielsdouglas@molina.com,(375)389-0112x82750,Haydenmouth,West Virginia,USA,2022-10-02,Gold,Mobile App
+CUST00515,Tiffany,Green,Other,64,mayoemily@lee.com,1522953009,Steinville,Washington,USA,2024-09-28,Silver,Mobile App
+CUST00516,Jason,Flynn,Other,36,woodmary@gmail.com,(955)307-4885,Stanleyburgh,Alabama,USA,2023-04-21,Platinum,Mobile App
+CUST00517,Carrie,Hodges,Male,52,kelly25@hotmail.com,+1-063-412-9561,Beckerton,Indiana,USA,2022-08-03,Silver,Mobile App
+CUST00518,Catherine,Carter,Female,30,amandavasquez@pruitt.com,196-367-3776x5527,Colleenchester,Kansas,USA,2021-10-17,Gold,In-Store
+CUST00519,Tina,Chavez,Other,46,morgan46@mcclain.com,772-408-7365x68407,North Jennifer,New Hampshire,USA,2023-12-14,Gold,Mobile App
+CUST00520,Kimberly,Smith,Female,50,malonerichard@gmail.com,(087)493-4920x09697,Hernandezberg,North Dakota,USA,2023-10-03,Platinum,Mobile App
+CUST00521,Christina,Fisher,Male,70,younggregory@booth.com,774-388-5168x0513,Craigfurt,Pennsylvania,USA,2025-12-06,Silver,In-Store
+CUST00522,Justin,Davis,Male,34,leslie06@schmidt.org,553.729.8187,Flemingland,Mississippi,USA,2022-10-06,Silver,In-Store
+CUST00523,Emily,Ramirez,Female,41,rclark@howard.net,001-486-647-0730x13892,Lake Deborahberg,Kentucky,USA,2023-12-17,Platinum,Web
+CUST00524,Haley,Nguyen,Other,51,nathanandrade@yahoo.com,+1-924-038-7077x637,Cooperside,Illinois,USA,2023-01-27,Silver,Mobile App
+CUST00525,Robert,Taylor,Male,66,ann93@woods.com,1960602999,Gillespiebury,Florida,USA,2025-02-28,Silver,Mobile App
+CUST00526,Edward,Murray,Female,50,antoniomoran@adams-tran.com,001-804-039-4402x00662,Karenchester,Illinois,USA,2024-08-20,Silver,Mobile App
+CUST00527,Jerry,Hardy,Male,32,jayjohnson@johnson-knight.org,595.671.3414x3302,Jessicaborough,Idaho,USA,2021-10-18,Gold,Mobile App
+CUST00528,Casey,Pierce,Male,44,andreagraves@gmail.com,(429)132-3961,Moorestad,Oregon,USA,2023-08-27,Silver,Mobile App
+CUST00529,Meghan,Castillo,Other,41,sara78@hotmail.com,+1-097-237-0266x034,Heatherbury,Louisiana,USA,2024-02-09,Silver,Mobile App
+CUST00530,Brian,Hernandez,Male,41,hendersonjessica@hotmail.com,543-322-1145x28814,Hernandezside,North Carolina,USA,2023-11-21,Silver,Web
+CUST00531,Ann,Torres,Female,24,whiteantonio@hotmail.com,(040)448-4944,North Johnnyfort,Washington,USA,2023-12-07,Platinum,In-Store
+CUST00532,Rebecca,Wells,Female,68,marshlisa@kaufman-clark.org,862-772-1278x825,Ritaville,Delaware,USA,2022-01-19,Silver,Web
+CUST00533,Roger,Rodriguez,Male,36,kari01@yahoo.com,456-343-7905,North Roy,Oregon,USA,2023-10-27,Gold,In-Store
+CUST00534,Pamela,Salas,Male,66,derrick68@mills.com,(182)894-9446,Brettton,New Jersey,USA,2022-09-17,Platinum,Mobile App
+CUST00535,Robert,Perry,Female,57,ahernandez@brown.net,589-127-4131x771,Larsonfort,Nebraska,USA,2026-02-25,Silver,Web
+CUST00536,Amanda,Williams,Male,34,courtney06@thornton.biz,224-685-7847x950,Richardchester,Nebraska,USA,2024-09-19,Silver,Web
+CUST00537,Nathaniel,Hunt,Other,64,christopherkelley@henry.com,+1-260-070-5546x8723,South Theresachester,Tennessee,USA,2026-03-09,Platinum,In-Store
+CUST00538,John,Willis,Female,25,courtneysalinas@solomon.com,(422)232-1690x283,West Rachel,Montana,USA,2021-10-11,Gold,Web
+CUST00539,Michelle,Cross,Female,25,uhamilton@day-king.com,211-591-9972,Lake Erica,Minnesota,USA,2025-04-09,Silver,Web
+CUST00540,Hannah,Mccarthy,Female,58,randalldunn@francis.biz,506-658-3601,Mossmouth,Nebraska,USA,2021-05-26,Platinum,Mobile App
+CUST00541,Michelle,Stanley,Male,25,robertmcbride@young.info,715-720-6758x3918,East Adam,Arizona,USA,2022-01-06,Gold,In-Store
+CUST00542,Dawn,House,Other,19,kdavis@hines.biz,508-860-5912x24877,North Kimberly,Iowa,USA,2025-03-07,Platinum,In-Store
+CUST00543,Andrea,Velez,Other,33,bnelson@mcdowell.com,505-060-8245x977,West Jessica,Texas,USA,2026-04-19,Platinum,Web
+CUST00544,Brian,Klein,Female,45,reedkristen@nelson.com,8505605486,Kyleberg,Texas,USA,2021-05-18,Silver,In-Store
+CUST00545,Brandi,Brewer,Female,33,perezmelissa@ross.com,211-680-3059x2192,Lake Michelleside,Minnesota,USA,2022-01-25,Platinum,Mobile App
+CUST00546,Connor,Wolfe,Male,60,sellis@gmail.com,001-246-102-7634x315,East Seanmouth,Pennsylvania,USA,2021-06-19,Platinum,Web
+CUST00547,Danielle,White,Other,41,jameshenderson@smith.biz,281.012.4836,East Karl,Delaware,USA,2025-09-22,Silver,In-Store
+CUST00548,Charles,Baker,Other,50,nancy32@cochran.biz,555-567-1939x0016,East Matthewfort,Colorado,USA,2024-11-04,Platinum,In-Store
+CUST00549,Timothy,Cummings,Male,42,christopherburns@yahoo.com,755-651-4037x506,Lake Chad,Wyoming,USA,2022-01-14,Gold,Web
+CUST00550,Robert,Harris,Other,42,james02@gmail.com,883-649-6621,Bonnieside,Maryland,USA,2022-08-11,Gold,Mobile App
+CUST00551,Kenneth,Barrett,Other,19,lshaw@harris.org,+1-315-423-6037x07233,Sharonfurt,New Jersey,USA,2024-02-02,Gold,Web
+CUST00552,Monique,Reed,Female,33,spatel@harris.com,907.787.4831,Lake Melinda,New Mexico,USA,2025-12-20,Platinum,In-Store
+CUST00553,Stephanie,Evans,Other,24,brycewoods@hotmail.com,(221)709-4287,Alanberg,Delaware,USA,2024-03-25,Platinum,In-Store
+CUST00554,Michael,Rivera,Female,26,lorigonzales@nolan.org,(431)879-3839x0784,South Kennethfurt,North Carolina,USA,2022-02-16,Silver,Mobile App
+CUST00555,Sandra,Fleming,Other,39,zphillips@hotmail.com,001-993-975-6422,East Monique,Ohio,USA,2024-06-15,Platinum,Web
+CUST00556,Amber,Goodman,Other,47,kristirobinson@castro-lane.net,001-422-847-4228x3031,Grahamchester,Maine,USA,2023-08-17,Platinum,Mobile App
+CUST00557,Jill,Carson,Other,29,heidihopkins@gmail.com,(427)889-6064,Samanthabury,New Mexico,USA,2022-05-27,Silver,Web
+CUST00558,Brian,Coleman,Other,67,oliviafernandez@gmail.com,+1-137-249-4610x39950,Port Natalie,Idaho,USA,2025-08-22,Gold,Web
+CUST00559,Kayla,Ruiz,Female,30,njackson@mccullough-howard.com,+1-946-116-6946x514,Lake Jeffreyborough,Idaho,USA,2024-08-21,Silver,Web
+CUST00560,Phillip,Mann,Male,38,hdoyle@gmail.com,+1-319-463-5734x4125,Foxview,Oregon,USA,2023-02-12,Gold,In-Store
+CUST00561,Stanley,David,Female,70,danielsjuan@gmail.com,001-528-988-0932,West Patricia,Georgia,USA,2024-09-14,Platinum,Mobile App
+CUST00562,Carol,Evans,Female,20,justingreen@hotmail.com,+1-270-154-2194x917,South Christopher,Michigan,USA,2022-01-17,Platinum,Web
+CUST00563,Jason,Alexander,Female,40,michele22@chung.com,577-271-1293,North Meganside,Louisiana,USA,2022-04-20,Silver,In-Store
+CUST00564,David,Obrien,Female,35,kevin66@hotmail.com,+1-809-440-7509x257,North Ericstad,Alabama,USA,2024-07-29,Silver,Mobile App
+CUST00565,Chelsea,Brown,Female,43,nathaniel03@petty.com,+1-711-195-9678x3946,Andreaberg,Ohio,USA,2024-07-02,Platinum,Mobile App
+CUST00566,Rodney,Horne,Female,39,zjackson@gonzalez.com,606-511-9968x1508,Smithbury,New York,USA,2024-12-03,Silver,Mobile App
+CUST00567,Andrea,Deleon,Other,49,angela51@johnston.com,(942)317-1755,East Samantha,South Dakota,USA,2021-09-23,Gold,In-Store
+CUST00568,David,Short,Female,69,wterry@gmail.com,071.484.2976x349,Lake Crystalshire,Missouri,USA,2025-02-14,Silver,In-Store
+CUST00569,Elizabeth,Roy,Female,23,pattersonstephen@pollard.com,527.930.4296x4675,Roseland,Arizona,USA,2021-05-25,Gold,In-Store
+CUST00570,Abigail,Bender,Male,52,gabriela87@yahoo.com,729.558.2501,Danielmouth,Colorado,USA,2023-12-17,Gold,Mobile App
+CUST00571,Jacqueline,Solomon,Male,23,hernandezkimberly@murphy-camacho.com,001-171-754-0232x446,Michellechester,Michigan,USA,2022-04-24,Gold,In-Store
+CUST00572,Katherine,Martinez,Female,37,mmason@hotmail.com,(191)982-2396,Howardville,Mississippi,USA,2025-10-25,Gold,In-Store
+CUST00573,Sarah,Taylor,Other,45,hayneschristopher@barajas-johnson.biz,959.609.1962x91484,Port Eric,Rhode Island,USA,2025-06-11,Silver,In-Store
+CUST00574,Jill,Costa,Female,40,david53@gmail.com,257.826.8754,Hannahchester,Indiana,USA,2025-01-11,Gold,Web
+CUST00575,Michelle,Lowe,Other,40,michaelgray@hotmail.com,001-898-646-5866x054,East Markberg,Hawaii,USA,2022-12-19,Platinum,Mobile App
+CUST00576,Patricia,Wilcox,Female,58,ryan71@munoz.com,+1-799-165-7695,Harrisonport,Utah,USA,2021-07-30,Silver,Web
+CUST00577,Adriana,Walker,Other,58,ujackson@marshall-miller.com,(769)497-9752x944,Port Sierraville,Rhode Island,USA,2022-01-31,Gold,Mobile App
+CUST00578,Bryan,Kemp,Other,69,gpineda@yahoo.com,(497)953-7045x33496,Dawnshire,Missouri,USA,2021-07-27,Platinum,In-Store
+CUST00579,Pamela,Wilson,Male,19,nshaffer@hotmail.com,680.134.2884x6274,North Andreshire,Wisconsin,USA,2023-03-26,Silver,In-Store
+CUST00580,Andrea,West,Other,68,kponce@yahoo.com,+1-856-065-0671x042,Port Austin,Arkansas,USA,2022-07-01,Gold,Web
+CUST00581,Jerry,Lopez,Male,22,markmiddleton@hotmail.com,(505)545-6707x7527,Newtonborough,Oklahoma,USA,2023-10-08,Silver,In-Store
+CUST00582,Angela,Buckley,Female,41,maytamara@smith.com,+1-196-508-6338x8117,South Jeremy,Idaho,USA,2023-08-08,Gold,In-Store
+CUST00583,Cindy,Fuentes,Male,56,kalexander@hotmail.com,4982795112,Andreburgh,South Carolina,USA,2025-08-05,Silver,In-Store
+CUST00584,Cynthia,Love,Female,41,lori59@gmail.com,391.776.4501x27781,Destinytown,Wisconsin,USA,2024-03-24,Gold,Mobile App
+CUST00585,Bradley,Santiago,Male,54,nbrennan@davis-nelson.info,3159122382,Lake Isaac,Delaware,USA,2022-03-01,Silver,In-Store
+CUST00586,Ryan,Brock,Female,43,stevenmeadows@yates.com,+1-301-526-2229x67441,Connieberg,Colorado,USA,2023-08-03,Gold,In-Store
+CUST00587,Randy,Rocha,Female,33,kaylamiller@hotmail.com,001-782-390-8076x70021,East Rachelborough,Iowa,USA,2023-03-05,Silver,Web
+CUST00588,Selena,Fisher,Other,29,ashley20@blair.info,001-097-089-5186,South Kelly,California,USA,2021-06-01,Gold,In-Store
+CUST00589,Rebecca,King,Female,53,nward@rose.info,+1-979-496-3075x08860,New Candace,Tennessee,USA,2022-11-21,Silver,Mobile App
+CUST00590,Joseph,Kirk,Female,63,rebeccalawson@blair-gibson.info,001-849-485-5682x35697,West Anthony,Missouri,USA,2022-02-20,Gold,Web
+CUST00591,Karen,Gonzalez,Other,36,nicole41@hotmail.com,+1-159-932-0163,Campbellborough,New Hampshire,USA,2025-12-10,Platinum,Mobile App
+CUST00592,Luis,Manning,Male,25,jameswright@lewis-moody.com,001-042-695-0952,South Bruceside,California,USA,2024-10-02,Silver,Web
+CUST00593,Crystal,Johnson,Female,29,kelseybernard@lee-russell.com,+1-117-925-7090x90104,Copelandfurt,New Hampshire,USA,2023-04-21,Platinum,Mobile App
+CUST00594,Adrian,Brown,Male,69,bennettjohn@gross-nichols.com,001-930-087-4975x10045,New Jason,Montana,USA,2025-01-04,Platinum,Mobile App
+CUST00595,Darren,Savage,Other,40,blackwelldouglas@gmail.com,(210)413-9764,Lake Kyleview,Virginia,USA,2022-11-04,Platinum,Web
+CUST00596,Erik,Perry,Other,52,johnnysantos@moore.com,001-755-469-0080x410,Ariastown,Arkansas,USA,2025-07-01,Gold,Mobile App
+CUST00597,Tammy,Mitchell,Male,63,courtneyking@gmail.com,140.083.7617x6564,West Margaretborough,Washington,USA,2025-01-29,Platinum,In-Store
+CUST00598,Eric,Ortiz,Other,29,saraestrada@hotmail.com,001-513-897-0454x53281,Port Jacquelinehaven,Massachusetts,USA,2024-10-24,Gold,In-Store
+CUST00599,Roger,Petersen,Male,25,codyhernandez@ferguson.com,001-100-873-0321x9643,Halltown,Maryland,USA,2021-11-11,Silver,Web
+CUST00600,Anna,Erickson,Male,68,iramos@lynch.com,6810721020,Coryside,Delaware,USA,2021-11-18,Gold,Web
+CUST00601,Raymond,Smith,Female,53,kingvictor@harper.com,+1-966-573-4314x905,Scottmouth,Arkansas,USA,2023-12-21,Platinum,Mobile App
+CUST00602,Andre,Johnson,Female,69,amoore@mcgee.com,874-376-3751,Jonestown,North Carolina,USA,2023-07-15,Platinum,Web
+CUST00603,Mary,Moore,Other,23,rosskelly@hartman.com,748.993.8226,New Elizabethville,Arkansas,USA,2021-11-11,Silver,Mobile App
+CUST00604,Kylie,Le,Female,63,mendezandrew@hotmail.com,491.626.4752,Lake Benjaminside,North Dakota,USA,2021-12-07,Platinum,Mobile App
+CUST00605,Steven,Wilkins,Other,44,joannacrane@ingram.com,392-769-7093x741,North Susan,Rhode Island,USA,2025-10-22,Gold,In-Store
+CUST00606,John,Dixon,Male,26,stacywalsh@roberson.net,001-083-142-3346x555,Jameshaven,Michigan,USA,2022-01-05,Gold,In-Store
+CUST00607,Timothy,Richards,Male,46,beth61@quinn-farrell.net,001-346-059-8570x93625,East Thomas,Indiana,USA,2025-01-12,Gold,In-Store
+CUST00608,William,Nunez,Other,40,jayfreeman@yahoo.com,335.055.4297,Port Glennfort,Maine,USA,2024-05-12,Silver,In-Store
+CUST00609,Ashley,Hayes,Other,55,jjackson@martinez-wilson.info,001-435-003-0829x77404,West Barbara,New Jersey,USA,2025-05-20,Silver,Web
+CUST00610,Todd,Strickland,Female,50,danielchan@navarro-lewis.com,4862793765,Kevinville,New Mexico,USA,2025-03-28,Silver,Web
+CUST00611,Taylor,Hudson,Other,27,emilyfranco@hotmail.com,458.089.1588x75749,Dunlapstad,Minnesota,USA,2023-09-24,Gold,Web
+CUST00612,Susan,Lowe,Male,38,iali@bennett-robinson.com,+1-205-285-4074x731,West Nathan,California,USA,2024-10-30,Platinum,Web
+CUST00613,Cynthia,Bowen,Female,51,richardrobbins@hotmail.com,5702090639,Port Monicamouth,Missouri,USA,2022-11-12,Gold,Web
+CUST00614,Shawn,Rojas,Female,30,crich@stewart.com,849-513-2885,Keithstad,Colorado,USA,2023-09-23,Platinum,In-Store
+CUST00615,Rebecca,White,Female,26,david01@hooper.com,2170636772,Jamesstad,Virginia,USA,2022-11-17,Platinum,Mobile App
+CUST00616,Miguel,Gray,Other,52,vazquezernest@gmail.com,001-028-874-5083x8057,East Jamesport,Nevada,USA,2023-09-16,Silver,In-Store
+CUST00617,Tony,Schmidt,Other,28,maryrussell@gmail.com,+1-842-538-0755x49050,Dunlapport,Kentucky,USA,2021-07-23,Platinum,In-Store
+CUST00618,Christopher,Rios,Male,28,danielruiz@gmail.com,725-041-5023,Guerraview,Vermont,USA,2025-12-12,Platinum,In-Store
+CUST00619,Christina,Jones,Other,56,weaverwilliam@lopez.net,(695)713-6867,Port Michealville,South Carolina,USA,2021-09-12,Gold,In-Store
+CUST00620,Sharon,Hill,Male,70,dle@young-diaz.org,+1-179-042-6062x284,Ryanfurt,Wyoming,USA,2023-01-11,Silver,Web
+CUST00621,Kyle,Hunter,Male,59,justin39@yahoo.com,001-187-839-7094x1580,Taylortown,Florida,USA,2023-09-25,Platinum,Mobile App
+CUST00622,Cesar,Reynolds,Other,31,lisagraham@huffman-mcclure.com,905.577.3003x407,East Veronica,Massachusetts,USA,2025-12-25,Platinum,Mobile App
+CUST00623,Steven,Cohen,Other,58,jonathan49@arnold.com,(890)019-3606,Brookefurt,Mississippi,USA,2025-07-19,Silver,Mobile App
+CUST00624,Kayla,Thompson,Other,52,christophercombs@hotmail.com,+1-278-843-0247x088,Dorisberg,Missouri,USA,2023-06-18,Gold,In-Store
+CUST00625,Sandra,Oneill,Female,48,ithomas@martin-bennett.org,209-333-3498x012,East Cheryl,Colorado,USA,2023-01-30,Silver,In-Store
+CUST00626,Kevin,Pitts,Female,37,bryantjohn@tapia-gardner.biz,001-400-140-4386x5113,Michaelmouth,Illinois,USA,2025-10-15,Gold,Web
+CUST00627,Denise,Short,Other,21,vedwards@martinez-watts.com,446-928-1222,Anthonyview,New York,USA,2023-11-13,Silver,Mobile App
+CUST00628,Bryan,Thomas,Female,48,sharpsarah@hotmail.com,001-868-734-1611x865,New Carolinetown,Montana,USA,2022-06-22,Gold,Web
+CUST00629,Michelle,Goodman,Female,56,jamesherrera@gmail.com,001-139-623-1100x0303,Ronaldburgh,Mississippi,USA,2023-04-01,Silver,Mobile App
+CUST00630,Alan,Turner,Other,38,itucker@gmail.com,(995)862-7182,Zacharychester,Alabama,USA,2025-12-31,Platinum,Mobile App
+CUST00631,Brian,Davis,Female,26,johnsonderek@yahoo.com,001-535-621-2551x728,North Javierchester,Arizona,USA,2022-02-28,Gold,In-Store
+CUST00632,James,Key,Other,24,fgray@hotmail.com,(613)768-5330,Lake Michael,Vermont,USA,2024-05-17,Gold,Web
+CUST00633,Sarah,Browning,Female,25,wendygilbert@gmail.com,1835872840,Ralphchester,Illinois,USA,2025-11-12,Gold,Mobile App
+CUST00634,Robert,Flores,Male,27,joshua87@williams.com,(977)723-7732,Thompsonfort,Louisiana,USA,2025-10-13,Silver,Web
+CUST00635,Diana,Daugherty,Female,42,ngutierrez@hotmail.com,(215)582-0054x149,Andrewhaven,Arizona,USA,2022-06-19,Platinum,Mobile App
+CUST00636,Kathryn,Green,Male,28,summer55@lambert-macias.biz,(077)228-2357,Ritterport,Utah,USA,2022-03-31,Gold,In-Store
+CUST00637,James,Mcgee,Other,38,yatesrachael@yahoo.com,998.236.8333x08021,Youngburgh,Virginia,USA,2022-02-25,Silver,Web
+CUST00638,Robert,Alvarez,Female,50,melanie78@myers.com,(586)209-4566,South Kevin,Vermont,USA,2022-11-15,Gold,Mobile App
+CUST00639,Rachel,Hernandez,Female,49,porozco@yahoo.com,7697421163,Youngmouth,New Mexico,USA,2021-09-02,Silver,Web
+CUST00640,Daniel,Cantu,Female,50,kyle77@mercer.com,001-274-432-9338x76945,Davidville,Louisiana,USA,2023-05-22,Gold,Web
+CUST00641,Andrea,Byrd,Male,55,daniel21@hotmail.com,200-908-2511x59755,Nelsonport,Washington,USA,2023-09-22,Gold,Web
+CUST00642,Joseph,Jenkins,Male,36,tracy81@warren.info,(727)883-5749x5705,Elizabethstad,South Dakota,USA,2024-08-12,Gold,In-Store
+CUST00643,Evan,Holland,Other,61,anthony24@hotmail.com,008-048-4454x693,Lake Thomasville,Louisiana,USA,2026-02-11,Gold,Mobile App
+CUST00644,Hannah,Liu,Other,18,tanner23@gomez.biz,619-963-6126x43365,Albertville,Virginia,USA,2023-02-13,Silver,Mobile App
+CUST00645,Chad,Manning,Male,34,angelica48@medina.org,001-698-212-2585x1159,Franciston,North Carolina,USA,2025-09-18,Platinum,Mobile App
+CUST00646,Nathan,Johnson,Female,41,maxwellpatrick@yahoo.com,454.555.0997x780,Thompsonhaven,Massachusetts,USA,2025-04-07,Silver,Mobile App
+CUST00647,Tamara,Knight,Male,54,edward17@smith.com,(823)392-4917x8730,Lake Kevinshire,Colorado,USA,2023-09-25,Platinum,Web
+CUST00648,John,Garner,Female,53,olsonlisa@yahoo.com,(350)716-1157,West Miguelshire,Delaware,USA,2022-01-31,Gold,Web
+CUST00649,Caitlin,Jackson,Female,50,conleycrystal@yahoo.com,243.709.8544,Owensfort,Georgia,USA,2025-03-24,Gold,In-Store
+CUST00650,Larry,Carter,Female,70,laurapeterson@cain-peterson.com,244.902.5887,New Jim,Pennsylvania,USA,2022-05-27,Platinum,In-Store
+CUST00651,Jim,Stone,Other,25,jonesveronica@gmail.com,(929)708-8144x8700,Paulastad,Illinois,USA,2022-07-20,Silver,Web
+CUST00652,Craig,Phelps,Female,41,justin44@yahoo.com,4399067382,Port Yvonneberg,North Carolina,USA,2023-12-27,Gold,In-Store
+CUST00653,Darrell,Schneider,Female,66,lwilson@blackburn-williams.com,+1-533-649-3866x847,West Calebview,Virginia,USA,2025-10-28,Silver,Web
+CUST00654,Victoria,Contreras,Other,50,brianmarshall@hotmail.com,001-662-328-0445x9572,Fordville,Utah,USA,2024-11-03,Gold,In-Store
+CUST00655,James,Hernandez,Male,20,sheila89@cox-castro.org,+1-301-108-4054,East Kelly,Texas,USA,2023-03-04,Silver,Web
+CUST00656,Cody,Leblanc,Other,39,kathleenbrown@martinez.com,0079221054,New Samantha,Texas,USA,2024-11-12,Gold,In-Store
+CUST00657,Sheryl,Giles,Female,27,katherine26@jones.com,(008)882-3968x857,New Amandaport,California,USA,2025-11-22,Platinum,In-Store
+CUST00658,Walter,Hanson,Male,38,wmccarthy@miller.com,483.435.0635,Carolineside,Missouri,USA,2022-03-31,Platinum,Mobile App
+CUST00659,James,Gamble,Male,43,sandersjames@hotmail.com,(403)444-4945x603,Jenniferfurt,Missouri,USA,2024-12-19,Platinum,In-Store
+CUST00660,Richard,Kim,Female,55,barberbrittany@hotmail.com,355-064-0023x166,West Cassandrafurt,Missouri,USA,2022-11-10,Gold,In-Store
+CUST00661,Linda,Butler,Other,52,marquezrandy@hotmail.com,(753)088-5474x33230,New Kimmouth,New York,USA,2021-08-21,Gold,In-Store
+CUST00662,Patrick,Butler,Other,37,martinzachary@gmail.com,794.731.6670x255,Macdonaldmouth,North Carolina,USA,2022-01-15,Gold,Web
+CUST00663,Marie,Martinez,Female,39,john80@hotmail.com,291.011.3978x0084,New Victoria,Arkansas,USA,2024-06-11,Platinum,Web
+CUST00664,Summer,Becker,Female,55,petersoncarolyn@coffey.org,534-978-8888,North Davidburgh,Georgia,USA,2023-05-27,Gold,In-Store
+CUST00665,Jessica,Kramer,Other,58,jordansarah@taylor-henderson.net,252-826-1385,Johnsonside,Tennessee,USA,2023-06-23,Silver,In-Store
+CUST00666,Paula,Russell,Female,34,wyattallison@yahoo.com,3006567090,North Benjaminport,Colorado,USA,2023-07-02,Platinum,In-Store
+CUST00667,Ashley,Acosta,Other,32,sonia58@hotmail.com,(880)705-1929,Lake Candacemouth,Nevada,USA,2023-06-27,Platinum,Web
+CUST00668,Amy,Campbell,Other,48,andreathompson@williams.com,(199)702-5615,Billyshire,Tennessee,USA,2024-05-14,Silver,In-Store
+CUST00669,Bradley,Gutierrez,Other,64,cgutierrez@jones-harmon.com,0692824797,Sampsonborough,Arizona,USA,2022-04-14,Platinum,Mobile App
+CUST00670,Robert,Weber,Male,70,chelseawatson@howe.com,308-760-7100x2722,Chenshire,Montana,USA,2024-12-15,Platinum,Web
+CUST00671,Beverly,Wells,Male,54,leroyroberts@rangel.com,701.471.7635x595,Meyerborough,Idaho,USA,2023-10-23,Platinum,Web
+CUST00672,Joshua,Ryan,Male,19,leemark@newman.net,001-988-625-1415x82067,Davisfort,Illinois,USA,2023-02-25,Gold,Mobile App
+CUST00673,Sharon,Barnes,Female,27,trobertson@hotmail.com,+1-308-271-3260x862,New Derek,Texas,USA,2023-07-18,Gold,In-Store
+CUST00674,Bobby,Hall,Male,44,katrina94@hotmail.com,636.331.5515x6700,Brockchester,New Hampshire,USA,2026-02-03,Platinum,In-Store
+CUST00675,Krista,Martinez,Female,65,whamilton@smith.org,(918)954-4059x879,Lake Davidborough,Minnesota,USA,2024-06-02,Platinum,Web
+CUST00676,Mary,Roberts,Other,26,david68@hotmail.com,+1-340-597-9602x65312,West Jennifermouth,Missouri,USA,2022-08-07,Platinum,Web
+CUST00677,Christy,Huff,Other,38,donna18@hotmail.com,957-416-8457x9497,Aaronview,Missouri,USA,2022-08-06,Platinum,Mobile App
+CUST00678,Barbara,Wood,Other,42,daniel06@yahoo.com,996-279-0761x647,New Heatherton,Colorado,USA,2025-06-30,Gold,Web
+CUST00679,Gregory,Lucas,Female,52,wjennings@hotmail.com,865.467.5991x10859,Bowenstad,Arizona,USA,2023-10-10,Gold,In-Store
+CUST00680,Jennifer,Myers,Female,61,ashley44@gmail.com,859.314.3673,East Herbertview,Texas,USA,2021-05-11,Platinum,In-Store
+CUST00681,Zachary,Atkinson,Other,69,tarapaul@gmail.com,+1-571-327-5218x235,Kimfort,Wisconsin,USA,2025-05-13,Platinum,Mobile App
+CUST00682,Ebony,Blake,Other,48,raymondjones@murphy-newton.com,571.156.9247,New Brenda,Kansas,USA,2023-11-05,Silver,Web
+CUST00683,Scott,Campbell,Female,53,kyle12@yahoo.com,556.727.5944x614,Norrisstad,Colorado,USA,2023-10-18,Gold,Web
+CUST00684,Craig,Smith,Female,67,scottbryan@gmail.com,929.567.0119x882,Lake Danielle,California,USA,2024-06-28,Gold,In-Store
+CUST00685,Vicki,Barnes,Male,62,tyroneadams@yahoo.com,(962)653-7655x9481,Sheaview,Vermont,USA,2023-05-31,Platinum,Mobile App
+CUST00686,Ashley,Manning,Female,48,robert41@myers-rivera.com,6214807516,Johnsontown,New Hampshire,USA,2023-05-13,Gold,In-Store
+CUST00687,Jonathan,Jenkins,Other,35,juliejohnson@hotmail.com,346-231-1002,Kristinahaven,Louisiana,USA,2024-03-01,Gold,Web
+CUST00688,Yolanda,Cooper,Other,61,robertsonalexander@west.com,001-728-126-3115x0032,Port Pamela,Georgia,USA,2024-12-19,Platinum,Mobile App
+CUST00689,Richard,Torres,Female,70,leericky@gmail.com,(967)314-8289x70156,Port Frank,Rhode Island,USA,2025-11-19,Gold,Web
+CUST00690,Jennifer,Wheeler,Female,20,carolmosley@gmail.com,5040397354,North Josephside,Alabama,USA,2022-04-05,Gold,In-Store
+CUST00691,John,Stephens,Male,40,uwilliams@hotmail.com,(345)248-0468,New Jeremyfort,Alabama,USA,2022-04-30,Gold,In-Store
+CUST00692,Tiffany,Brown,Female,65,carlahatfield@yahoo.com,701.862.7830,New Ana,Missouri,USA,2026-04-10,Gold,Web
+CUST00693,Krystal,Phillips,Male,70,steven78@gmail.com,+1-399-932-1670x563,North Jeffrey,Nevada,USA,2024-03-27,Platinum,Mobile App
+CUST00694,Karen,Olson,Other,62,tyler50@hotmail.com,188.981.5937,Wrightland,Montana,USA,2022-01-13,Gold,Web
+CUST00695,Brian,Williams,Male,57,kevinlindsey@gmail.com,(265)515-1049x63581,West David,Pennsylvania,USA,2025-05-23,Platinum,In-Store
+CUST00696,Andre,Obrien,Male,33,theresabrown@gmail.com,001-725-898-1090x50332,New Tracyburgh,California,USA,2023-01-12,Silver,In-Store
+CUST00697,Mitchell,Dominguez,Other,32,robertsonkayla@gmail.com,998.965.0779,Webbfurt,New York,USA,2022-01-05,Platinum,Web
+CUST00698,Adam,Bryant,Male,24,richard39@grant.info,+1-935-251-7018x8010,Port Sarah,Nebraska,USA,2022-07-05,Gold,Mobile App
+CUST00699,Joshua,Jones,Other,48,kyle78@roberts.com,+1-566-388-8482x7241,East Crystal,Maine,USA,2022-03-12,Silver,In-Store
+CUST00700,Ashley,Shaw,Male,18,connieparker@yahoo.com,+1-606-683-3801,East Juanburgh,Wyoming,USA,2023-01-04,Platinum,Web
+CUST00701,Latoya,Bautista,Female,59,francisco12@richards.com,+1-917-884-5321,New Rachaelmouth,Illinois,USA,2023-05-06,Gold,Mobile App
+CUST00702,Barry,Gonzalez,Other,30,natashasanders@gmail.com,715-329-7752x840,Ericberg,Florida,USA,2022-07-28,Gold,Mobile App
+CUST00703,Andrea,Johnson,Female,59,campbelltabitha@perry.com,(705)092-2598,Fergusonview,Iowa,USA,2025-11-07,Silver,Web
+CUST00704,Jessica,Horn,Other,54,williamburgess@gmail.com,001-586-449-4104,Robynmouth,Idaho,USA,2025-04-11,Silver,In-Store
+CUST00705,Andrew,Evans,Other,64,cameron40@yahoo.com,(685)406-0486,South Christopherborough,Utah,USA,2025-06-07,Silver,Web
+CUST00706,Robert,Lee,Female,29,rogerskimberly@gmail.com,667-978-2612,Port Coltonmouth,Maryland,USA,2023-07-24,Silver,Mobile App
+CUST00707,Adam,Smith,Female,29,austinjackson@gibson.com,078.258.7203,Port Peter,Ohio,USA,2023-09-30,Platinum,Mobile App
+CUST00708,Gabriel,Wilson,Male,18,troycosta@yahoo.com,734-978-6524x03836,Lake Brendanside,Maryland,USA,2023-03-17,Gold,In-Store
+CUST00709,Jonathan,Hobbs,Other,24,destinymejia@jones.com,+1-217-274-0630x02578,Lawrencemouth,Maryland,USA,2022-11-25,Gold,Mobile App
+CUST00710,Theresa,Smith,Female,59,taylortina@lynn.com,+1-057-823-6262,Stephensonfort,Maryland,USA,2022-07-23,Platinum,In-Store
+CUST00711,Jamie,Richard,Female,26,crystal84@conway-wright.net,172.261.5655x3562,Devinfort,Nebraska,USA,2021-08-03,Platinum,Mobile App
+CUST00712,Kelly,Grant,Female,30,wcollins@gmail.com,195-375-2913,Jamesstad,New Jersey,USA,2023-03-24,Silver,Mobile App
+CUST00713,Charles,Walker,Male,64,courtney55@gmail.com,331.049.4974,Kinghaven,Michigan,USA,2021-07-30,Gold,In-Store
+CUST00714,Justin,Allen,Female,63,jillian17@hotmail.com,001-856-278-8620x483,West Jennifer,Rhode Island,USA,2024-06-01,Silver,Web
+CUST00715,John,Murphy,Other,39,pjones@gmail.com,924.433.0812x766,South Robertbury,Massachusetts,USA,2023-10-21,Gold,In-Store
+CUST00716,Kelli,Wade,Other,66,stephaniezuniga@williams.com,5673228245,Lake Richard,Kentucky,USA,2022-07-15,Silver,Web
+CUST00717,Lisa,Harrison,Other,58,jeffrey66@sharp.com,057.371.5971,New Jerryburgh,West Virginia,USA,2021-10-10,Gold,Mobile App
+CUST00718,Eric,Brock,Other,38,sellerscaroline@pope.info,(493)222-3448x03738,Mccoyborough,Ohio,USA,2021-07-15,Silver,Mobile App
+CUST00719,Sabrina,Schmidt,Other,24,wbutler@gmail.com,001-452-690-0361x90763,New Ronald,Minnesota,USA,2024-03-03,Silver,Web
+CUST00720,Sarah,Griffin,Female,38,maysteven@gmail.com,(815)457-4071x4839,Heatherburgh,Illinois,USA,2025-05-30,Silver,Web
+CUST00721,Christopher,Mendoza,Female,42,clarkkristen@mays-stephens.com,(362)066-5509x93845,South Taylorville,Mississippi,USA,2024-05-18,Silver,Mobile App
+CUST00722,Olivia,Bentley,Female,39,scottdaniel@valdez.com,688.598.1262,Alvarezfurt,Utah,USA,2024-12-08,Gold,In-Store
+CUST00723,Robert,Kidd,Other,54,ekaiser@hotmail.com,884-547-5361x88483,Port Larry,Minnesota,USA,2025-12-11,Silver,Mobile App
+CUST00724,Linda,Chambers,Other,41,lindafreeman@jackson.com,088.471.5873x343,Rosebury,Pennsylvania,USA,2022-06-17,Platinum,Web
+CUST00725,Raymond,Mendez,Male,60,victoriamorgan@yahoo.com,895-831-6693,Lopezside,Colorado,USA,2024-12-03,Silver,Mobile App
+CUST00726,Ann,Golden,Female,28,dhays@gmail.com,(898)553-6472x40830,Coffeychester,Florida,USA,2024-09-01,Gold,In-Store
+CUST00727,Ana,Miller,Other,63,kevinjames@hotmail.com,4592689419,Johnsonburgh,New Mexico,USA,2024-02-28,Gold,In-Store
+CUST00728,Jared,Peterson,Male,58,rodrigueztimothy@davis.biz,001-309-703-3308,Port Johnny,Hawaii,USA,2021-05-31,Gold,Mobile App
+CUST00729,Rachel,Morales,Other,32,tburns@hotmail.com,001-101-523-5259x4294,Delgadobury,West Virginia,USA,2023-03-28,Silver,Web
+CUST00730,Melanie,Sanchez,Female,27,wsexton@gmail.com,037.862.5418,New Kevinburgh,Florida,USA,2024-05-04,Gold,In-Store
+CUST00731,James,Cuevas,Other,41,vkennedy@yahoo.com,322-282-6588x524,Stephaniemouth,Montana,USA,2021-10-27,Gold,In-Store
+CUST00732,Sara,Mendoza,Other,48,simmonsleslie@russell.org,(342)695-3231x055,East Katieshire,Florida,USA,2021-12-18,Platinum,In-Store
+CUST00733,James,Cook,Male,66,zacharyjohns@baker.com,+1-927-192-8077x49906,West Angela,Missouri,USA,2024-01-03,Silver,In-Store
+CUST00734,David,Thomas,Other,68,johnmorgan@morrison.biz,(950)974-8423,South Calvinville,Maine,USA,2022-10-27,Silver,In-Store
+CUST00735,Brittany,Johnson,Female,51,alison33@washington.com,823.372.2448x329,South Mandy,Maryland,USA,2026-02-10,Platinum,Mobile App
+CUST00736,Gary,Gardner,Male,54,joshuacrosby@myers.com,789.747.6150x2514,Rhodesbury,North Carolina,USA,2024-08-04,Silver,Web
+CUST00737,Scott,Mcknight,Other,50,epeterson@romero.com,(250)638-2593x134,Mendozaport,Minnesota,USA,2026-02-07,Silver,In-Store
+CUST00738,Dustin,Martinez,Other,27,lindapage@tran.com,(735)729-1353x075,Nicholsonborough,Maine,USA,2024-12-03,Silver,Mobile App
+CUST00739,Maria,French,Other,46,yvonne03@gmail.com,286.322.1580x2582,Leemouth,Minnesota,USA,2023-02-02,Silver,In-Store
+CUST00740,Brian,Edwards,Male,63,robert32@wyatt-benton.com,+1-361-370-5339x5492,Port Frank,Nebraska,USA,2024-05-19,Platinum,Mobile App
+CUST00741,William,Davis,Male,50,andersonjohn@hotmail.com,(339)710-0698,Edwardsburgh,Georgia,USA,2026-03-22,Gold,Web
+CUST00742,Savannah,Williams,Female,26,anna78@gmail.com,001-724-667-6355x3543,Lake Marymouth,Missouri,USA,2024-05-09,Platinum,Mobile App
+CUST00743,Paula,Hawkins,Female,54,katherinereynolds@gmail.com,(262)218-3413,Swansontown,Oregon,USA,2022-05-08,Silver,In-Store
+CUST00744,Janet,Lopez,Female,61,kellypayne@flowers.com,+1-139-170-8578x991,New Barbaraport,Utah,USA,2023-11-17,Gold,In-Store
+CUST00745,Jeremiah,Allen,Male,43,fwilliams@gmail.com,001-192-685-7249x6308,Port Amy,Kansas,USA,2021-11-23,Gold,Web
+CUST00746,Edward,Fleming,Other,31,trancharles@hotmail.com,726-529-4117,Gabrielland,Washington,USA,2022-04-05,Platinum,Web
+CUST00747,David,Davis,Male,45,michael67@hernandez.com,(238)655-7285,Griffinland,Georgia,USA,2024-03-09,Gold,In-Store
+CUST00748,Christian,Phillips,Male,52,tcarter@yahoo.com,001-501-119-8184,Jessechester,Massachusetts,USA,2024-11-22,Silver,Web
+CUST00749,John,Melton,Female,20,twatts@buchanan.info,599.043.9413x1772,Mcculloughbury,Rhode Island,USA,2023-02-01,Gold,Mobile App
+CUST00750,Sara,Salinas,Male,67,bautistarobert@gmail.com,+1-199-571-3058,Elizabethview,Oklahoma,USA,2021-07-07,Silver,In-Store
+CUST00751,George,Gray,Other,59,debra16@johnson.net,(340)660-8517x26224,North James,South Dakota,USA,2023-07-09,Gold,Mobile App
+CUST00752,David,Rios,Female,46,barbaracraig@gmail.com,201-904-0798x305,Jasonfort,New Hampshire,USA,2025-11-21,Gold,Mobile App
+CUST00753,Clifford,Rose,Male,61,timothy54@knight.com,(474)094-0021x05964,Lake Laurie,Ohio,USA,2026-04-27,Platinum,In-Store
+CUST00754,Andrew,Lee,Male,59,andradesarah@singleton.org,(656)093-8291x1741,East Benjamin,Ohio,USA,2023-08-15,Gold,Web
+CUST00755,Jeff,Sanchez,Male,52,mbush@yahoo.com,836.044.5781,Johnsonhaven,Maine,USA,2023-05-29,Gold,In-Store
+CUST00756,Brian,Robinson,Male,64,heather21@hotmail.com,(524)918-6834x6330,Sanchezmouth,Louisiana,USA,2024-07-11,Silver,Web
+CUST00757,Cheryl,Harding,Male,37,dsweeney@yahoo.com,+1-077-791-9074x924,Coxtown,Pennsylvania,USA,2025-06-07,Gold,In-Store
+CUST00758,Tyler,Tucker,Other,52,jessicabentley@gmail.com,001-294-616-3311x61736,Sanchezbury,Virginia,USA,2024-01-31,Gold,In-Store
+CUST00759,Dorothy,Santiago,Female,70,carrjoseph@hotmail.com,(706)262-2302,Port Brian,South Carolina,USA,2025-04-28,Silver,Web
+CUST00760,Lisa,Ayala,Female,40,aaron48@huerta.org,(593)567-9839x6595,Ambertown,Utah,USA,2021-07-07,Silver,Mobile App
+CUST00761,Lisa,Medina,Male,64,jacksonarthur@yoder-flynn.org,(840)187-7436x5253,Campbellstad,New Mexico,USA,2026-02-21,Silver,Web
+CUST00762,Colleen,Miranda,Other,44,earlryan@gmail.com,+1-009-550-0988x3552,Lake Kimberly,New Jersey,USA,2024-07-18,Platinum,Web
+CUST00763,Mikayla,White,Male,31,rachel60@yahoo.com,001-004-514-1684x9529,Smithfort,Missouri,USA,2023-07-24,Silver,Web
+CUST00764,Brandy,Hughes,Other,20,jenniferarnold@figueroa-smith.com,459-467-1405x61579,Matthewhaven,New Hampshire,USA,2023-05-29,Gold,In-Store
+CUST00765,Kevin,Hogan,Other,63,thompsonryan@gmail.com,391-156-0282x52707,Olsonview,Indiana,USA,2021-10-03,Silver,Web
+CUST00766,Zachary,Powell,Other,20,rjohnson@hotmail.com,(211)230-9715x0034,West Peggyland,Kentucky,USA,2026-04-14,Gold,Mobile App
+CUST00767,Sharon,Smith,Male,52,baileymary@hotmail.com,(473)043-5871,Holtmouth,Iowa,USA,2021-08-15,Silver,Web
+CUST00768,Bryan,Bonilla,Male,50,laura88@pierce-james.biz,001-436-183-6264x59191,North Jamesfurt,Utah,USA,2021-12-31,Gold,Web
+CUST00769,Laura,Ellis,Other,54,roseanthony@wilson.com,3313927147,Barbarastad,New York,USA,2023-08-07,Gold,In-Store
+CUST00770,Jeremiah,Martinez,Other,67,ewilson@maldonado-gutierrez.biz,(019)062-8553x71507,Lake Michaelmouth,Montana,USA,2023-06-24,Platinum,Mobile App
+CUST00771,Brenda,Wise,Male,37,sanchezlaura@yahoo.com,9159274841,Mendezberg,North Carolina,USA,2026-01-26,Silver,In-Store
+CUST00772,David,Lane,Other,32,thomashebert@moody.com,001-108-466-3461x5311,South Bradleychester,New Hampshire,USA,2025-04-25,Gold,Mobile App
+CUST00773,Justin,Jones,Female,21,williamsmercedes@lee.com,084.441.5095,Michaelberg,California,USA,2023-07-08,Platinum,In-Store
+CUST00774,Jared,Jackson,Other,29,kim32@yahoo.com,358.990.8424,South Lukeberg,Texas,USA,2025-07-04,Platinum,In-Store
+CUST00775,Michael,Williams,Female,53,sarah10@yahoo.com,129-577-9783x41374,Aprilton,Massachusetts,USA,2021-10-07,Gold,Web
+CUST00776,Eduardo,Reeves,Female,59,andrewsgregory@williams.info,001-548-415-0804x9714,Karlmouth,Massachusetts,USA,2022-10-06,Platinum,Mobile App
+CUST00777,Jennifer,Hobbs,Other,38,cmoreno@gmail.com,+1-064-354-8193x4636,New Ronaldchester,Vermont,USA,2024-09-12,Platinum,Mobile App
+CUST00778,Tyler,Johnson,Female,27,riverajohn@hotmail.com,1167903322,East Melissa,Connecticut,USA,2025-02-20,Gold,Mobile App
+CUST00779,Madison,Clark,Male,66,kimberly85@yahoo.com,001-808-348-5072x6870,Romanview,Delaware,USA,2024-04-19,Platinum,Mobile App
+CUST00780,Alex,Goodwin,Male,32,ashley23@oliver-snyder.com,+1-968-390-8373x35743,Johnsonland,Oklahoma,USA,2026-01-06,Gold,In-Store
+CUST00781,Kathryn,Ballard,Male,69,qwalton@wagner.com,189.292.7868x74626,Maynardport,Arizona,USA,2021-09-02,Gold,Web
+CUST00782,Sarah,Sanders,Other,44,browningrichard@arnold.com,001-813-576-5579x70752,West Dawn,Massachusetts,USA,2024-04-05,Gold,In-Store
+CUST00783,Nicole,Sullivan,Other,26,powellchristina@gmail.com,854-369-1296x262,Dickersonstad,South Carolina,USA,2024-08-10,Gold,Web
+CUST00784,Barbara,Williams,Female,31,jamesbentley@gmail.com,001-822-968-1283x797,New Rebeccaland,Alabama,USA,2024-05-25,Gold,In-Store
+CUST00785,Matthew,Moore,Male,46,hurleyjenna@rhodes.info,(825)150-8536x462,Michaelview,Arizona,USA,2022-07-30,Gold,Web
+CUST00786,Heather,Randolph,Other,64,barbara59@yahoo.com,001-466-794-1626x8670,Sarahside,Vermont,USA,2025-09-27,Silver,Web
+CUST00787,Steven,Vazquez,Female,42,stephaniebrandt@baird.com,(872)763-9258x15260,Wilsonport,Kentucky,USA,2021-06-09,Platinum,In-Store
+CUST00788,Robert,Barnett,Other,20,amoore@becker.org,001-155-415-1942x724,New Jacob,North Carolina,USA,2021-08-02,Silver,Web
+CUST00789,Amber,Cohen,Other,64,daniel47@holden.info,214.598.9225x5454,Leeborough,Mississippi,USA,2025-03-22,Platinum,In-Store
+CUST00790,Kelli,Lamb,Male,48,joelwilliams@yahoo.com,768.943.7695x748,Berryville,Montana,USA,2025-08-02,Silver,Mobile App
+CUST00791,Javier,Harrell,Female,18,olamb@gmail.com,(033)981-3460,Contrerasland,Florida,USA,2026-02-03,Silver,Web
+CUST00792,James,Walker,Other,25,jessicagriffith@hotmail.com,001-490-477-4703,Dianeside,Georgia,USA,2026-03-19,Platinum,Mobile App
+CUST00793,Anthony,Jones,Male,62,brownjoseph@davis-garcia.biz,362.085.2470x888,Evansberg,New Jersey,USA,2023-01-16,Platinum,In-Store
+CUST00794,Elizabeth,Williams,Male,43,obrooks@davis.com,385-892-7872,Port Lisa,Oregon,USA,2025-06-27,Silver,In-Store
+CUST00795,Brian,Jackson,Female,67,shenry@whitney.com,001-884-281-9329x627,Walkerhaven,Oregon,USA,2024-05-01,Gold,Mobile App
+CUST00796,Lisa,Wyatt,Female,52,tmiller@yahoo.com,+1-658-710-1290x052,Perkinsburgh,Utah,USA,2024-12-25,Platinum,Mobile App
+CUST00797,Kevin,Martinez,Female,34,brookshannah@alexander.net,(961)941-3849,Lake Bryan,Oregon,USA,2021-08-14,Gold,In-Store
+CUST00798,Alan,Jones,Female,47,kevingriffin@yahoo.com,165.367.6166x8164,East Grace,New Jersey,USA,2021-11-28,Silver,In-Store
+CUST00799,Kelly,Hernandez,Female,66,morriswalter@hotmail.com,225-348-4588,Craigfurt,New Jersey,USA,2024-08-19,Gold,Web
+CUST00800,Alexis,Baldwin,Female,38,chad36@barron.com,796-654-0818,Heidichester,California,USA,2025-06-18,Gold,Web
+CUST00801,Kayla,Thompson,Other,32,qhampton@hotmail.com,001-353-086-5649x00557,Martinezland,Texas,USA,2021-10-20,Platinum,Web
+CUST00802,Juan,Lawrence,Male,34,matthewrussell@yahoo.com,383.437.0939x51400,Anthonybury,Arizona,USA,2022-07-31,Platinum,In-Store
+CUST00803,Ashley,Brooks,Other,64,mary57@brady.com,001-625-698-5846x3750,Port John,Wisconsin,USA,2025-02-21,Gold,Mobile App
+CUST00804,Dominic,Perez,Male,30,pclarke@gmail.com,497-952-5725x453,West Robert,Connecticut,USA,2023-02-19,Gold,Web
+CUST00805,Cindy,Lewis,Female,54,caitlincole@parks.com,+1-728-471-6874x17623,West Johnport,Minnesota,USA,2022-04-25,Silver,Mobile App
+CUST00806,Amanda,Murphy,Other,59,qsmith@williams-stone.com,770.649.5667x11933,East Jacquelineborough,Missouri,USA,2024-04-19,Platinum,Mobile App
+CUST00807,Brad,Fields,Female,66,ftate@hotmail.com,001-176-491-0188x428,East James,Florida,USA,2024-07-05,Gold,In-Store
+CUST00808,Lauren,Houston,Other,65,martinezapril@gmail.com,001-962-872-7930x7220,Port Jeffreymouth,Rhode Island,USA,2025-03-19,Gold,Mobile App
+CUST00809,Chelsea,Crosby,Male,64,edavis@ayala.com,2494903332,Rodriguezport,Mississippi,USA,2024-03-30,Gold,Web
+CUST00810,Karen,Alexander,Male,64,kevin94@williams.net,+1-418-973-3868x573,New James,Pennsylvania,USA,2025-04-28,Platinum,Mobile App
+CUST00811,Jennifer,Bond,Male,52,ashley05@rodriguez.com,(146)725-9752x719,East Christopher,Arizona,USA,2024-02-20,Platinum,Web
+CUST00812,Kelly,Lewis,Other,20,bartlettjessica@hotmail.com,001-486-416-3756x42094,Travisfurt,Nebraska,USA,2023-07-06,Silver,In-Store
+CUST00813,James,Sanchez,Male,66,brandon88@gmail.com,+1-393-201-5506x58964,Morrisside,Colorado,USA,2026-03-10,Silver,Mobile App
+CUST00814,Linda,Williams,Male,58,christiebird@yahoo.com,(581)783-8543x12712,East John,Idaho,USA,2021-07-14,Silver,Web
+CUST00815,Olivia,Anderson,Other,27,robert29@yahoo.com,840-658-3569x6798,Wileyburgh,South Carolina,USA,2025-10-02,Silver,Web
+CUST00816,Elizabeth,Smith,Other,47,fsingleton@jones.com,001-756-611-0698,East Royfort,Montana,USA,2022-02-15,Gold,Web
+CUST00817,Matthew,Arias,Other,58,martinheather@yahoo.com,001-477-960-0841x55963,South John,Oklahoma,USA,2021-05-25,Platinum,In-Store
+CUST00818,Thomas,Johnson,Female,60,lucas33@andrews.com,9197273015,Lake Cheyennehaven,Colorado,USA,2025-07-07,Gold,Web
+CUST00819,Mitchell,Washington,Male,52,cliffordgarcia@hernandez-bell.com,866-191-4963x50065,Hortonside,Mississippi,USA,2024-12-04,Platinum,Mobile App
+CUST00820,Alexa,Campbell,Male,19,fhutchinson@yahoo.com,001-503-171-6113x63511,New Larry,Maryland,USA,2022-08-16,Platinum,In-Store
+CUST00821,Patricia,Smith,Female,52,zmassey@gonzalez.com,001-838-605-1808x8068,Port Conniehaven,South Carolina,USA,2024-07-18,Gold,Web
+CUST00822,John,Young,Other,70,markmiller@hotmail.com,007-397-4738x01664,South Craigland,West Virginia,USA,2023-08-17,Platinum,In-Store
+CUST00823,George,Martinez,Female,69,marksparks@yahoo.com,172-315-1444,West Nicole,Pennsylvania,USA,2021-06-05,Silver,Web
+CUST00824,Jennifer,Alexander,Male,51,dgood@hotmail.com,(014)092-6969x78491,Denisehaven,Iowa,USA,2024-05-05,Silver,Web
+CUST00825,Ashley,Barnes,Male,57,terri40@gmail.com,(662)901-4644x8289,Davisstad,Utah,USA,2022-06-26,Platinum,Mobile App
+CUST00826,Edward,Solis,Female,35,heather45@bennett-rodriguez.com,(593)750-1547x4968,Andrewburgh,Maine,USA,2023-09-24,Gold,Web
+CUST00827,Lauren,Fowler,Female,43,jesse28@yahoo.com,006.324.2850x970,Cookfort,Florida,USA,2024-12-24,Gold,In-Store
+CUST00828,Shelley,Goodman,Male,62,jacobrichardson@hotmail.com,(761)954-6994,Elizabethfurt,Pennsylvania,USA,2023-02-23,Silver,Mobile App
+CUST00829,Mary,Quinn,Other,70,brownshannon@hotmail.com,(623)933-3746x195,Carlsonmouth,New York,USA,2023-07-24,Silver,In-Store
+CUST00830,Colin,Baxter,Other,66,christian46@white-moore.org,872-276-4504x86515,Powersborough,Idaho,USA,2022-09-17,Silver,Web
+CUST00831,Tonya,Hatfield,Female,42,charlesdickerson@richards.com,+1-349-266-7089x2506,North Leah,Ohio,USA,2025-08-06,Gold,In-Store
+CUST00832,Linda,Banks,Female,21,elizabethstevens@best-lopez.info,001-834-901-2205,Ashleyberg,New York,USA,2023-10-20,Platinum,Web
+CUST00833,William,Soto,Other,28,rgrant@gmail.com,069.160.5622,Michaelport,Tennessee,USA,2023-02-19,Silver,Mobile App
+CUST00834,Christopher,Carson,Female,59,ariel27@yahoo.com,+1-513-533-8498,South Leviland,Utah,USA,2022-07-31,Gold,In-Store
+CUST00835,Carlos,Villarreal,Male,51,lerickson@yahoo.com,023-935-0234,Greenshire,Montana,USA,2023-06-15,Silver,Web
+CUST00836,Nicholas,Thompson,Male,62,mikayla52@kane-martinez.com,246-156-1487,Teresaborough,Texas,USA,2025-11-02,Platinum,Mobile App
+CUST00837,Mark,Allen,Female,20,tfernandez@gmail.com,(081)456-5637x16558,Kingbury,Nevada,USA,2022-01-25,Silver,In-Store
+CUST00838,Wendy,Rodriguez,Female,52,edwardbean@hotmail.com,(398)261-3333x880,Christopherfurt,Arizona,USA,2025-01-10,Platinum,In-Store
+CUST00839,Anthony,Smith,Male,29,andersonelizabeth@gay.com,(062)113-3095,East Brian,Alabama,USA,2022-08-05,Gold,Web
+CUST00840,Chad,Massey,Male,55,aarnold@gmail.com,0295827226,South Erik,Louisiana,USA,2023-05-04,Silver,In-Store
+CUST00841,Scott,Rodriguez,Female,22,chenderson@bradshaw.com,+1-162-678-6365,Jacksonburgh,Maryland,USA,2025-07-22,Gold,Web
+CUST00842,Lisa,Pineda,Other,33,toddjohnson@yahoo.com,001-523-165-0436x2544,West Benjaminview,New Jersey,USA,2022-11-28,Platinum,Mobile App
+CUST00843,Debbie,Johnson,Other,52,asmith@gmail.com,(519)006-2698x57197,Christopherhaven,Alabama,USA,2022-08-18,Gold,Mobile App
+CUST00844,Alexis,Collins,Other,26,lisamacias@hotmail.com,+1-031-372-5202x133,Rachelburgh,Vermont,USA,2024-04-01,Platinum,In-Store
+CUST00845,Wendy,Clark,Male,50,wilsontammy@hooper.com,+1-028-910-9470x64235,Owensshire,Arkansas,USA,2024-01-07,Platinum,Mobile App
+CUST00846,Frank,Schultz,Male,24,eddie92@yahoo.com,929.945.3129,Lake Alexisview,Florida,USA,2023-10-30,Gold,Web
+CUST00847,Mary,Lawrence,Male,39,patricia50@gmail.com,001-904-583-4730,Port James,Arkansas,USA,2025-05-25,Platinum,In-Store
+CUST00848,Renee,Bauer,Other,43,ashleycunningham@hotmail.com,474.171.8425,Martinezhaven,New Mexico,USA,2022-08-13,Gold,Web
+CUST00849,Jesse,Martinez,Other,35,margaretbenitez@kelley-clarke.com,558.502.7461,Smithville,Nebraska,USA,2024-08-16,Gold,Mobile App
+CUST00850,Charles,Woods,Male,40,kellylang@gmail.com,407-826-3721x46832,Cochranville,Massachusetts,USA,2023-11-20,Platinum,Mobile App
+CUST00851,David,Richards,Female,29,davisclaudia@yahoo.com,715-589-1269x1000,North Annafort,Arkansas,USA,2022-04-30,Platinum,In-Store
+CUST00852,Gregory,Mccoy,Other,42,scott91@collins.com,(372)567-6807,Jessicaville,Florida,USA,2023-12-28,Silver,In-Store
+CUST00853,Kelly,Brown,Female,69,patriciaporter@yahoo.com,(758)426-5640x22811,Justinfort,New Hampshire,USA,2025-12-23,Silver,In-Store
+CUST00854,Dawn,Evans,Male,23,andrewreyes@hancock.com,+1-392-334-8036x33044,Port Erikatown,Colorado,USA,2024-12-28,Gold,Web
+CUST00855,Ashley,Little,Female,63,fmeyer@taylor.com,+1-775-845-7627x4045,Donaldsonport,New Mexico,USA,2024-03-19,Platinum,Web
+CUST00856,Randall,Taylor,Other,42,stephanie39@yahoo.com,628-446-6623x93201,New Royburgh,Georgia,USA,2021-06-12,Gold,Mobile App
+CUST00857,Jennifer,Knight,Male,23,zhernandez@gmail.com,001-443-896-9982,Owenshaven,Rhode Island,USA,2025-12-03,Silver,Mobile App
+CUST00858,Alyssa,Cantrell,Female,41,raguilar@obrien-brown.com,001-670-492-0589x98779,New Troy,Illinois,USA,2021-06-07,Gold,Web
+CUST00859,Natalie,Long,Male,23,cynthiawolf@gmail.com,082-885-4221,Christineborough,Arizona,USA,2021-08-03,Silver,Mobile App
+CUST00860,Jonathan,Miller,Female,53,lewisjulie@yahoo.com,363.912.7273x26479,Cisnerosshire,Oregon,USA,2021-05-18,Platinum,In-Store
+CUST00861,Michael,Kane,Female,24,richardsonmatthew@zimmerman-cervantes.com,+1-782-100-4112,Taylorfurt,Delaware,USA,2024-02-19,Silver,Web
+CUST00862,Jeremy,Finley,Female,53,gamblechris@yahoo.com,7104621961,Jonesborough,Arizona,USA,2022-04-23,Silver,In-Store
+CUST00863,Diane,Phillips,Other,68,mark30@lewis.com,+1-817-959-0187x03324,Breannaside,Wyoming,USA,2024-11-15,Gold,Mobile App
+CUST00864,Amanda,Gallagher,Male,36,upayne@gmail.com,721-727-8292x0780,South Karl,Tennessee,USA,2021-05-28,Gold,Mobile App
+CUST00865,Carolyn,Morgan,Male,64,jkoch@yahoo.com,989.655.6358x56078,South Williamview,Georgia,USA,2023-01-18,Platinum,Web
+CUST00866,James,Schneider,Other,51,shelby00@bowen-taylor.com,911-519-0646x8282,South Alexisberg,Texas,USA,2025-06-26,Silver,In-Store
+CUST00867,Shawn,Hamilton,Female,28,tylerjordan@yahoo.com,001-992-793-8613,Jonesland,Iowa,USA,2022-02-13,Silver,Mobile App
+CUST00868,Paul,Phillips,Female,35,cooperrichard@shelton.com,222.367.8194,Jonathanchester,Hawaii,USA,2021-08-13,Gold,Web
+CUST00869,Richard,Turner,Male,28,halljason@baker-gillespie.com,(168)835-9028,North Katiemouth,New Mexico,USA,2025-03-31,Gold,Mobile App
+CUST00870,Alexa,Perez,Female,37,jessicahuerta@gmail.com,940.934.2022x85984,Richardstad,Texas,USA,2024-10-22,Gold,Web
+CUST00871,Adam,Torres,Female,34,wrush@carter.com,001-683-111-0505x540,Lake Richard,Arkansas,USA,2025-08-12,Silver,In-Store
+CUST00872,Michele,Benitez,Other,49,michaelgordon@hotmail.com,(584)040-8011x15156,Bakertown,Indiana,USA,2023-02-05,Platinum,In-Store
+CUST00873,Angel,Cowan,Male,47,warnercarla@yahoo.com,(927)750-7205x811,Allenmouth,Alabama,USA,2024-11-11,Silver,Web
+CUST00874,James,King,Female,18,dhill@gmail.com,0427542179,Lake Keithville,West Virginia,USA,2022-06-13,Gold,Mobile App
+CUST00875,Bobby,Gilbert,Other,42,david96@gmail.com,001-517-142-6323,Brianfurt,South Carolina,USA,2025-04-04,Gold,Mobile App
+CUST00876,Alicia,Peterson,Female,45,wlivingston@gomez.com,+1-908-271-0719x8451,Jenniferville,Arkansas,USA,2026-02-14,Platinum,In-Store
+CUST00877,Isaiah,Mcclain,Male,37,pmiranda@gmail.com,001-840-402-2742x54706,New Christy,New Mexico,USA,2023-03-20,Gold,In-Store
+CUST00878,Amy,Gonzales,Other,30,smithcatherine@franklin.info,235.588.2455,New Rachelburgh,Nevada,USA,2024-10-03,Gold,Mobile App
+CUST00879,Tyler,Cabrera,Male,43,woodsmichael@sanchez-morrow.net,529-745-4006,Kathleenville,Arizona,USA,2023-07-13,Gold,Mobile App
+CUST00880,Adrian,Torres,Other,62,aaron31@moore.biz,(088)568-4726,Murrayberg,Missouri,USA,2024-01-12,Platinum,Mobile App
+CUST00881,Patrick,Steele,Other,68,myersvicki@hotmail.com,769-806-8671x600,Garcialand,West Virginia,USA,2023-02-19,Silver,Mobile App
+CUST00882,Christine,Lindsey,Female,35,devin43@gmail.com,464.490.6026x451,Port Christopherberg,Georgia,USA,2024-02-02,Gold,Mobile App
+CUST00883,Leroy,Davis,Male,54,cheyenne18@gmail.com,3962706210,Valerieberg,Minnesota,USA,2023-03-15,Silver,In-Store
+CUST00884,Gerald,Owens,Other,29,devon03@brown-thompson.com,(600)490-3637,Huberside,Indiana,USA,2025-07-11,Platinum,In-Store
+CUST00885,Angela,Rodriguez,Male,64,jefferyodonnell@delgado.net,001-756-889-5190x420,West Angela,Mississippi,USA,2024-10-23,Gold,In-Store
+CUST00886,Gabriel,Rice,Male,46,xrichards@gmail.com,+1-700-892-6049x7482,Garciabury,Pennsylvania,USA,2025-09-27,Gold,In-Store
+CUST00887,Ellen,Wood,Male,70,mgross@jensen-kim.com,+1-313-010-9552x29290,West Charles,Maryland,USA,2022-09-11,Gold,In-Store
+CUST00888,Kevin,Moore,Female,26,grussell@nunez.com,9350654977,Cookchester,Kentucky,USA,2025-06-12,Platinum,Mobile App
+CUST00889,Mallory,Thomas,Male,34,ttran@yahoo.com,001-072-576-2063x4283,North Heidi,Georgia,USA,2022-07-28,Platinum,Web
+CUST00890,Ashley,Molina,Other,45,cruzjoel@yahoo.com,578.877.7789,Meyerside,South Carolina,USA,2024-03-07,Gold,Web
+CUST00891,Nina,Torres,Female,56,eric87@green.com,001-138-200-2962,Port Michaelbury,Oregon,USA,2024-07-03,Gold,In-Store
+CUST00892,Miranda,Wright,Female,52,nancyedwards@gmail.com,+1-285-202-5885x34501,Lake Ashleyton,California,USA,2025-02-26,Platinum,In-Store
+CUST00893,Shelby,Flores,Female,52,jeremyjones@kelley.biz,+1-175-154-1367,Lake Kevinshire,Connecticut,USA,2022-04-24,Silver,Mobile App
+CUST00894,Andrew,Davis,Other,69,williampowers@hotmail.com,001-403-686-9402,New Elaineville,New York,USA,2023-08-30,Platinum,In-Store
+CUST00895,Clayton,Lawrence,Other,23,heidi96@yahoo.com,7931452453,Ruizbury,Illinois,USA,2026-02-23,Silver,Web
+CUST00896,Timothy,Cox,Other,60,kathryn03@jones.com,+1-298-999-3278x0644,Lake Cliffordtown,Wyoming,USA,2022-03-22,Gold,Web
+CUST00897,Susan,Stewart,Other,57,heather26@dodson-key.com,270-002-8501,Courtneyshire,Massachusetts,USA,2023-10-23,Silver,In-Store
+CUST00898,Megan,Leon,Other,61,matthew38@yahoo.com,(924)706-2610,Hendersonview,New Hampshire,USA,2021-08-22,Platinum,Mobile App
+CUST00899,Cassandra,Hanson,Female,68,adamcharles@garcia.net,+1-355-056-4382x7176,Lisashire,West Virginia,USA,2026-05-08,Gold,Web
+CUST00900,Shannon,Stewart,Male,24,dstanton@hotmail.com,318.451.7369x93619,Weaverport,Maine,USA,2022-12-06,Gold,Web
+CUST00901,Brittney,Miller,Other,65,amanda09@yahoo.com,(506)840-3779x95293,Michelleborough,Nebraska,USA,2023-10-28,Platinum,In-Store
+CUST00902,Thomas,Shelton,Other,62,webertiffany@gray.org,143-215-4900x2791,Lake Vincent,Rhode Island,USA,2021-07-18,Platinum,Web
+CUST00903,Nicole,Sanders,Female,41,fgibson@gmail.com,575-990-9054,South Vincentberg,Indiana,USA,2023-02-02,Gold,Mobile App
+CUST00904,Stanley,Andrews,Other,55,kayla67@armstrong.com,001-290-463-5765x33074,Kennedyport,Massachusetts,USA,2022-06-09,Platinum,In-Store
+CUST00905,Angel,Garner,Male,40,richard59@peterson.net,(902)416-1151,Lake Amberstad,Utah,USA,2026-03-02,Silver,Mobile App
+CUST00906,Stephanie,Rodriguez,Male,36,melissa82@koch.info,001-250-915-9444x69795,Jonestown,Arizona,USA,2023-12-22,Gold,Web
+CUST00907,Johnny,Taylor,Male,64,joseph84@miller.info,(599)571-6886x2137,Lake Michael,New York,USA,2022-09-08,Silver,Mobile App
+CUST00908,Patrick,Coleman,Female,39,jonlewis@warren-howell.net,(442)429-9916x89063,Wilsonshire,Indiana,USA,2022-05-04,Gold,Web
+CUST00909,Cathy,Wilson,Other,48,ahowe@watson.com,699-715-2528x1922,Rodriguezland,Maryland,USA,2023-01-23,Gold,Mobile App
+CUST00910,Jasmine,Phillips,Male,46,thomasgreen@hines.info,8676026857,South James,Wyoming,USA,2023-09-16,Platinum,In-Store
+CUST00911,Zoe,Robinson,Female,38,johnsonjonathan@hotmail.com,001-234-446-3297x4532,Lake Sarah,Oregon,USA,2023-01-07,Silver,Mobile App
+CUST00912,Kevin,Gregory,Male,69,zlarson@yahoo.com,001-078-131-4366x036,East Ginafort,Arizona,USA,2025-12-22,Platinum,Web
+CUST00913,Tonya,Andrews,Male,39,roweaaron@hotmail.com,461.378.0098x4417,West Brandon,Georgia,USA,2025-02-15,Platinum,Web
+CUST00914,Kara,Castro,Other,69,andrew96@gmail.com,(046)247-0654,Johnhaven,Kansas,USA,2025-10-10,Silver,In-Store
+CUST00915,Juan,Shelton,Male,51,cdougherty@hotmail.com,133.998.1443,Lake Colleen,Arizona,USA,2025-09-17,Silver,In-Store
+CUST00916,Edward,Lee,Male,39,victoria67@yahoo.com,001-795-314-8317x013,Port Karen,New Jersey,USA,2023-08-29,Platinum,Mobile App
+CUST00917,David,Turner,Female,32,jennifer20@yahoo.com,+1-860-804-9432x872,Rebeccaborough,New Mexico,USA,2025-04-25,Gold,In-Store
+CUST00918,Anita,Cruz,Male,29,gsmith@martin.net,001-507-822-8031x200,Alyssafurt,South Dakota,USA,2022-10-01,Platinum,In-Store
+CUST00919,Katherine,Jackson,Female,43,nfranklin@gillespie-larson.com,831.750.3957x45935,South Maryborough,Nevada,USA,2023-05-18,Silver,In-Store
+CUST00920,Brian,Jones,Other,30,angelabecker@yahoo.com,380-453-0754,Smithland,Utah,USA,2023-10-21,Gold,In-Store
+CUST00921,Lisa,White,Female,42,moorekelly@hotmail.com,001-275-890-9169,Port Matthew,Wisconsin,USA,2025-12-20,Silver,In-Store
+CUST00922,Alicia,Chen,Male,31,stacyjohnson@blackburn.biz,(113)201-8748x2096,Swansontown,Tennessee,USA,2024-10-09,Gold,In-Store
+CUST00923,Kyle,Lopez,Male,54,juanmoyer@hensley-chang.org,747.097.6580,Port Michaelville,Kentucky,USA,2024-09-21,Silver,In-Store
+CUST00924,Shirley,Martin,Male,41,danlang@gmail.com,3945229263,Farrellmouth,Alabama,USA,2025-04-17,Gold,Web
+CUST00925,Joshua,Owen,Female,25,jeremy94@li.com,+1-604-072-7181x4090,Lauraberg,California,USA,2021-12-30,Gold,In-Store
+CUST00926,Courtney,Williams,Female,51,nielsentravis@gmail.com,(811)929-6800x644,West Michael,Kansas,USA,2024-04-08,Platinum,Mobile App
+CUST00927,Brendan,Martin,Other,42,benjaminharper@jones-norris.com,+1-916-891-9474x85630,Douglastown,Minnesota,USA,2026-04-25,Platinum,Mobile App
+CUST00928,Jennifer,Young,Other,25,chad47@gmail.com,(408)782-9240,Marissastad,Mississippi,USA,2022-03-28,Gold,Mobile App
+CUST00929,Elizabeth,Guzman,Female,57,scott71@hotmail.com,+1-323-533-3217,East Sharon,Georgia,USA,2024-06-18,Silver,In-Store
+CUST00930,Aaron,James,Other,69,clairestephenson@yahoo.com,546-458-8703x023,Lake Keithtown,Maryland,USA,2025-05-19,Gold,In-Store
+CUST00931,Chad,Wilson,Other,23,wharris@gmail.com,001-865-827-6399x29063,Albertside,New Jersey,USA,2021-12-01,Platinum,Web
+CUST00932,Gregory,Cummings,Female,25,patrick34@moore.biz,+1-818-455-9240x8486,New Michael,South Dakota,USA,2026-02-03,Silver,Mobile App
+CUST00933,Lori,Warren,Male,29,granthenry@gmail.com,643.181.5985x749,South Dillonmouth,Illinois,USA,2023-07-29,Gold,In-Store
+CUST00934,Anna,Bender,Male,50,austincheryl@yahoo.com,861-948-5541x18803,Woodmouth,Utah,USA,2023-09-15,Gold,Mobile App
+CUST00935,Alexandra,Sanders,Other,26,lpearson@hotmail.com,(715)837-4119,East Brian,North Dakota,USA,2024-07-27,Platinum,Mobile App
+CUST00936,Gary,Smith,Female,29,ataylor@nelson.net,(431)392-1768x179,Lake Scott,Vermont,USA,2025-05-15,Gold,In-Store
+CUST00937,Ann,Williams,Other,62,amartin@smith-fox.net,001-354-223-4056x01722,Davidtown,Alaska,USA,2022-07-20,Platinum,Web
+CUST00938,Christy,Craig,Other,28,marquezdebra@hotmail.com,+1-690-563-1620x124,Mathewstad,Nevada,USA,2024-01-26,Gold,Mobile App
+CUST00939,Ronald,Williams,Male,29,sharpmichael@mendoza.org,(338)734-4401x5239,New Michaelville,Arizona,USA,2025-04-07,Gold,Mobile App
+CUST00940,Jessica,Cantrell,Other,21,olivia78@leblanc.com,290.771.8217x9978,Lake Rachel,Nebraska,USA,2026-04-21,Gold,Web
+CUST00941,Jeffery,Lane,Female,26,deborahbenitez@hotmail.com,(403)761-8349x814,West Robertborough,Florida,USA,2025-04-16,Silver,Mobile App
+CUST00942,Kathleen,Thomas,Other,50,amy26@davis.com,(718)526-5440,Juliamouth,Illinois,USA,2022-06-27,Platinum,Mobile App
+CUST00943,April,Brown,Female,61,lori61@hotmail.com,910.975.9181x82126,Samuelmouth,Nevada,USA,2022-08-15,Gold,Mobile App
+CUST00944,Abigail,Bennett,Other,46,fordthomas@may.com,155-597-3691,Bishopshire,Oklahoma,USA,2023-04-28,Gold,Web
+CUST00945,Craig,Knight,Male,54,sean19@cline-peck.com,(463)431-1202x595,Collinsburgh,Louisiana,USA,2023-12-03,Silver,Web
+CUST00946,Jennifer,Johnson,Female,20,jessica44@herrera.biz,+1-695-433-7281x3442,Port Richard,North Carolina,USA,2023-03-17,Gold,Web
+CUST00947,Paul,Flowers,Other,36,williamstyler@petersen.org,001-727-044-2101x5917,West James,Minnesota,USA,2024-08-28,Silver,Mobile App
+CUST00948,Damon,Mayer,Other,65,robert12@hotmail.com,9809322297,Mccarthyton,Delaware,USA,2024-02-12,Gold,In-Store
+CUST00949,Matthew,Ramirez,Other,25,ashleysanders@berry.com,726-106-8179x882,Lake Joshua,Wisconsin,USA,2024-01-20,Platinum,Web
+CUST00950,Denise,Woods,Female,67,richardlee@yahoo.com,239-690-6674x2095,Bryantberg,Illinois,USA,2021-07-05,Platinum,Mobile App
+CUST00951,Christopher,Khan,Other,70,sharon26@solis-hayden.com,001-237-231-7608x1043,West Jessicaborough,Pennsylvania,USA,2022-04-01,Silver,In-Store
+CUST00952,Jeremy,Bryant,Female,52,dwoodward@phillips-mendez.net,001-960-702-2254x35304,West Patrick,Wisconsin,USA,2026-01-31,Silver,Mobile App
+CUST00953,Adriana,Warren,Male,65,theresa33@jackson.net,001-698-504-8155x45170,Brightmouth,Ohio,USA,2022-08-08,Platinum,Web
+CUST00954,Kayla,Williams,Female,20,sampsontina@foster.com,402.985.5968x17143,Haasburgh,Arizona,USA,2024-08-20,Gold,Mobile App
+CUST00955,Deborah,Spencer,Female,70,kirsten86@brown.net,(690)527-8376x81443,Thomasport,North Dakota,USA,2025-02-05,Silver,Mobile App
+CUST00956,Jennifer,Mccarthy,Male,67,ytyler@herman.com,927.857.4324,Lake Charlesfurt,Iowa,USA,2026-03-16,Silver,Web
+CUST00957,Mark,Gross,Other,55,tfrank@escobar.com,799.418.3774x1128,North Jamesside,Colorado,USA,2023-03-25,Platinum,Mobile App
+CUST00958,Jennifer,Hopkins,Other,57,rgarcia@yahoo.com,066-006-5777x334,Joyceberg,Hawaii,USA,2025-01-20,Platinum,Mobile App
+CUST00959,Michelle,Gonzales,Male,57,duransusan@hotmail.com,376-922-7929x71924,South Renee,North Dakota,USA,2026-03-28,Silver,Web
+CUST00960,Jose,Mayer,Male,69,genewilliamson@gmail.com,001-220-040-3679x6197,Lake Andrew,Michigan,USA,2023-08-21,Silver,In-Store
+CUST00961,Jennifer,Hardy,Female,52,millercorey@macias-graves.com,713.839.5414x43705,West Janiceland,Massachusetts,USA,2024-08-05,Gold,In-Store
+CUST00962,William,Jones,Other,28,sjones@hotmail.com,001-427-901-7250x89801,Hughesmouth,Iowa,USA,2022-07-21,Gold,In-Store
+CUST00963,Jessica,Terry,Female,36,anthony38@martinez.com,+1-297-700-2968,South Danny,Missouri,USA,2021-12-26,Platinum,Mobile App
+CUST00964,Samantha,Conley,Other,61,tharmon@gmail.com,+1-076-210-6413x1339,Lindsayburgh,Michigan,USA,2025-07-23,Silver,Web
+CUST00965,Chase,Walker,Female,21,jonesjesus@edwards.com,162.886.7527x0613,Port Sheilamouth,Iowa,USA,2021-06-01,Gold,In-Store
+CUST00966,Jennifer,Simmons,Male,62,raymond63@bruce.com,001-528-303-4371x1280,Carlosview,Pennsylvania,USA,2026-03-18,Silver,Web
+CUST00967,Theresa,Walton,Male,63,melissa23@hotmail.com,(467)624-2630,Mccarthymouth,Georgia,USA,2022-09-12,Gold,Web
+CUST00968,Alicia,Garcia,Other,43,crawfordrobert@marshall-mendoza.biz,+1-263-960-9676x932,East Doris,Alabama,USA,2025-01-29,Gold,Web
+CUST00969,Rachel,Douglas,Other,58,thomaserica@landry-murphy.com,419-618-0783x55293,Hunterport,North Carolina,USA,2021-08-04,Gold,In-Store
+CUST00970,Zachary,Brewer,Female,42,xhansen@gmail.com,(839)460-8848x5800,New Jeffreyborough,California,USA,2022-12-23,Gold,Web
+CUST00971,Timothy,Terry,Other,68,coltonmeyers@hotmail.com,+1-761-169-0693,Jamesbury,Texas,USA,2025-02-28,Silver,Mobile App
+CUST00972,Carlos,Larson,Other,65,reginataylor@hotmail.com,006.937.0495x267,North Robertchester,Utah,USA,2023-01-20,Gold,In-Store
+CUST00973,Christopher,Zhang,Female,47,xhansen@yahoo.com,504.497.5737x322,Port Daniellefort,West Virginia,USA,2022-09-14,Gold,Mobile App
+CUST00974,Nicole,Nichols,Other,18,elyons@schmidt.com,+1-726-326-6677x242,Ryanside,Arkansas,USA,2022-07-15,Platinum,Web
+CUST00975,Dennis,Robinson,Other,47,sclark@gmail.com,360-696-0969x2042,South Justin,Louisiana,USA,2026-03-10,Platinum,In-Store
+CUST00976,Michael,Proctor,Other,40,carrlaurie@hotmail.com,574-218-0210x08163,Lake Theresamouth,New Jersey,USA,2024-10-02,Silver,In-Store
+CUST00977,Dana,Smith,Female,31,jeffrey91@thomas.com,744-793-9748,Kristachester,Pennsylvania,USA,2023-07-14,Gold,Web
+CUST00978,Fernando,Smith,Female,35,williamsscott@hawkins.org,(490)785-1928,Zacharymouth,North Dakota,USA,2025-01-26,Gold,Mobile App
+CUST00979,Michelle,Sullivan,Female,53,kvance@white-valenzuela.net,+1-133-670-7418x840,Jamesfort,Nebraska,USA,2025-02-13,Platinum,Web
+CUST00980,Sarah,Mitchell,Other,49,fergusonelizabeth@martinez-austin.com,(773)960-8563,Justinside,Michigan,USA,2022-08-25,Gold,In-Store
+CUST00981,Emily,Lee,Male,20,patricia88@yahoo.com,+1-568-353-8490x251,Matthewburgh,Missouri,USA,2022-02-15,Silver,In-Store
+CUST00982,Lisa,Donaldson,Female,19,xturner@gmail.com,747.754.7138x25654,North Jenniferberg,North Dakota,USA,2025-07-09,Silver,Web
+CUST00983,David,Reed,Female,47,qbenton@gmail.com,204.112.8200x00413,Espinozaport,Texas,USA,2022-06-10,Silver,Mobile App
+CUST00984,Joshua,Hernandez,Male,62,victoriafisher@simmons-gallegos.info,(979)221-1157,Hernandezshire,Idaho,USA,2025-08-30,Silver,In-Store
+CUST00985,Benjamin,Banks,Female,28,burkecharles@duncan.com,3648929546,East Alexisberg,New Hampshire,USA,2022-10-14,Gold,Web
+CUST00986,Cesar,Williamson,Other,41,davidsmith@hotmail.com,(981)171-1192x6780,Michelleside,Arizona,USA,2025-08-08,Gold,Web
+CUST00987,Michael,Miller,Female,60,craigwilson@gmail.com,001-224-695-2087x2646,Longville,Wisconsin,USA,2025-06-15,Platinum,Web
+CUST00988,Kimberly,Dean,Male,43,jacqueline77@yahoo.com,001-340-911-4609x6738,Russellmouth,Mississippi,USA,2026-03-01,Platinum,Mobile App
+CUST00989,John,Rubio,Other,62,jeffrey74@yahoo.com,001-655-329-4470x7361,Kingmouth,Alabama,USA,2023-05-29,Silver,Mobile App
+CUST00990,Rose,Reed,Other,23,richard08@yahoo.com,+1-714-513-9735x18556,Julieton,Illinois,USA,2026-04-28,Platinum,Web
+CUST00991,Jennifer,Wright,Male,31,sara99@yahoo.com,949-255-5781,Stricklandtown,Tennessee,USA,2021-12-17,Gold,Web
+CUST00992,Donna,Gutierrez,Male,55,umayo@sheppard.com,001-864-530-7787x55238,Lake Billy,Delaware,USA,2023-11-14,Silver,In-Store
+CUST00993,Catherine,Hayes,Other,46,snydergina@white.com,(221)947-8069,North Petermouth,Arkansas,USA,2024-10-16,Silver,Web
+CUST00994,Karen,Santiago,Other,39,reidcindy@gmail.com,001-402-509-0280x278,Lake Andrewhaven,Tennessee,USA,2023-09-21,Silver,Mobile App
+CUST00995,Robert,Vazquez,Other,26,patriciakelly@gmail.com,154.977.6951x02955,Lake Bryanland,South Dakota,USA,2022-07-15,Gold,Web
+CUST00996,William,Wheeler,Male,42,christopher60@hotmail.com,3766976562,Rebeccahaven,Virginia,USA,2021-08-29,Silver,In-Store
+CUST00997,Kristina,Henderson,Male,24,foleycrystal@yahoo.com,001-515-351-5897x5431,North Kevin,Kentucky,USA,2024-06-29,Gold,Mobile App
+CUST00998,Tiffany,Bowman,Female,26,andreaperry@hughes.com,157.204.9581,Langhaven,Iowa,USA,2024-01-10,Gold,Web
+CUST00999,Amy,Allen,Other,61,susanhogan@moore.com,+1-000-204-2414x44257,Paulachester,Ohio,USA,2022-10-11,Silver,Web
+CUST01000,Shannon,Miller,Other,54,vaughancandice@everett-walters.com,608-998-2799,South Timothyborough,Illinois,USA,2024-06-11,Silver,In-Store

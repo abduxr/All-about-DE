@@ -1,0 +1,51 @@
+store_id,store_name,store_type,city,state,country,region,opening_date,manager_name,floor_area_sqft
+STORE001,South Joseph Retail Hub,Mall,Alexamouth,Vermont,USA,West,2022-10-12,Tina Nelson,8192
+STORE002,Lake Rachel Retail Hub,Mall,Johnsonmouth,Kansas,USA,South,2022-07-18,Michelle Ramirez,9489
+STORE003,Sampsonside Retail Hub,Standalone,North Angelaport,Massachusetts,USA,South,2017-04-09,David Diaz,1550
+STORE004,New Amychester Retail Hub,Warehouse,Levyfurt,New York,USA,South,2023-07-30,Mary Phillips DDS,3776
+STORE005,Ashleeberg Retail Hub,Warehouse,Pamelaborough,Louisiana,USA,North,2021-01-10,Scott Hendricks,6893
+STORE006,Amandafort Retail Hub,Mall,Jeffreyburgh,Wyoming,USA,North,2019-07-09,Jodi Bowers,3579
+STORE007,Hinesville Retail Hub,Mall,New Jessicashire,Colorado,USA,East,2018-05-08,Beth Moore,7544
+STORE008,New Christopherborough Retail Hub,Standalone,Charleneton,Georgia,USA,West,2022-08-12,Adam Horn,7642
+STORE009,Johnsonhaven Retail Hub,Warehouse,Port Earlbury,Illinois,USA,South,2020-03-12,Tanya Herrera,9482
+STORE010,Valeriehaven Retail Hub,Mall,West Jefferyfort,Tennessee,USA,North,2018-07-27,Christy Adams,2477
+STORE011,South Sean Retail Hub,Warehouse,Port Samanthatown,Florida,USA,East,2024-06-21,Marcia Anderson,6703
+STORE012,New Megan Retail Hub,Standalone,Thompsonmouth,Connecticut,USA,East,2022-01-18,Randy Pittman,4707
+STORE013,Luisbury Retail Hub,Warehouse,Port Michelle,New Mexico,USA,South,2023-11-14,Danny Macias,8450
+STORE014,Lake Linda Retail Hub,Standalone,Lake John,Connecticut,USA,North,2019-10-18,David Harvey,5277
+STORE015,New Victoria Retail Hub,Mall,Jorgemouth,Indiana,USA,West,2019-05-13,Brittany Williams,9294
+STORE016,Port Steven Retail Hub,Mall,New Ronald,New Mexico,USA,North,2019-08-05,Jaime Green,9243
+STORE017,Port Terranceview Retail Hub,Standalone,South Dawn,Montana,USA,East,2017-11-22,Christina Ross,2917
+STORE018,Gonzalesville Retail Hub,Warehouse,Lake Laura,Washington,USA,East,2018-09-07,Brandon Baker,9813
+STORE019,West Erinside Retail Hub,Warehouse,Ryanchester,Mississippi,USA,East,2017-11-26,Zachary Becker,8254
+STORE020,Port Robertside Retail Hub,Standalone,Nguyenbury,Tennessee,USA,West,2017-06-30,Deborah Campbell,4985
+STORE021,East Carolynmouth Retail Hub,Standalone,Watkinsfort,Maine,USA,West,2025-04-12,Olivia Wilson,8548
+STORE022,Mackenziemouth Retail Hub,Warehouse,Williamchester,South Dakota,USA,North,2019-01-09,Alan Wheeler,8896
+STORE023,East Chad Retail Hub,Mall,Elizabethburgh,Wyoming,USA,East,2017-05-29,Michael Bennett,2106
+STORE024,North Tiffanyhaven Retail Hub,Standalone,East Catherine,Nevada,USA,South,2016-08-28,Justin Rodriguez,4767
+STORE025,South Timothyberg Retail Hub,Standalone,Raymondburgh,New Hampshire,USA,West,2024-10-16,David Matthews,6785
+STORE026,Jonathonville Retail Hub,Warehouse,Lake Michaelville,Wyoming,USA,North,2020-06-26,Tina Garcia,5314
+STORE027,Lake Jeffery Retail Hub,Mall,New Jerry,North Carolina,USA,East,2024-09-29,Stephanie Wells,2523
+STORE028,Nicolemouth Retail Hub,Standalone,Hicksberg,Wyoming,USA,East,2019-11-22,Melissa Burke,2245
+STORE029,Christensenmouth Retail Hub,Warehouse,Lake Ralph,Missouri,USA,South,2016-05-26,Robert Smith,8807
+STORE030,Port Melindamouth Retail Hub,Standalone,South Kimberly,Louisiana,USA,East,2023-12-02,Anthony Moore,4580
+STORE031,Christinamouth Retail Hub,Warehouse,Darylborough,Minnesota,USA,East,2017-08-29,Christopher Martin,3994
+STORE032,South Kristaview Retail Hub,Warehouse,Port Jacob,Maine,USA,South,2022-07-27,Heather Martinez,9175
+STORE033,Hannahfort Retail Hub,Warehouse,West Warren,Massachusetts,USA,South,2023-10-24,Keith Brown,4847
+STORE034,Cortezhaven Retail Hub,Warehouse,Taylorborough,Illinois,USA,South,2018-03-23,Christina Hall,5348
+STORE035,Floydberg Retail Hub,Mall,Josephborough,West Virginia,USA,South,2018-09-24,Jessica Douglas,4322
+STORE036,Hopkinsshire Retail Hub,Mall,Lake Timothy,New Hampshire,USA,East,2024-05-15,Zachary Chapman,3555
+STORE037,Port Patty Retail Hub,Mall,Moralesport,Ohio,USA,North,2024-01-12,Stephanie Smith,2285
+STORE038,New Scott Retail Hub,Warehouse,North Morgan,Minnesota,USA,West,2020-06-05,Mitchell Garrett,1108
+STORE039,New Larry Retail Hub,Warehouse,East Randyview,Tennessee,USA,North,2023-12-13,Brittney Mata,8901
+STORE040,Whitakerhaven Retail Hub,Standalone,Lake Angela,Vermont,USA,East,2016-09-27,Holly Fletcher,9066
+STORE041,Jefferyside Retail Hub,Warehouse,Lake Daniel,Kansas,USA,East,2019-05-25,Deborah Sweeney,9041
+STORE042,Joshuaberg Retail Hub,Mall,Howardton,Montana,USA,East,2017-01-20,Karen Weaver,7518
+STORE043,West Alfredborough Retail Hub,Mall,New Elizabethview,North Carolina,USA,South,2019-08-10,Christine Glass,1887
+STORE044,Lake Michaelside Retail Hub,Warehouse,Selenahaven,New Mexico,USA,West,2016-08-25,April Baker,8836
+STORE045,Harrisonburgh Retail Hub,Warehouse,Danielsland,North Dakota,USA,North,2022-06-20,Sheri Schmidt,9232
+STORE046,Andrewfort Retail Hub,Standalone,Robertchester,Delaware,USA,West,2017-11-14,Sabrina Rodriguez,3863
+STORE047,Elizabethmouth Retail Hub,Standalone,New Scotthaven,Nevada,USA,North,2020-04-08,James Velasquez,9490
+STORE048,Mirandaview Retail Hub,Standalone,East Sydneyside,Georgia,USA,East,2018-05-10,John Higgins,1137
+STORE049,North Jessica Retail Hub,Mall,North Tiffany,South Carolina,USA,South,2017-09-07,Christine Parker,7216
+STORE050,New Andrew Retail Hub,Warehouse,South Kristin,North Dakota,USA,North,2023-08-02,Marcus Snyder,6331
